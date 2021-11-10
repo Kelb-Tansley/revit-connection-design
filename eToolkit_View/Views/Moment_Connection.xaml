@@ -1,0 +1,489 @@
+﻿<UserControl x:Class="eToolkit_View.Views.Moment_Connection"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:eToolkit_View.Views"
+             mc:Ignorable="d" Background="LightGray"
+             d:DesignHeight="450" d:DesignWidth="800">
+
+    <UserControl.Resources>
+
+        <Style TargetType="ToolTip">
+            <Setter Property="Foreground" Value="#FF425563"></Setter>
+            <Setter Property="FontFamily" Value="Sans Source Pro"></Setter>
+            <Setter Property="FontSize" Value="12"></Setter>
+            <Setter Property="FontWeight" Value="Bold"></Setter>
+            <Setter Property="BorderBrush" Value="#ced8de"></Setter>
+            <Setter Property="BorderThickness" Value="1"></Setter>
+            <Setter Property="Background" Value="LightGray"></Setter>
+        </Style>
+        <Style TargetType="TextBlock">
+            <Setter Property="Foreground" Value="#2b3740"></Setter>
+            <Setter Property="FontFamily" Value="Sans Source Pro"></Setter>
+            <Setter Property="FontSize" Value="12"></Setter>
+            <Style.Triggers>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Setter Property="Foreground" Value="#ced8de" />
+                </Trigger>
+                <!--<DataTrigger Binding="{Binding ElementName=cbSample, Path=IsChecked}" Value="True">
+                            <Setter Property="Text" Value="Yes!" />
+                            <Setter Property="Foreground" Value="Green" />
+                        </DataTrigger>-->
+            </Style.Triggers>
+        </Style>
+        <Style TargetType="TextBox">
+            <Setter Property="FontFamily" Value="Sans Source Pro"></Setter>
+            <Setter Property="FontSize" Value="12"></Setter>
+            <Setter Property="VerticalContentAlignment" Value="Center"></Setter>
+            <Setter Property="Foreground" Value="#2b3740"></Setter>
+            <Style.Triggers>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Setter Property="Foreground" Value="#ced8de" />
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+        <Style TargetType="Button">
+            <Setter Property="FontFamily" Value="Sans Source Pro"></Setter>
+            <Setter Property="FontSize" Value="12"></Setter>
+            <Setter Property="Background" Value="#2b3740"></Setter>
+            <Setter Property="Foreground" Value="WhiteSmoke"></Setter>
+        </Style>
+        <Style TargetType="CheckBox">
+            <Setter Property="FontFamily" Value="Sans Source Pro"></Setter>
+            <Setter Property="VerticalContentAlignment" Value="Center"></Setter>
+            <Setter Property="FontSize" Value="12"></Setter>
+            <Setter Property="Foreground" Value="#2b3740"></Setter>
+            <Style.Triggers>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Setter Property="Foreground" Value="#ced8de" />
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+        <Style TargetType="RadioButton">
+            <Setter Property="FontFamily" Value="Sans Source Pro"></Setter>
+            <Setter Property="VerticalContentAlignment" Value="Center"></Setter>
+            <Setter Property="FontSize" Value="12"></Setter>
+            <Setter Property="Foreground" Value="#2b3740"></Setter>
+            <Style.Triggers>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Setter Property="Foreground" Value="#ced8de" />
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+        <Style TargetType="ComboBox">
+            <Setter Property="FontFamily" Value="Sans Source Pro"></Setter>
+            <Setter Property="VerticalContentAlignment" Value="Center"></Setter>
+            <Setter Property="FontSize" Value="12"></Setter>
+            <Setter Property="Foreground" Value="#2b3740"></Setter>
+            <Setter Property="VerticalAlignment" Value="Center"></Setter>
+            <Style.Triggers>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Setter Property="Foreground" Value="#FF425563" />
+                </Trigger>
+                <Trigger Property="IsFocused" Value="False">
+                    <Setter Property="Foreground" Value="#2b3740" />
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+        <Style TargetType="ListBox">
+            <Setter Property="FontFamily" Value="Sans Source Pro"></Setter>
+            <Setter Property="FontSize" Value="12"></Setter>
+            <Setter Property="Foreground" Value="#2b3740"></Setter>
+        </Style>
+        <Style x:Key="GroupBoxStyle1" TargetType="GroupBox">
+            <Setter Property="FontFamily" Value="Sans Source Pro"></Setter>
+            <Setter Property="VerticalContentAlignment" Value="Center"></Setter>
+            <Setter Property="FontSize" Value="12"></Setter>
+            <Setter Property="BorderBrush" Value="White"></Setter>
+            <Setter Property="Foreground" Value="#2b3740"></Setter>
+            <Setter Property="BorderThickness" Value="1"></Setter>
+            <!--<Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="{x:Type GroupBox}">
+                        <Grid SnapsToDevicePixels="true">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*"/>
+                            </Grid.ColumnDefinitions>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="1*"/>
+                            </Grid.RowDefinitions>
+                            <Border Grid.Row="0" Grid.RowSpan="1" BorderThickness="1" CornerRadius="0" Background="AliceBlue">
+                                <Grid SnapsToDevicePixels="true">
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="*"/>
+                                    </Grid.ColumnDefinitions>
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="Auto"/>
+                                        <RowDefinition Height="1*"/>
+                                    </Grid.RowDefinitions>
+
+                                    <Border Grid.Row="0" Grid.RowSpan="1">
+                                        <Border.BorderBrush>
+                                            <LinearGradientBrush StartPoint="0,0" EndPoint="0,1">
+                                                <LinearGradientBrush.GradientStops>
+                                                    <GradientStopCollection>
+                                                        <GradientStop Color="#2b3740" Offset="0.0" />
+                                                        <GradientStop Color="#587487 " Offset="0.25" />
+                                                        <GradientStop Color="#425563" Offset="0.5" />
+                                                        <GradientStop Color="#587487 " Offset="0.75" />
+                                                        <GradientStop Color="#2b3740" Offset="1.0" />
+                                                    </GradientStopCollection>
+                                                </LinearGradientBrush.GradientStops>
+                                            </LinearGradientBrush>
+                                        </Border.BorderBrush>
+                                        <ContentPresenter Margin="3" VerticalAlignment="Top"  ContentSource="Header" RecognizesAccessKey="True"/>
+
+                                    </Border>
+                                </Grid>
+                                <Border.BorderBrush>
+                                    <LinearGradientBrush StartPoint="0,0" EndPoint="0,1">
+                                        <LinearGradientBrush.GradientStops>
+                                            <GradientStopCollection>
+                                                <GradientStop Color="#2b3740" Offset="0.0" />
+                                                <GradientStop Color="#587487 " Offset="0.25" />
+                                                <GradientStop Color="#425563" Offset="0.5" />
+                                                <GradientStop Color="#587487 " Offset="0.75" />
+                                                <GradientStop Color="#2b3740" Offset="1.0" />
+                                            </GradientStopCollection>
+                                        </LinearGradientBrush.GradientStops>
+                                    </LinearGradientBrush>
+                                </Border.BorderBrush>
+                             </Border>
+                            <ContentPresenter Grid.Column="1" Margin="0,0,0,0" Grid.Row="2" SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}"/>
+                        </Grid>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>-->
+        </Style>
+        <Style TargetType="Label">
+            <Setter Property="FontFamily" Value="Sans Source Pro"></Setter>
+            <Setter Property="FontSize" Value="12"></Setter>
+            <Setter Property="Foreground" Value="#2b3740"></Setter>
+        </Style>
+        <Style TargetType="MenuItem">
+            <Setter Property="Foreground" Value="#2b3740"></Setter>
+            <Setter Property="FontFamily" Value="Sans Source Pro"></Setter>
+            <Setter Property="FontSize" Value="12"></Setter>
+            <Setter Property="FontWeight" Value="Bold"></Setter>
+            <Style.Triggers>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Setter Property="Foreground" Value="#e84b37" />
+                </Trigger>
+                <!--<DataTrigger Binding="{Binding ElementName=cbSample, Path=IsChecked}" Value="True">
+                            <Setter Property="Text" Value="Yes!" />
+                            <Setter Property="Foreground" Value="Green" />
+                        </DataTrigger>-->
+            </Style.Triggers>
+        </Style>
+
+    </UserControl.Resources>
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <StackPanel Margin="0,5,0,5" Orientation="Horizontal">
+            <Button Margin="5,0,0,0" Content="File" Width="40" Height="25"></Button>
+            <Button Content="Open" Width="40" Height="25"></Button>
+            <Button Content="Save" Width="40" Height="25"></Button>
+            <Button Margin="5,0,0,0" Content="Loads" Width="40" Height="25"></Button>
+            <Button Content="Grid" Width="40" Height="25"></Button>
+            <Button Margin="5,0,0,0" Content="Cut" Width="40" Height="25"></Button>
+            <Button Content="Copy" Width="40" Height="25"></Button>
+            <Button Content="Paste" Width="40" Height="25"></Button>
+            <Button Margin="5,0,0,0" Content="Print" Width="40" Height="25"></Button>
+            <Button Margin="5,0,0,0" Content="Ask" Width="40" Height="25"></Button>
+            <Button Margin="5,0,0,0" Content="Info" Width="40" Height="25"></Button>
+            <Button Margin="5,0,0,0" Content="Cost" Width="40" Height="25"></Button>
+            <Button Margin="5,0,0,0" Content="Close" Width="40" Height="25"></Button>
+        </StackPanel>
+
+        <StackPanel Grid.Row="1" Orientation="Horizontal" >
+            <StackPanel Orientation="Horizontal">
+                <Label Content="Steel Grade: " HorizontalAlignment="Left" VerticalAlignment="Center" ></Label>
+                <ComboBox Width="100" SelectedIndex="0">
+                    <ComboBoxItem Content="S355JR"/>
+                    <ComboBoxItem Content="300W"/>
+                    <ComboBoxItem Content="S275JR"/>
+                    <ComboBoxItem Content="S235JR"/>
+                </ComboBox>
+            </StackPanel>
+            <GridSplitter HorizontalAlignment="Stretch" Width="5"/>
+            <StackPanel Orientation="Horizontal">
+                <Label Content="Section Database: " HorizontalAlignment="Left" VerticalAlignment="Center" ></Label>
+                <ComboBox Width="100" SelectedIndex="0">
+                    <ComboBoxItem Content="SAISC"/>
+                    <ComboBoxItem Content="Chinese"/>
+                </ComboBox>
+            </StackPanel>
+        </StackPanel>
+
+        <StackPanel Grid.Row="2" Orientation="Horizontal" >
+            <StackPanel Orientation="Horizontal">
+                <GroupBox Margin="3" Style="{DynamicResource GroupBoxStyle1}">
+                    <GroupBox.Header>
+                        <CheckBox Content="Angle Clip"></CheckBox>
+                    </GroupBox.Header>
+                    <StackPanel>
+                        <Image Margin="3" Source="C:\Users\Tans73647\Documents\KJT\Masters Degree - WITS\2019 - Research\Structural Connection Design\Pictures\Moment_Flush.PNG"></Image>
+                    </StackPanel>
+                </GroupBox>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <GroupBox Margin="3"  Style="{DynamicResource GroupBoxStyle1}">
+                    <GroupBox.Header>
+                        <CheckBox Content="Flexible End Plate"></CheckBox>
+                    </GroupBox.Header>
+                    <Image Margin="3" Source="C:\Users\Tans73647\Documents\KJT\Masters Degree - WITS\2019 - Research\Structural Connection Design\Pictures\Moment_Extended.PNG"></Image>
+                </GroupBox>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <GroupBox Margin="3"  Style="{DynamicResource GroupBoxStyle1}">
+                    <GroupBox.Header>
+                        <CheckBox Content="Fin Connection"></CheckBox>
+                    </GroupBox.Header>
+                    <Image Margin="3" Source="C:\Users\Tans73647\Documents\KJT\Masters Degree - WITS\2019 - Research\Structural Connection Design\Pictures\Moment_Extended_Stiffened.PNG"></Image>
+                </GroupBox>
+            </StackPanel>
+        </StackPanel>
+
+        <Grid Grid.Row="3" Grid.RowSpan="2">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="1*"/>
+            </Grid.ColumnDefinitions>
+            <StackPanel Margin="3">
+                <GroupBox Header="Beam" Style="{DynamicResource GroupBoxStyle1}">
+                    <StackPanel Orientation="Horizontal">
+                        <StackPanel Margin="2">
+                            <Label Content="Beam Family:"></Label>
+                            <ListBox Height="130" Width="100">
+                                <ListBoxItem Content="203"/>
+                                <ListBoxItem Content="254"/>
+                                <ListBoxItem Content="305"/>
+                                <ListBoxItem Content="..."/>
+                            </ListBox>
+                        </StackPanel>
+                        <StackPanel Margin="2">
+                            <Label Content="Beam Section:"></Label>
+                            <ListBox Height="130" Width="100">
+                                <ListBoxItem Content="356x171x45"/>
+                                <ListBoxItem Content="356x171x51"/>
+                                <ListBoxItem Content="356x171x57"/>
+                                <ListBoxItem Content="..."/>
+                            </ListBox>
+                        </StackPanel>
+                    </StackPanel>
+                </GroupBox>
+                <GroupBox Header="Notches" Style="{DynamicResource GroupBoxStyle1}">
+                    <StackPanel>
+                        <StackPanel Orientation="Horizontal">
+                            <StackPanel Margin="2">
+                                <RadioButton Margin="3,3,3,10" Content="None (NN)"/>
+                                <RadioButton Margin="3,3,3,10" Content="Top (TN)"/>
+                                <RadioButton Margin="3,3,3,3" Content="Double (DN)"/>
+                            </StackPanel>
+                            <StackPanel Margin="2" Orientation="Horizontal">
+                                <Image  Source="C:\Users\Tans73647\Documents\KJT\Masters Degree - WITS\2019 - Research\Structural Connection Design\Pictures\Notch.png"></Image>
+                                <StackPanel>
+                                    <Label Margin="0,-5,0,-5" Content="Top"/>
+                                    <Label Margin="0,-5,0,-5" Content="Notch"/>
+                                    <Label Margin="0,20,0,-5"  Content="Bottom"/>
+                                    <Label Margin="0,-5,0,-5" Content="Notch"/>
+                                </StackPanel>
+                            </StackPanel>
+                        </StackPanel>
+                        <StackPanel Orientation="Horizontal">
+                            <StackPanel>
+                                <Label Margin="0,-5,0,-5" Content="Connection"/>
+                                <Label Margin="0,-5,0,-5" Content="From Top"/>
+                            </StackPanel>
+                            <ComboBox Margin="0,5,0,5" Width="100" SelectedIndex="1">
+                                <ComboBoxItem Content="25"/>
+                                <ComboBoxItem Content="50"/>
+                                <ComboBoxItem Content="60"/>
+                            </ComboBox>
+                            <Label Content="mm" VerticalAlignment="Center"></Label>
+                        </StackPanel>
+                    </StackPanel>
+                </GroupBox>
+                <GroupBox Header="Connected Plate Thickness" Style="{DynamicResource GroupBoxStyle1}">
+                    <StackPanel Orientation="Horizontal">
+                        <Label Content="tS"></Label>
+                        <TextBox Text="10.0" Width="60" VerticalAlignment="Center" ></TextBox>
+                        <Label Content="mm"></Label>
+                    </StackPanel>
+                </GroupBox>
+                <GroupBox Header="ULS Forces: 1 Load Case" Style="{DynamicResource GroupBoxStyle1}">
+                    <StackPanel Orientation="Horizontal">
+                        <StackPanel Orientation="Horizontal">
+                            <Label Content="Vu"></Label>
+                            <TextBox Text="0.0" Width="50" VerticalAlignment="Center" ></TextBox>
+                            <Label Content="kN"></Label>
+                        </StackPanel>
+                        <StackPanel Margin="5,0,0,0" Orientation="Horizontal">
+                            <Label Content="Fu"></Label>
+                            <TextBox Text="N/A" Width="50" VerticalAlignment="Center" ></TextBox>
+                            <Label Content="kN"></Label>
+                        </StackPanel>
+                    </StackPanel>
+                </GroupBox>
+            </StackPanel>
+
+            <StackPanel Margin="3"  Grid.Column="1">
+                <GroupBox Header="Bolts" Style="{DynamicResource GroupBoxStyle1}">
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="1*"/>
+                            <ColumnDefinition Width="1*"/>
+                        </Grid.ColumnDefinitions>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="1*"/>
+                            <RowDefinition Height="1*"/>
+                            <RowDefinition Height="1*"/>
+                            <RowDefinition Height="1*"/>
+                        </Grid.RowDefinitions>
+
+                        <Label Content="Diam"></Label>
+                        <ComboBox Visibility="{Binding }" Grid.Column="1" Margin="3"  Width="100" SelectedIndex="0">
+                            <ComboBoxItem Content="M20"/>
+                            <ComboBoxItem Content="M24"/>
+                            <ComboBoxItem Content="M30"/>
+                        </ComboBox>
+
+                        <Label Grid.Row="1" Content="Grade"></Label>
+                        <ComboBox Grid.Row="1" Grid.Column="1" Margin="3" Width="100" SelectedIndex="0">
+                            <ComboBoxItem Content="Grade 8.8"/>
+                            <ComboBoxItem Content="Grade 10.9"/>
+                        </ComboBox>
+
+                        <Label Grid.Row="2" Content="No. Bolt Rows"></Label>
+                        <ComboBox Grid.Row="2" Grid.Column="1" Margin="3" Width="100" SelectedIndex="0">
+                            <ComboBoxItem Content="2"/>
+                            <ComboBoxItem Content="3"/>
+                            <ComboBoxItem Content="4"/>
+                            <ComboBoxItem Content="5"/>
+                            <ComboBoxItem Content="6"/>
+                            <ComboBoxItem Content="7"/>
+                            <ComboBoxItem Content="8"/>
+                        </ComboBox>
+
+                        <Label Grid.Row="3" Content="No. Bolt Lines"></Label>
+                        <ComboBox Grid.Row="3" Grid.Column="1" Margin="3" Width="100" SelectedIndex="0">
+                            <ComboBoxItem Content="1"/>
+                            <ComboBoxItem Content="2"/>
+                            <ComboBoxItem Content="3"/>
+                        </ComboBox>
+                    </Grid>
+                </GroupBox>
+                <GroupBox Header="Angle(s)" Style="{DynamicResource GroupBoxStyle1}">
+                    <TextBox Margin="0,5,0,0"  Text="90x90x8 L" IsReadOnly="True"></TextBox>
+                </GroupBox>
+                <GroupBox Header="Plate Thickness (End/Fin)" Style="{DynamicResource GroupBoxStyle1}">
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="1*"/>
+                            <ColumnDefinition Width="1*"/>
+                            <ColumnDefinition Width="Auto"/>
+                        </Grid.ColumnDefinitions>
+                        <Label Content="t"></Label>
+                        <ComboBox Grid.Column="1" Margin="3"  Width="100" SelectedIndex="0">
+                            <ComboBoxItem Content="8"/>
+                            <ComboBoxItem Content="10"/>
+                            <ComboBoxItem Content="12"/>
+                            <ComboBoxItem Content="16"/>
+                            <ComboBoxItem Content="20"/>
+                        </ComboBox>
+                        <Label Grid.Column="2" Content="mm"></Label>
+                    </Grid>
+                </GroupBox>
+                <GroupBox Header="Connection ID" Style="{DynamicResource GroupBoxStyle1}">
+                    <TextBox Margin="0,5,0,0"></TextBox>
+                </GroupBox>
+                <Button Margin="15" Height="90">
+                    <Image Source="C:\Users\Tans73647\Documents\KJT\Masters Degree - WITS\2019 - Research\Structural Connection Design\Pictures\SAISC.png"></Image>
+                </Button>
+            </StackPanel>
+
+            <Grid Margin="3" Grid.Column="2">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="1*"/>
+                </Grid.RowDefinitions>
+                <StackPanel>
+                    <Button Height="30" Margin="0,10,0,0" Content="CALCULATE"></Button>
+                    <Button Height="30" Margin="0,5,0,0" Content="PRINT"></Button>
+                </StackPanel>
+                <GroupBox Grid.Row="1" Header="Results" Style="{DynamicResource GroupBoxStyle1}">
+                    <StackPanel>
+                        <StackPanel Orientation="Horizontal">
+                            <StackPanel Orientation="Horizontal">
+                                <Label Content="Vr"></Label>
+                                <TextBox Text="0.0" Width="35" VerticalAlignment="Center" ></TextBox>
+                                <Label Content="kN"></Label>
+                            </StackPanel>
+                            <StackPanel Margin="5,0,0,0" Orientation="Horizontal">
+                                <Label Content="Fr"></Label>
+                                <TextBox Text="N/A" Width="35" VerticalAlignment="Center" ></TextBox>
+                                <Label Content="kN"></Label>
+                            </StackPanel>
+                        </StackPanel>
+                        <GroupBox Margin="-6,0,-6,0" Header="Max. Notch Length" Style="{DynamicResource GroupBoxStyle1}">
+                            <StackPanel Orientation="Horizontal">
+                                <Label Content="L"></Label>
+                                <TextBox Text="0.0" Width="35" VerticalAlignment="Center" ></TextBox>
+                                <Label Content="mm"></Label>
+                            </StackPanel>
+                        </GroupBox>
+                        <GroupBox Margin="-6,0,-6,0" Header="Angle(s) Length" Style="{DynamicResource GroupBoxStyle1}">
+                            <StackPanel Orientation="Horizontal">
+                                <Label Content="L"></Label>
+                                <TextBox Text="0.0" Width="35" VerticalAlignment="Center" ></TextBox>
+                                <Label Content="mm"></Label>
+                            </StackPanel>
+                        </GroupBox>
+                        <GroupBox Margin="-6,0,-6,0" Header="Plate (End/Fin)" Style="{DynamicResource GroupBoxStyle1}">
+                            <StackPanel>
+                                <StackPanel Orientation="Horizontal">
+                                    <StackPanel Orientation="Horizontal">
+                                        <Label Content="h"></Label>
+                                        <TextBox Text="0" Width="30" VerticalAlignment="Center" ></TextBox>
+                                        <Label Content="mm"></Label>
+                                    </StackPanel>
+                                    <StackPanel Orientation="Horizontal">
+                                        <Label Content="w"></Label>
+                                        <TextBox Text="0" Width="30" VerticalAlignment="Center" ></TextBox>
+                                        <Label Content="mm"></Label>
+                                    </StackPanel>
+                                </StackPanel>
+                                <StackPanel Orientation="Horizontal">
+                                    <Label Content="Weld Size"></Label>
+                                    <TextBox Text="0.0" Width="35" VerticalAlignment="Center" ></TextBox>
+                                    <Label Content="mm"></Label>
+                                </StackPanel>
+                            </StackPanel>
+                        </GroupBox>
+                        <StackPanel Orientation="Horizontal">
+                            <StackPanel Orientation="Horizontal">
+                                <Label Content="Vu/Vr"></Label>
+                                <TextBox Text="0.0" Width="50" VerticalAlignment="Center" ></TextBox>
+                            </StackPanel>
+                            <StackPanel Margin="5,0,0,0" Orientation="Horizontal">
+                                <Label Content="Fu/Fr"></Label>
+                                <TextBox Text="N/A" Width="50" VerticalAlignment="Center" ></TextBox>
+                            </StackPanel>
+                        </StackPanel>
+                        <TextBox Margin="0,3,0,0"  Height="135"></TextBox>
+                    </StackPanel>
+                </GroupBox>
+            </Grid>
+        </Grid>
+    </Grid>
+</UserControl>

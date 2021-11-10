@@ -1,0 +1,189 @@
+C:\Users\Tans73647\Documents\My VS Projects\SC_Proj\Revit_eToolKit_Map\bin\Debug\Revit_eToolKit_Map.dll
+C:\Users\Tans73647\Documents\My VS Projects\SC_Proj\Revit_eToolKit_Map\bin\Debug\Revit_eToolKit_Map.pdb
+C:\Users\Tans73647\Documents\My VS Projects\SC_Proj\Revit_eToolKit_Map\bin\Debug\eToolKit_Classes.dll
+C:\Users\Tans73647\Documents\My VS Projects\SC_Proj\Revit_eToolKit_Map\bin\Debug\Models_SC_Proj.dll
+C:\Users\Tans73647\Documents\My VS Projects\SC_Proj\Revit_eToolKit_Map\bin\Debug\RevitConnectionProperties.dll
+C:\Users\Tans73647\Documents\My VS Projects\SC_Proj\Revit_eToolKit_Map\bin\Debug\eToolKit_Classes.pdb
+C:\Users\Tans73647\Documents\My VS Projects\SC_Proj\Revit_eToolKit_Map\bin\Debug\Models_SC_Proj.pdb
+C:\Users\Tans73647\Documents\My VS Projects\SC_Proj\Revit_eToolKit_Map\bin\Debug\RevitConnectionProperties.pdb
+C:\Users\Tans73647\Documents\My VS Projects\SC_Proj\Revit_eToolKit_Map\obj\Debug\Revit_eToolKit_Map.csprojAssemblyReference.cache
+C:\Users\Tans73647\Documents\My VS Projects\SC_Proj\Revit_eToolKit_Map\obj\Debug\Revit_eToolKit_Map.csproj.CoreCompileInputs.cache
+C:\Users\Tans73647\Documents\My VS Projects\SC_Proj\Revit_eToolKit_Map\obj\Debug\Revit_eToolKit_Map.csproj.CopyComplete
+C:\Users\Tans73647\Documents\My VS Projects\SC_Proj\Revit_eToolKit_Map\obj\Debug\Revit_eToolKit_Map.dll
+C:\Users\Tans73647\Documents\My VS Projects\SC_Proj\Revit_eToolKit_Map\obj\Debug\Revit_eToolKit_Map.pdb
+C:\Users\Tans73647\source\repos\Structural-Design-Tools\Revit_eToolKit_Map\bin\Debug\Revit_eToolKit_Map.dll
+C:\Users\Tans73647\source\repos\Structural-Design-Tools\Revit_eToolKit_Map\bin\Debug\Revit_eToolKit_Map.pdb
+C:\Users\Tans73647\source\repos\Structural-Design-Tools\Revit_eToolKit_Map\bin\Debug\eToolKit_Classes.dll
+C:\Users\Tans73647\source\repos\Structural-Design-Tools\Revit_eToolKit_Map\bin\Debug\Models_SC_Proj.dll
+C:\Users\Tans73647\source\repos\Structural-Design-Tools\Revit_eToolKit_Map\bin\Debug\RevitConnectionProperties.dll
+C:\Users\Tans73647\source\repos\Structural-Design-Tools\Revit_eToolKit_Map\bin\Debug\eToolKit_Classes.pdb
+C:\Users\Tans73647\source\repos\Structural-Design-Tools\Revit_eToolKit_Map\bin\Debug\Models_SC_Proj.pdb
+C:\Users\Tans73647\source\repos\Structural-Design-Tools\Revit_eToolKit_Map\bin\Debug\RevitConnectionProperties.pdb
+C:\Users\Tans73647\source\repos\Structural-Design-Tools\Revit_eToolKit_Map\obj\Debug\Revit_eToolKit_Map.csprojAssemblyReference.cache
+C:\Users\Tans73647\source\repos\Structural-Design-Tools\Revit_eToolKit_Map\obj\Debug\Revit_eToolKit_Map.csproj.CoreCompileInputs.cache
+C:\Users\Tans73647\source\repos\Structural-Design-Tools\Revit_eToolKit_Map\obj\Debug\Revit_eToolKit_Map.csproj.CopyComplete
+C:\Users\Tans73647\source\repos\Structural-Design-Tools\Revit_eToolKit_Map\obj\Debug\Revit_eToolKit_Map.dll
+C:\Users\Tans73647\source\repos\Structural-Design-Tools\Revit_eToolKit_Map\obj\Debug\Revit_eToolKit_Map.pdb
+C:\Users\Tans73647\source\repos\ConnectionDesign\Revit_eToolKit_Map\bin\Debug\Revit_eToolKit_Map.dll
+C:\Users\Tans73647\source\repos\ConnectionDesign\Revit_eToolKit_Map\bin\Debug\Revit_eToolKit_Map.pdb
+C:\Users\Tans73647\source\repos\ConnectionDesign\Revit_eToolKit_Map\bin\Debug\eToolKit_Classes.dll
+C:\Users\Tans73647\source\repos\ConnectionDesign\Revit_eToolKit_Map\bin\Debug\Models_SC_Proj.dll
+C:\Users\Tans73647\source\repos\ConnectionDesign\Revit_eToolKit_Map\bin\Debug\RevitConnectionProperties.dll
+C:\Users\Tans73647\source\repos\ConnectionDesign\Revit_eToolKit_Map\bin\Debug\eToolKit_Classes.pdb
+C:\Users\Tans73647\source\repos\ConnectionDesign\Revit_eToolKit_Map\bin\Debug\Models_SC_Proj.pdb
+C:\Users\Tans73647\source\repos\ConnectionDesign\Revit_eToolKit_Map\bin\Debug\RevitConnectionProperties.pdb
+C:\Users\Tans73647\source\repos\ConnectionDesign\Revit_eToolKit_Map\obj\Debug\Revit_eToolKit_Map.csprojAssemblyReference.cache
+C:\Users\Tans73647\source\repos\ConnectionDesign\Revit_eToolKit_Map\obj\Debug\Revit_eToolKit_Map.csproj.CoreCompileInputs.cache
+C:\Users\Tans73647\source\repos\ConnectionDesign\Revit_eToolKit_Map\obj\Debug\Revit_eToolKit_Map.csproj.CopyComplete
+C:\Users\Tans73647\source\repos\ConnectionDesign\Revit_eToolKit_Map\obj\Debug\Revit_eToolKit_Map.dll
+C:\Users\Tans73647\source\repos\ConnectionDesign\Revit_eToolKit_Map\obj\Debug\Revit_eToolKit_Map.pdb
+C:\Users\Tans73647\source\repos\ConnectionDesign\Revit_eToolKit_Map\bin\Debug\Revit_eToolKit_Map.dll.CodeAnalysisLog.xml
+C:\Users\Tans73647\source\repos\ConnectionDesign\Revit_eToolKit_Map\bin\Debug\Revit_eToolKit_Map.dll.lastcodeanalysissucceeded
+C:\Users\Tans73647\Documents\My VS Projects\SteelConnectionDesign\Revit_eToolKit_Map\bin\Debug\Revit_eToolKit_Map.dll
+C:\Users\Tans73647\Documents\My VS Projects\SteelConnectionDesign\Revit_eToolKit_Map\bin\Debug\Revit_eToolKit_Map.pdb
+C:\Users\Tans73647\Documents\My VS Projects\SteelConnectionDesign\Revit_eToolKit_Map\bin\Debug\eToolKit_Classes.dll
+C:\Users\Tans73647\Documents\My VS Projects\SteelConnectionDesign\Revit_eToolKit_Map\bin\Debug\Models_SC_Proj.dll
+C:\Users\Tans73647\Documents\My VS Projects\SteelConnectionDesign\Revit_eToolKit_Map\bin\Debug\RevitConnectionProperties.dll
+C:\Users\Tans73647\Documents\My VS Projects\SteelConnectionDesign\Revit_eToolKit_Map\bin\Debug\eToolKit_Classes.pdb
+C:\Users\Tans73647\Documents\My VS Projects\SteelConnectionDesign\Revit_eToolKit_Map\bin\Debug\Models_SC_Proj.pdb
+C:\Users\Tans73647\Documents\My VS Projects\SteelConnectionDesign\Revit_eToolKit_Map\bin\Debug\RevitConnectionProperties.pdb
+C:\Users\Tans73647\Documents\My VS Projects\SteelConnectionDesign\Revit_eToolKit_Map\obj\Debug\Revit_eToolKit_Map.csprojAssemblyReference.cache
+C:\Users\Tans73647\Documents\My VS Projects\SteelConnectionDesign\Revit_eToolKit_Map\obj\Debug\Revit_eToolKit_Map.csproj.CoreCompileInputs.cache
+C:\Users\Tans73647\Documents\My VS Projects\SteelConnectionDesign\Revit_eToolKit_Map\obj\Debug\Revit_eToolKit_Map.csproj.CopyComplete
+C:\Users\Tans73647\Documents\My VS Projects\SteelConnectionDesign\Revit_eToolKit_Map\obj\Debug\Revit_eToolKit_Map.dll
+C:\Users\Tans73647\Documents\My VS Projects\SteelConnectionDesign\Revit_eToolKit_Map\obj\Debug\Revit_eToolKit_Map.pdb
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\Revit_eToolKit_Map\bin\Debug\Revit_eToolKit_Map.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\Revit_eToolKit_Map\bin\Debug\Revit_eToolKit_Map.pdb
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\Revit_eToolKit_Map\bin\Debug\eToolKit_Classes.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\Revit_eToolKit_Map\bin\Debug\Models_SC_Proj.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\Revit_eToolKit_Map\bin\Debug\RevitConnectionProperties.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\Revit_eToolKit_Map\bin\Debug\Prism.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\Revit_eToolKit_Map\bin\Debug\Prism.Wpf.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\Revit_eToolKit_Map\bin\Debug\RevitAPIUI.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\Revit_eToolKit_Map\bin\Debug\RevitAPI.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\Revit_eToolKit_Map\bin\Debug\RvtDwgAddon.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\Revit_eToolKit_Map\bin\Debug\ASObjectsMgd.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\Revit_eToolKit_Map\bin\Debug\CommonServiceLocator.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\Revit_eToolKit_Map\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\Revit_eToolKit_Map\bin\Debug\AdWindows.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\Revit_eToolKit_Map\bin\Debug\RevitAddInUtility.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\Revit_eToolKit_Map\bin\Debug\APIInterop.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\Revit_eToolKit_Map\bin\Debug\UIFramework.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\Revit_eToolKit_Map\bin\Debug\AddInManager.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\Revit_eToolKit_Map\bin\Debug\RevitAPIFoundation.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\Revit_eToolKit_Map\bin\Debug\UtilityAPI.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\Revit_eToolKit_Map\bin\Debug\RevitDBAPI.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\Revit_eToolKit_Map\bin\Debug\RevitUIAPI.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\Revit_eToolKit_Map\bin\Debug\BuildingSystemsDBAPI.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\Revit_eToolKit_Map\bin\Debug\BuildingSystemsUIAPI.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\Revit_eToolKit_Map\bin\Debug\DesktopMFCAPI.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\Revit_eToolKit_Map\bin\Debug\APIUIAPI.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\Revit_eToolKit_Map\bin\Debug\RevitMFCAPI.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\Revit_eToolKit_Map\bin\Debug\EssentialsUIAPI.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\Revit_eToolKit_Map\bin\Debug\EssentialsDBAPI.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\Revit_eToolKit_Map\bin\Debug\EnergyAnalysisUtilitiesAPI.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\Revit_eToolKit_Map\bin\Debug\GeomUtilAPI.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\Revit_eToolKit_Map\bin\Debug\FamilyDBAPI.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\Revit_eToolKit_Map\bin\Debug\DetailUIAPI.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\Revit_eToolKit_Map\bin\Debug\RoomAreaPlanDBAPI.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\Revit_eToolKit_Map\bin\Debug\UIFrameworkServices.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\Revit_eToolKit_Map\bin\Debug\AdpSDKCSharpWrapper.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\Revit_eToolKit_Map\bin\Debug\PersistenceDBAPI.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\Revit_eToolKit_Map\bin\Debug\APIDBAPI.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\Revit_eToolKit_Map\bin\Debug\GraphicsAPI.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\Revit_eToolKit_Map\bin\Debug\ElementGroupDBAPI.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\Revit_eToolKit_Map\bin\Debug\DetailDBAPI.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\Revit_eToolKit_Map\bin\Debug\CurtainGridFamilyDBAPI.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\Revit_eToolKit_Map\bin\Debug\ArrayElemsDBAPI.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\Revit_eToolKit_Map\bin\Debug\EnergyAnalysisDBAPI.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\Revit_eToolKit_Map\bin\Debug\HostObjDBAPI.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\Revit_eToolKit_Map\bin\Debug\SiteDBAPI.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\Revit_eToolKit_Map\bin\Debug\SculptingDBAPI.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\Revit_eToolKit_Map\bin\Debug\StructuralDBAPI.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\Revit_eToolKit_Map\bin\Debug\InterfaceAPI.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\Revit_eToolKit_Map\bin\Debug\InterfaceUtilAPI.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\Revit_eToolKit_Map\bin\Debug\RebarDBAPI.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\Revit_eToolKit_Map\bin\Debug\StructuralAnalysisDBAPI.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\Revit_eToolKit_Map\bin\Debug\MassingDBAPI.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\Revit_eToolKit_Map\bin\Debug\AssemblyDBAPI.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\Revit_eToolKit_Map\bin\Debug\DPartDBAPI.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\Revit_eToolKit_Map\bin\Debug\NumberingDBAPI.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\Revit_eToolKit_Map\bin\Debug\PointCloudAccessAPI.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\Revit_eToolKit_Map\bin\Debug\StairRampDBAPI.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\Revit_eToolKit_Map\bin\Debug\AnalysisAppsDBAPI.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\Revit_eToolKit_Map\bin\Debug\MaterialDBAPI.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\Revit_eToolKit_Map\bin\Debug\DBManagedServices.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\Revit_eToolKit_Map\bin\Debug\ASCADLinkMgd.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\Revit_eToolKit_Map\bin\Debug\ASGeometryMgd.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\Revit_eToolKit_Map\bin\Debug\ASAutoConnectionMgd.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\Revit_eToolKit_Map\bin\Debug\ASProfilesMgd.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\Revit_eToolKit_Map\bin\Debug\RvtFamilyMapping.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\Revit_eToolKit_Map\bin\Debug\AsRealDWGLoaderMgd.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\Revit_eToolKit_Map\bin\Debug\ASRepository.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\Revit_eToolKit_Map\bin\Debug\Interop.ASGTCMappingLib.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\Revit_eToolKit_Map\bin\Debug\JointDesignUtils.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\Revit_eToolKit_Map\bin\Debug\ASDataObjects.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\Revit_eToolKit_Map\bin\Debug\RvtModeler4AS.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\Revit_eToolKit_Map\bin\Debug\DotNetRoots.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\Revit_eToolKit_Map\bin\Debug\ASModelerMgd.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\Revit_eToolKit_Map\bin\Debug\RvtASGeomConversions.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\Revit_eToolKit_Map\bin\Debug\ASSettings.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\Revit_eToolKit_Map\bin\Debug\ASSettingsMgd.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\Revit_eToolKit_Map\bin\Debug\RvtASDynamicProfiles.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\Revit_eToolKit_Map\bin\Debug\ManagedMC3.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\Revit_eToolKit_Map\bin\Debug\Autodesk.UI.Themes.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\Revit_eToolKit_Map\bin\Debug\Xceed.Wpf.AvalonDock.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\Revit_eToolKit_Map\bin\Debug\Autodesk.UI.Windows.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\Revit_eToolKit_Map\bin\Debug\ASNetRuntime.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\Revit_eToolKit_Map\bin\Debug\EntityFramework.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\Revit_eToolKit_Map\bin\Debug\Interop.AstSTEELAUTOMATIONLib5.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\Revit_eToolKit_Map\bin\Debug\AstDocReport.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\Revit_eToolKit_Map\bin\Debug\Interop.DSCRootsCOMLib.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\Revit_eToolKit_Map\bin\Debug\DotNetRootsMgd.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\Revit_eToolKit_Map\bin\Debug\Interop.RTFENGINECOMLib15.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\Revit_eToolKit_Map\bin\Debug\stdole.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\Revit_eToolKit_Map\bin\Debug\eToolKit_Classes.pdb
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\Revit_eToolKit_Map\bin\Debug\Models_SC_Proj.pdb
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\Revit_eToolKit_Map\bin\Debug\RevitConnectionProperties.pdb
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\Revit_eToolKit_Map\bin\Debug\Prism.pdb
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\Revit_eToolKit_Map\bin\Debug\Prism.xml
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\Revit_eToolKit_Map\bin\Debug\Prism.Wpf.pdb
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\Revit_eToolKit_Map\bin\Debug\Prism.Wpf.xml
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\Revit_eToolKit_Map\bin\Debug\RevitAPIUI.xml
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\Revit_eToolKit_Map\bin\Debug\RevitAPI.xml
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\Revit_eToolKit_Map\bin\Debug\RevitAddInUtility.xml
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\Revit_eToolKit_Map\bin\Debug\cs-CZ\RvtDwgAddon.resources.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\Revit_eToolKit_Map\bin\Debug\de-DE\RvtDwgAddon.resources.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\Revit_eToolKit_Map\bin\Debug\en-US\RvtDwgAddon.resources.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\Revit_eToolKit_Map\bin\Debug\es-ES\RvtDwgAddon.resources.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\Revit_eToolKit_Map\bin\Debug\fr-FR\RvtDwgAddon.resources.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\Revit_eToolKit_Map\bin\Debug\it-IT\RvtDwgAddon.resources.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\Revit_eToolKit_Map\bin\Debug\ja-JP\RvtDwgAddon.resources.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\Revit_eToolKit_Map\bin\Debug\ko-KR\RvtDwgAddon.resources.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\Revit_eToolKit_Map\bin\Debug\pl-PL\RvtDwgAddon.resources.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\Revit_eToolKit_Map\bin\Debug\pt-BR\RvtDwgAddon.resources.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\Revit_eToolKit_Map\bin\Debug\ru-RU\RvtDwgAddon.resources.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\Revit_eToolKit_Map\bin\Debug\zh-CN\RvtDwgAddon.resources.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\Revit_eToolKit_Map\bin\Debug\zh-TW\RvtDwgAddon.resources.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\Revit_eToolKit_Map\bin\Debug\cs-CZ\AdWindows.resources.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\Revit_eToolKit_Map\bin\Debug\de-DE\AdWindows.resources.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\Revit_eToolKit_Map\bin\Debug\en-GB\AdWindows.resources.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\Revit_eToolKit_Map\bin\Debug\en-US\AdWindows.resources.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\Revit_eToolKit_Map\bin\Debug\es-ES\AdWindows.resources.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\Revit_eToolKit_Map\bin\Debug\fr-FR\AdWindows.resources.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\Revit_eToolKit_Map\bin\Debug\it-IT\AdWindows.resources.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\Revit_eToolKit_Map\bin\Debug\ja-JP\AdWindows.resources.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\Revit_eToolKit_Map\bin\Debug\ko-KR\AdWindows.resources.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\Revit_eToolKit_Map\bin\Debug\pl-PL\AdWindows.resources.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\Revit_eToolKit_Map\bin\Debug\pt-BR\AdWindows.resources.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\Revit_eToolKit_Map\bin\Debug\ru-RU\AdWindows.resources.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\Revit_eToolKit_Map\bin\Debug\zh-CN\AdWindows.resources.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\Revit_eToolKit_Map\bin\Debug\zh-TW\AdWindows.resources.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\Revit_eToolKit_Map\bin\Debug\AstDocReport.XmlSerializers.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\Revit_eToolKit_Map\obj\Debug\Revit_eToolKit_Map.csprojAssemblyReference.cache
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\Revit_eToolKit_Map\obj\Debug\Revit_eToolKit_Map.csproj.CoreCompileInputs.cache
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\Revit_eToolKit_Map\obj\Debug\Revit_eToolKit_Map.csproj.CopyComplete
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\Revit_eToolKit_Map\obj\Debug\Revit_eToolKit_Map.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\Revit_eToolKit_Map\obj\Debug\Revit_eToolKit_Map.pdb
+C:\kjt\ConnectionDesign\Revit_eToolKit_Map\obj\Debug\Revit_eToolKit_Map.csproj.AssemblyReference.cache
+C:\kjt\ConnectionDesign\Revit_eToolKit_Map\obj\Debug\Revit_eToolKit_Map.csproj.CoreCompileInputs.cache

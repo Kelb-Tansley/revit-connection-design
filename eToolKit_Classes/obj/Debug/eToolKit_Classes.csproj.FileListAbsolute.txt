@@ -1,0 +1,33 @@
+C:\Users\Tans73647\Documents\My VS Projects\SC_Proj\eToolKit_Classes\bin\Debug\eToolKit_Classes.dll
+C:\Users\Tans73647\Documents\My VS Projects\SC_Proj\eToolKit_Classes\bin\Debug\eToolKit_Classes.pdb
+C:\Users\Tans73647\Documents\My VS Projects\SC_Proj\eToolKit_Classes\obj\Debug\eToolKit_Classes.csproj.CoreCompileInputs.cache
+C:\Users\Tans73647\Documents\My VS Projects\SC_Proj\eToolKit_Classes\obj\Debug\eToolKit_Classes.dll
+C:\Users\Tans73647\Documents\My VS Projects\SC_Proj\eToolKit_Classes\obj\Debug\eToolKit_Classes.pdb
+C:\Users\Tans73647\source\repos\Structural-Design-Tools\eToolKit_Classes\bin\Debug\eToolKit_Classes.dll
+C:\Users\Tans73647\source\repos\Structural-Design-Tools\eToolKit_Classes\bin\Debug\eToolKit_Classes.pdb
+C:\Users\Tans73647\source\repos\Structural-Design-Tools\eToolKit_Classes\obj\Debug\eToolKit_Classes.csproj.CoreCompileInputs.cache
+C:\Users\Tans73647\source\repos\Structural-Design-Tools\eToolKit_Classes\obj\Debug\eToolKit_Classes.dll
+C:\Users\Tans73647\source\repos\Structural-Design-Tools\eToolKit_Classes\obj\Debug\eToolKit_Classes.pdb
+C:\Users\Tans73647\source\repos\ConnectionDesign\eToolKit_Classes\bin\Debug\eToolKit_Classes.dll
+C:\Users\Tans73647\source\repos\ConnectionDesign\eToolKit_Classes\bin\Debug\eToolKit_Classes.pdb
+C:\Users\Tans73647\source\repos\ConnectionDesign\eToolKit_Classes\obj\Debug\eToolKit_Classes.csproj.CoreCompileInputs.cache
+C:\Users\Tans73647\source\repos\ConnectionDesign\eToolKit_Classes\obj\Debug\eToolKit_Classes.dll
+C:\Users\Tans73647\source\repos\ConnectionDesign\eToolKit_Classes\obj\Debug\eToolKit_Classes.pdb
+C:\Users\Tans73647\source\repos\ConnectionDesign\eToolKit_Classes\bin\Debug\eToolKit_Classes.dll.CodeAnalysisLog.xml
+C:\Users\Tans73647\source\repos\ConnectionDesign\eToolKit_Classes\bin\Debug\eToolKit_Classes.dll.lastcodeanalysissucceeded
+C:\Users\Tans73647\Documents\My VS Projects\SteelConnectionDesign\eToolKit_Classes\bin\Debug\eToolKit_Classes.dll
+C:\Users\Tans73647\Documents\My VS Projects\SteelConnectionDesign\eToolKit_Classes\bin\Debug\eToolKit_Classes.pdb
+C:\Users\Tans73647\Documents\My VS Projects\SteelConnectionDesign\eToolKit_Classes\obj\Debug\eToolKit_Classes.csproj.CoreCompileInputs.cache
+C:\Users\Tans73647\Documents\My VS Projects\SteelConnectionDesign\eToolKit_Classes\obj\Debug\eToolKit_Classes.dll
+C:\Users\Tans73647\Documents\My VS Projects\SteelConnectionDesign\eToolKit_Classes\obj\Debug\eToolKit_Classes.pdb
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\eToolKit_Classes\bin\Debug\eToolKit_Classes.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\eToolKit_Classes\bin\Debug\eToolKit_Classes.pdb
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\eToolKit_Classes\obj\Debug\eToolKit_Classes.csprojAssemblyReference.cache
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\eToolKit_Classes\obj\Debug\eToolKit_Classes.csproj.CoreCompileInputs.cache
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\eToolKit_Classes\obj\Debug\eToolKit_Classes.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\eToolKit_Classes\obj\Debug\eToolKit_Classes.pdb
+C:\kjt\ConnectionDesign\eToolKit_Classes\bin\Debug\eToolKit_Classes.dll
+C:\kjt\ConnectionDesign\eToolKit_Classes\bin\Debug\eToolKit_Classes.pdb
+C:\kjt\ConnectionDesign\eToolKit_Classes\obj\Debug\eToolKit_Classes.csproj.CoreCompileInputs.cache
+C:\kjt\ConnectionDesign\eToolKit_Classes\obj\Debug\eToolKit_Classes.dll
+C:\kjt\ConnectionDesign\eToolKit_Classes\obj\Debug\eToolKit_Classes.pdb

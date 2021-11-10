@@ -1,0 +1,779 @@
+C:\Users\Tans73647\Documents\My VS Projects\SC_Proj\SC_View\bin\Debug\SC_View.exe.config
+C:\Users\Tans73647\Documents\My VS Projects\SC_Proj\SC_View\bin\Debug\SC_View.exe
+C:\Users\Tans73647\Documents\My VS Projects\SC_Proj\SC_View\bin\Debug\SC_View.pdb
+C:\Users\Tans73647\Documents\My VS Projects\SC_Proj\SC_View\bin\Debug\ASObjectsMgd.dll
+C:\Users\Tans73647\Documents\My VS Projects\SC_Proj\SC_View\bin\Debug\eToolKit_Classes.dll
+C:\Users\Tans73647\Documents\My VS Projects\SC_Proj\SC_View\bin\Debug\Microsoft.Expression.Interactions.dll
+C:\Users\Tans73647\Documents\My VS Projects\SC_Proj\SC_View\bin\Debug\Models_SC_Proj.dll
+C:\Users\Tans73647\Documents\My VS Projects\SC_Proj\SC_View\bin\Debug\RevitAPI.dll
+C:\Users\Tans73647\Documents\My VS Projects\SC_Proj\SC_View\bin\Debug\RevitAPIUI.dll
+C:\Users\Tans73647\Documents\My VS Projects\SC_Proj\SC_View\bin\Debug\RevitConnectionProperties.dll
+C:\Users\Tans73647\Documents\My VS Projects\SC_Proj\SC_View\bin\Debug\Revit_eToolKit_Map.dll
+C:\Users\Tans73647\Documents\My VS Projects\SC_Proj\SC_View\bin\Debug\RvtDwgAddon.dll
+C:\Users\Tans73647\Documents\My VS Projects\SC_Proj\SC_View\bin\Debug\SC_ObjectViewer.dll
+C:\Users\Tans73647\Documents\My VS Projects\SC_Proj\SC_View\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\Tans73647\Documents\My VS Projects\SC_Proj\SC_View\bin\Debug\ASCADLinkMgd.dll
+C:\Users\Tans73647\Documents\My VS Projects\SC_Proj\SC_View\bin\Debug\ASGeometryMgd.dll
+C:\Users\Tans73647\Documents\My VS Projects\SC_Proj\SC_View\bin\Debug\ASModelerMgd.dll
+C:\Users\Tans73647\Documents\My VS Projects\SC_Proj\SC_View\bin\Debug\ASProfilesMgd.dll
+C:\Users\Tans73647\Documents\My VS Projects\SC_Proj\SC_View\bin\Debug\DotNetRoots.dll
+C:\Users\Tans73647\Documents\My VS Projects\SC_Proj\SC_View\bin\Debug\AdpSDKCSharpWrapper.dll
+C:\Users\Tans73647\Documents\My VS Projects\SC_Proj\SC_View\bin\Debug\RevitAPIFoundation.dll
+C:\Users\Tans73647\Documents\My VS Projects\SC_Proj\SC_View\bin\Debug\RevitDBAPI.dll
+C:\Users\Tans73647\Documents\My VS Projects\SC_Proj\SC_View\bin\Debug\PersistenceDBAPI.dll
+C:\Users\Tans73647\Documents\My VS Projects\SC_Proj\SC_View\bin\Debug\UtilityAPI.dll
+C:\Users\Tans73647\Documents\My VS Projects\SC_Proj\SC_View\bin\Debug\APIDBAPI.dll
+C:\Users\Tans73647\Documents\My VS Projects\SC_Proj\SC_View\bin\Debug\GraphicsAPI.dll
+C:\Users\Tans73647\Documents\My VS Projects\SC_Proj\SC_View\bin\Debug\ElementGroupDBAPI.dll
+C:\Users\Tans73647\Documents\My VS Projects\SC_Proj\SC_View\bin\Debug\EssentialsDBAPI.dll
+C:\Users\Tans73647\Documents\My VS Projects\SC_Proj\SC_View\bin\Debug\GeomUtilAPI.dll
+C:\Users\Tans73647\Documents\My VS Projects\SC_Proj\SC_View\bin\Debug\FamilyDBAPI.dll
+C:\Users\Tans73647\Documents\My VS Projects\SC_Proj\SC_View\bin\Debug\DetailDBAPI.dll
+C:\Users\Tans73647\Documents\My VS Projects\SC_Proj\SC_View\bin\Debug\CurtainGridFamilyDBAPI.dll
+C:\Users\Tans73647\Documents\My VS Projects\SC_Proj\SC_View\bin\Debug\ArrayElemsDBAPI.dll
+C:\Users\Tans73647\Documents\My VS Projects\SC_Proj\SC_View\bin\Debug\EnergyAnalysisDBAPI.dll
+C:\Users\Tans73647\Documents\My VS Projects\SC_Proj\SC_View\bin\Debug\BuildingSystemsDBAPI.dll
+C:\Users\Tans73647\Documents\My VS Projects\SC_Proj\SC_View\bin\Debug\HostObjDBAPI.dll
+C:\Users\Tans73647\Documents\My VS Projects\SC_Proj\SC_View\bin\Debug\RoomAreaPlanDBAPI.dll
+C:\Users\Tans73647\Documents\My VS Projects\SC_Proj\SC_View\bin\Debug\SiteDBAPI.dll
+C:\Users\Tans73647\Documents\My VS Projects\SC_Proj\SC_View\bin\Debug\SculptingDBAPI.dll
+C:\Users\Tans73647\Documents\My VS Projects\SC_Proj\SC_View\bin\Debug\StructuralDBAPI.dll
+C:\Users\Tans73647\Documents\My VS Projects\SC_Proj\SC_View\bin\Debug\InterfaceAPI.dll
+C:\Users\Tans73647\Documents\My VS Projects\SC_Proj\SC_View\bin\Debug\InterfaceUtilAPI.dll
+C:\Users\Tans73647\Documents\My VS Projects\SC_Proj\SC_View\bin\Debug\RebarDBAPI.dll
+C:\Users\Tans73647\Documents\My VS Projects\SC_Proj\SC_View\bin\Debug\StructuralAnalysisDBAPI.dll
+C:\Users\Tans73647\Documents\My VS Projects\SC_Proj\SC_View\bin\Debug\MassingDBAPI.dll
+C:\Users\Tans73647\Documents\My VS Projects\SC_Proj\SC_View\bin\Debug\AssemblyDBAPI.dll
+C:\Users\Tans73647\Documents\My VS Projects\SC_Proj\SC_View\bin\Debug\DPartDBAPI.dll
+C:\Users\Tans73647\Documents\My VS Projects\SC_Proj\SC_View\bin\Debug\NumberingDBAPI.dll
+C:\Users\Tans73647\Documents\My VS Projects\SC_Proj\SC_View\bin\Debug\PointCloudAccessAPI.dll
+C:\Users\Tans73647\Documents\My VS Projects\SC_Proj\SC_View\bin\Debug\StairRampDBAPI.dll
+C:\Users\Tans73647\Documents\My VS Projects\SC_Proj\SC_View\bin\Debug\AnalysisAppsDBAPI.dll
+C:\Users\Tans73647\Documents\My VS Projects\SC_Proj\SC_View\bin\Debug\MaterialDBAPI.dll
+C:\Users\Tans73647\Documents\My VS Projects\SC_Proj\SC_View\bin\Debug\DBManagedServices.dll
+C:\Users\Tans73647\Documents\My VS Projects\SC_Proj\SC_View\bin\Debug\AdWindows.dll
+C:\Users\Tans73647\Documents\My VS Projects\SC_Proj\SC_View\bin\Debug\RevitAddInUtility.dll
+C:\Users\Tans73647\Documents\My VS Projects\SC_Proj\SC_View\bin\Debug\APIInterop.dll
+C:\Users\Tans73647\Documents\My VS Projects\SC_Proj\SC_View\bin\Debug\UIFramework.dll
+C:\Users\Tans73647\Documents\My VS Projects\SC_Proj\SC_View\bin\Debug\AddInManager.dll
+C:\Users\Tans73647\Documents\My VS Projects\SC_Proj\SC_View\bin\Debug\RevitUIAPI.dll
+C:\Users\Tans73647\Documents\My VS Projects\SC_Proj\SC_View\bin\Debug\BuildingSystemsUIAPI.dll
+C:\Users\Tans73647\Documents\My VS Projects\SC_Proj\SC_View\bin\Debug\DesktopMFCAPI.dll
+C:\Users\Tans73647\Documents\My VS Projects\SC_Proj\SC_View\bin\Debug\APIUIAPI.dll
+C:\Users\Tans73647\Documents\My VS Projects\SC_Proj\SC_View\bin\Debug\RevitMFCAPI.dll
+C:\Users\Tans73647\Documents\My VS Projects\SC_Proj\SC_View\bin\Debug\EssentialsUIAPI.dll
+C:\Users\Tans73647\Documents\My VS Projects\SC_Proj\SC_View\bin\Debug\EnergyAnalysisUtilitiesAPI.dll
+C:\Users\Tans73647\Documents\My VS Projects\SC_Proj\SC_View\bin\Debug\DetailUIAPI.dll
+C:\Users\Tans73647\Documents\My VS Projects\SC_Proj\SC_View\bin\Debug\UIFrameworkServices.dll
+C:\Users\Tans73647\Documents\My VS Projects\SC_Proj\SC_View\bin\Debug\ASAutoConnectionMgd.dll
+C:\Users\Tans73647\Documents\My VS Projects\SC_Proj\SC_View\bin\Debug\RvtFamilyMapping.dll
+C:\Users\Tans73647\Documents\My VS Projects\SC_Proj\SC_View\bin\Debug\AsRealDWGLoaderMgd.dll
+C:\Users\Tans73647\Documents\My VS Projects\SC_Proj\SC_View\bin\Debug\ASRepository.dll
+C:\Users\Tans73647\Documents\My VS Projects\SC_Proj\SC_View\bin\Debug\Interop.ASGTCMappingLib.dll
+C:\Users\Tans73647\Documents\My VS Projects\SC_Proj\SC_View\bin\Debug\JointDesignUtils.dll
+C:\Users\Tans73647\Documents\My VS Projects\SC_Proj\SC_View\bin\Debug\ASDataObjects.dll
+C:\Users\Tans73647\Documents\My VS Projects\SC_Proj\SC_View\bin\Debug\RvtModeler4AS.dll
+C:\Users\Tans73647\Documents\My VS Projects\SC_Proj\SC_View\bin\Debug\RvtASGeomConversions.dll
+C:\Users\Tans73647\Documents\My VS Projects\SC_Proj\SC_View\bin\Debug\ASSettings.dll
+C:\Users\Tans73647\Documents\My VS Projects\SC_Proj\SC_View\bin\Debug\ASSettingsMgd.dll
+C:\Users\Tans73647\Documents\My VS Projects\SC_Proj\SC_View\bin\Debug\RvtASDynamicProfiles.dll
+C:\Users\Tans73647\Documents\My VS Projects\SC_Proj\SC_View\bin\Debug\DotNetRootsMgd.dll
+C:\Users\Tans73647\Documents\My VS Projects\SC_Proj\SC_View\bin\Debug\ManagedMC3.dll
+C:\Users\Tans73647\Documents\My VS Projects\SC_Proj\SC_View\bin\Debug\Autodesk.UI.Themes.dll
+C:\Users\Tans73647\Documents\My VS Projects\SC_Proj\SC_View\bin\Debug\Xceed.Wpf.AvalonDock.dll
+C:\Users\Tans73647\Documents\My VS Projects\SC_Proj\SC_View\bin\Debug\Autodesk.UI.Windows.dll
+C:\Users\Tans73647\Documents\My VS Projects\SC_Proj\SC_View\bin\Debug\ASNetRuntime.dll
+C:\Users\Tans73647\Documents\My VS Projects\SC_Proj\SC_View\bin\Debug\EntityFramework.dll
+C:\Users\Tans73647\Documents\My VS Projects\SC_Proj\SC_View\bin\Debug\Interop.AstSTEELAUTOMATIONLib5.dll
+C:\Users\Tans73647\Documents\My VS Projects\SC_Proj\SC_View\bin\Debug\AstDocReport.dll
+C:\Users\Tans73647\Documents\My VS Projects\SC_Proj\SC_View\bin\Debug\Interop.DSCRootsCOMLib.dll
+C:\Users\Tans73647\Documents\My VS Projects\SC_Proj\SC_View\bin\Debug\Interop.RTFENGINECOMLib15.dll
+C:\Users\Tans73647\Documents\My VS Projects\SC_Proj\SC_View\bin\Debug\stdole.dll
+C:\Users\Tans73647\Documents\My VS Projects\SC_Proj\SC_View\bin\Debug\eToolKit_Classes.pdb
+C:\Users\Tans73647\Documents\My VS Projects\SC_Proj\SC_View\bin\Debug\Models_SC_Proj.pdb
+C:\Users\Tans73647\Documents\My VS Projects\SC_Proj\SC_View\bin\Debug\RevitConnectionProperties.pdb
+C:\Users\Tans73647\Documents\My VS Projects\SC_Proj\SC_View\bin\Debug\Revit_eToolKit_Map.pdb
+C:\Users\Tans73647\Documents\My VS Projects\SC_Proj\SC_View\bin\Debug\SC_ObjectViewer.pdb
+C:\Users\Tans73647\Documents\My VS Projects\SC_Proj\SC_View\bin\Debug\SC_ObjectViewer.dll.config
+C:\Users\Tans73647\Documents\My VS Projects\SC_Proj\SC_View\bin\Debug\Microsoft.Expression.Interactions.xml
+C:\Users\Tans73647\Documents\My VS Projects\SC_Proj\SC_View\bin\Debug\RevitAPI.xml
+C:\Users\Tans73647\Documents\My VS Projects\SC_Proj\SC_View\bin\Debug\RevitAPIUI.xml
+C:\Users\Tans73647\Documents\My VS Projects\SC_Proj\SC_View\bin\Debug\RevitAddInUtility.xml
+C:\Users\Tans73647\Documents\My VS Projects\SC_Proj\SC_View\bin\Debug\cs-CZ\RvtDwgAddon.resources.dll
+C:\Users\Tans73647\Documents\My VS Projects\SC_Proj\SC_View\bin\Debug\de-DE\RvtDwgAddon.resources.dll
+C:\Users\Tans73647\Documents\My VS Projects\SC_Proj\SC_View\bin\Debug\en-US\RvtDwgAddon.resources.dll
+C:\Users\Tans73647\Documents\My VS Projects\SC_Proj\SC_View\bin\Debug\es-ES\RvtDwgAddon.resources.dll
+C:\Users\Tans73647\Documents\My VS Projects\SC_Proj\SC_View\bin\Debug\fr-FR\RvtDwgAddon.resources.dll
+C:\Users\Tans73647\Documents\My VS Projects\SC_Proj\SC_View\bin\Debug\it-IT\RvtDwgAddon.resources.dll
+C:\Users\Tans73647\Documents\My VS Projects\SC_Proj\SC_View\bin\Debug\ja-JP\RvtDwgAddon.resources.dll
+C:\Users\Tans73647\Documents\My VS Projects\SC_Proj\SC_View\bin\Debug\ko-KR\RvtDwgAddon.resources.dll
+C:\Users\Tans73647\Documents\My VS Projects\SC_Proj\SC_View\bin\Debug\pl-PL\RvtDwgAddon.resources.dll
+C:\Users\Tans73647\Documents\My VS Projects\SC_Proj\SC_View\bin\Debug\pt-BR\RvtDwgAddon.resources.dll
+C:\Users\Tans73647\Documents\My VS Projects\SC_Proj\SC_View\bin\Debug\ru-RU\RvtDwgAddon.resources.dll
+C:\Users\Tans73647\Documents\My VS Projects\SC_Proj\SC_View\bin\Debug\zh-CN\RvtDwgAddon.resources.dll
+C:\Users\Tans73647\Documents\My VS Projects\SC_Proj\SC_View\bin\Debug\zh-TW\RvtDwgAddon.resources.dll
+C:\Users\Tans73647\Documents\My VS Projects\SC_Proj\SC_View\bin\Debug\cs-CZ\AdWindows.resources.dll
+C:\Users\Tans73647\Documents\My VS Projects\SC_Proj\SC_View\bin\Debug\de-DE\AdWindows.resources.dll
+C:\Users\Tans73647\Documents\My VS Projects\SC_Proj\SC_View\bin\Debug\en-GB\AdWindows.resources.dll
+C:\Users\Tans73647\Documents\My VS Projects\SC_Proj\SC_View\bin\Debug\en-US\AdWindows.resources.dll
+C:\Users\Tans73647\Documents\My VS Projects\SC_Proj\SC_View\bin\Debug\es-ES\AdWindows.resources.dll
+C:\Users\Tans73647\Documents\My VS Projects\SC_Proj\SC_View\bin\Debug\fr-FR\AdWindows.resources.dll
+C:\Users\Tans73647\Documents\My VS Projects\SC_Proj\SC_View\bin\Debug\it-IT\AdWindows.resources.dll
+C:\Users\Tans73647\Documents\My VS Projects\SC_Proj\SC_View\bin\Debug\ja-JP\AdWindows.resources.dll
+C:\Users\Tans73647\Documents\My VS Projects\SC_Proj\SC_View\bin\Debug\ko-KR\AdWindows.resources.dll
+C:\Users\Tans73647\Documents\My VS Projects\SC_Proj\SC_View\bin\Debug\pl-PL\AdWindows.resources.dll
+C:\Users\Tans73647\Documents\My VS Projects\SC_Proj\SC_View\bin\Debug\pt-BR\AdWindows.resources.dll
+C:\Users\Tans73647\Documents\My VS Projects\SC_Proj\SC_View\bin\Debug\ru-RU\AdWindows.resources.dll
+C:\Users\Tans73647\Documents\My VS Projects\SC_Proj\SC_View\bin\Debug\zh-CN\AdWindows.resources.dll
+C:\Users\Tans73647\Documents\My VS Projects\SC_Proj\SC_View\bin\Debug\zh-TW\AdWindows.resources.dll
+C:\Users\Tans73647\Documents\My VS Projects\SC_Proj\SC_View\bin\Debug\AstDocReport.XmlSerializers.dll
+C:\Users\Tans73647\Documents\My VS Projects\SC_Proj\SC_View\obj\Debug\SC_View.csprojAssemblyReference.cache
+C:\Users\Tans73647\Documents\My VS Projects\SC_Proj\SC_View\obj\Debug\MainWindow.g.cs
+C:\Users\Tans73647\Documents\My VS Projects\SC_Proj\SC_View\obj\Debug\App.g.cs
+C:\Users\Tans73647\Documents\My VS Projects\SC_Proj\SC_View\obj\Debug\SC_View_MarkupCompile.cache
+C:\Users\Tans73647\Documents\My VS Projects\SC_Proj\SC_View\obj\Debug\SC_View_MarkupCompile.lref
+C:\Users\Tans73647\Documents\My VS Projects\SC_Proj\SC_View\obj\Debug\MainWindow.baml
+C:\Users\Tans73647\Documents\My VS Projects\SC_Proj\SC_View\obj\Debug\SC_View.g.resources
+C:\Users\Tans73647\Documents\My VS Projects\SC_Proj\SC_View\obj\Debug\SC_View.Properties.Resources.resources
+C:\Users\Tans73647\Documents\My VS Projects\SC_Proj\SC_View\obj\Debug\SC_View.csproj.GenerateResource.cache
+C:\Users\Tans73647\Documents\My VS Projects\SC_Proj\SC_View\obj\Debug\SC_View.csproj.CoreCompileInputs.cache
+C:\Users\Tans73647\Documents\My VS Projects\SC_Proj\SC_View\obj\Debug\SC_View.csproj.CopyComplete
+C:\Users\Tans73647\Documents\My VS Projects\SC_Proj\SC_View\obj\Debug\SC_View.exe
+C:\Users\Tans73647\Documents\My VS Projects\SC_Proj\SC_View\obj\Debug\SC_View.pdb
+C:\Users\Tans73647\Documents\My VS Projects\SC_Proj\SC_View\bin\Debug\CommonServiceLocator.dll
+C:\Users\Tans73647\Documents\My VS Projects\SC_Proj\SC_View\bin\Debug\eToolkit_View.dll
+C:\Users\Tans73647\Documents\My VS Projects\SC_Proj\SC_View\bin\Debug\Prism.dll
+C:\Users\Tans73647\Documents\My VS Projects\SC_Proj\SC_View\bin\Debug\Prism.Unity.Wpf.dll
+C:\Users\Tans73647\Documents\My VS Projects\SC_Proj\SC_View\bin\Debug\Prism.Wpf.dll
+C:\Users\Tans73647\Documents\My VS Projects\SC_Proj\SC_View\bin\Debug\Unity.Abstractions.dll
+C:\Users\Tans73647\Documents\My VS Projects\SC_Proj\SC_View\bin\Debug\Unity.Container.dll
+C:\Users\Tans73647\Documents\My VS Projects\SC_Proj\SC_View\bin\Debug\eToolkit_View.pdb
+C:\Users\Tans73647\Documents\My VS Projects\SC_Proj\SC_View\bin\Debug\Prism.pdb
+C:\Users\Tans73647\Documents\My VS Projects\SC_Proj\SC_View\bin\Debug\Prism.xml
+C:\Users\Tans73647\Documents\My VS Projects\SC_Proj\SC_View\bin\Debug\Prism.Unity.Wpf.pdb
+C:\Users\Tans73647\Documents\My VS Projects\SC_Proj\SC_View\bin\Debug\Prism.Unity.Wpf.xml
+C:\Users\Tans73647\Documents\My VS Projects\SC_Proj\SC_View\bin\Debug\Prism.Wpf.pdb
+C:\Users\Tans73647\Documents\My VS Projects\SC_Proj\SC_View\bin\Debug\Prism.Wpf.xml
+C:\Users\Tans73647\source\repos\Structural-Design-Tools\SC_View\bin\Debug\SC_View.exe.config
+C:\Users\Tans73647\source\repos\Structural-Design-Tools\SC_View\bin\Debug\SC_View.exe
+C:\Users\Tans73647\source\repos\Structural-Design-Tools\SC_View\bin\Debug\SC_View.pdb
+C:\Users\Tans73647\source\repos\Structural-Design-Tools\SC_View\bin\Debug\ASObjectsMgd.dll
+C:\Users\Tans73647\source\repos\Structural-Design-Tools\SC_View\bin\Debug\CommonServiceLocator.dll
+C:\Users\Tans73647\source\repos\Structural-Design-Tools\SC_View\bin\Debug\eToolKit_Classes.dll
+C:\Users\Tans73647\source\repos\Structural-Design-Tools\SC_View\bin\Debug\eToolkit_View.dll
+C:\Users\Tans73647\source\repos\Structural-Design-Tools\SC_View\bin\Debug\Microsoft.Expression.Interactions.dll
+C:\Users\Tans73647\source\repos\Structural-Design-Tools\SC_View\bin\Debug\Models_SC_Proj.dll
+C:\Users\Tans73647\source\repos\Structural-Design-Tools\SC_View\bin\Debug\Prism.dll
+C:\Users\Tans73647\source\repos\Structural-Design-Tools\SC_View\bin\Debug\Prism.Unity.Wpf.dll
+C:\Users\Tans73647\source\repos\Structural-Design-Tools\SC_View\bin\Debug\Prism.Wpf.dll
+C:\Users\Tans73647\source\repos\Structural-Design-Tools\SC_View\bin\Debug\RevitAPI.dll
+C:\Users\Tans73647\source\repos\Structural-Design-Tools\SC_View\bin\Debug\RevitAPIUI.dll
+C:\Users\Tans73647\source\repos\Structural-Design-Tools\SC_View\bin\Debug\RevitConnectionProperties.dll
+C:\Users\Tans73647\source\repos\Structural-Design-Tools\SC_View\bin\Debug\Revit_eToolKit_Map.dll
+C:\Users\Tans73647\source\repos\Structural-Design-Tools\SC_View\bin\Debug\RvtDwgAddon.dll
+C:\Users\Tans73647\source\repos\Structural-Design-Tools\SC_View\bin\Debug\SC_ObjectViewer.dll
+C:\Users\Tans73647\source\repos\Structural-Design-Tools\SC_View\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\Tans73647\source\repos\Structural-Design-Tools\SC_View\bin\Debug\Unity.Abstractions.dll
+C:\Users\Tans73647\source\repos\Structural-Design-Tools\SC_View\bin\Debug\Unity.Container.dll
+C:\Users\Tans73647\source\repos\Structural-Design-Tools\SC_View\bin\Debug\ASCADLinkMgd.dll
+C:\Users\Tans73647\source\repos\Structural-Design-Tools\SC_View\bin\Debug\ASGeometryMgd.dll
+C:\Users\Tans73647\source\repos\Structural-Design-Tools\SC_View\bin\Debug\ASModelerMgd.dll
+C:\Users\Tans73647\source\repos\Structural-Design-Tools\SC_View\bin\Debug\ASProfilesMgd.dll
+C:\Users\Tans73647\source\repos\Structural-Design-Tools\SC_View\bin\Debug\DotNetRoots.dll
+C:\Users\Tans73647\source\repos\Structural-Design-Tools\SC_View\bin\Debug\AdpSDKCSharpWrapper.dll
+C:\Users\Tans73647\source\repos\Structural-Design-Tools\SC_View\bin\Debug\RevitAPIFoundation.dll
+C:\Users\Tans73647\source\repos\Structural-Design-Tools\SC_View\bin\Debug\RevitDBAPI.dll
+C:\Users\Tans73647\source\repos\Structural-Design-Tools\SC_View\bin\Debug\PersistenceDBAPI.dll
+C:\Users\Tans73647\source\repos\Structural-Design-Tools\SC_View\bin\Debug\UtilityAPI.dll
+C:\Users\Tans73647\source\repos\Structural-Design-Tools\SC_View\bin\Debug\APIDBAPI.dll
+C:\Users\Tans73647\source\repos\Structural-Design-Tools\SC_View\bin\Debug\GraphicsAPI.dll
+C:\Users\Tans73647\source\repos\Structural-Design-Tools\SC_View\bin\Debug\ElementGroupDBAPI.dll
+C:\Users\Tans73647\source\repos\Structural-Design-Tools\SC_View\bin\Debug\EssentialsDBAPI.dll
+C:\Users\Tans73647\source\repos\Structural-Design-Tools\SC_View\bin\Debug\GeomUtilAPI.dll
+C:\Users\Tans73647\source\repos\Structural-Design-Tools\SC_View\bin\Debug\FamilyDBAPI.dll
+C:\Users\Tans73647\source\repos\Structural-Design-Tools\SC_View\bin\Debug\DetailDBAPI.dll
+C:\Users\Tans73647\source\repos\Structural-Design-Tools\SC_View\bin\Debug\CurtainGridFamilyDBAPI.dll
+C:\Users\Tans73647\source\repos\Structural-Design-Tools\SC_View\bin\Debug\ArrayElemsDBAPI.dll
+C:\Users\Tans73647\source\repos\Structural-Design-Tools\SC_View\bin\Debug\EnergyAnalysisDBAPI.dll
+C:\Users\Tans73647\source\repos\Structural-Design-Tools\SC_View\bin\Debug\BuildingSystemsDBAPI.dll
+C:\Users\Tans73647\source\repos\Structural-Design-Tools\SC_View\bin\Debug\HostObjDBAPI.dll
+C:\Users\Tans73647\source\repos\Structural-Design-Tools\SC_View\bin\Debug\RoomAreaPlanDBAPI.dll
+C:\Users\Tans73647\source\repos\Structural-Design-Tools\SC_View\bin\Debug\SiteDBAPI.dll
+C:\Users\Tans73647\source\repos\Structural-Design-Tools\SC_View\bin\Debug\SculptingDBAPI.dll
+C:\Users\Tans73647\source\repos\Structural-Design-Tools\SC_View\bin\Debug\StructuralDBAPI.dll
+C:\Users\Tans73647\source\repos\Structural-Design-Tools\SC_View\bin\Debug\InterfaceAPI.dll
+C:\Users\Tans73647\source\repos\Structural-Design-Tools\SC_View\bin\Debug\InterfaceUtilAPI.dll
+C:\Users\Tans73647\source\repos\Structural-Design-Tools\SC_View\bin\Debug\RebarDBAPI.dll
+C:\Users\Tans73647\source\repos\Structural-Design-Tools\SC_View\bin\Debug\StructuralAnalysisDBAPI.dll
+C:\Users\Tans73647\source\repos\Structural-Design-Tools\SC_View\bin\Debug\MassingDBAPI.dll
+C:\Users\Tans73647\source\repos\Structural-Design-Tools\SC_View\bin\Debug\AssemblyDBAPI.dll
+C:\Users\Tans73647\source\repos\Structural-Design-Tools\SC_View\bin\Debug\DPartDBAPI.dll
+C:\Users\Tans73647\source\repos\Structural-Design-Tools\SC_View\bin\Debug\NumberingDBAPI.dll
+C:\Users\Tans73647\source\repos\Structural-Design-Tools\SC_View\bin\Debug\PointCloudAccessAPI.dll
+C:\Users\Tans73647\source\repos\Structural-Design-Tools\SC_View\bin\Debug\StairRampDBAPI.dll
+C:\Users\Tans73647\source\repos\Structural-Design-Tools\SC_View\bin\Debug\AnalysisAppsDBAPI.dll
+C:\Users\Tans73647\source\repos\Structural-Design-Tools\SC_View\bin\Debug\MaterialDBAPI.dll
+C:\Users\Tans73647\source\repos\Structural-Design-Tools\SC_View\bin\Debug\DBManagedServices.dll
+C:\Users\Tans73647\source\repos\Structural-Design-Tools\SC_View\bin\Debug\AdWindows.dll
+C:\Users\Tans73647\source\repos\Structural-Design-Tools\SC_View\bin\Debug\RevitAddInUtility.dll
+C:\Users\Tans73647\source\repos\Structural-Design-Tools\SC_View\bin\Debug\APIInterop.dll
+C:\Users\Tans73647\source\repos\Structural-Design-Tools\SC_View\bin\Debug\UIFramework.dll
+C:\Users\Tans73647\source\repos\Structural-Design-Tools\SC_View\bin\Debug\AddInManager.dll
+C:\Users\Tans73647\source\repos\Structural-Design-Tools\SC_View\bin\Debug\RevitUIAPI.dll
+C:\Users\Tans73647\source\repos\Structural-Design-Tools\SC_View\bin\Debug\BuildingSystemsUIAPI.dll
+C:\Users\Tans73647\source\repos\Structural-Design-Tools\SC_View\bin\Debug\DesktopMFCAPI.dll
+C:\Users\Tans73647\source\repos\Structural-Design-Tools\SC_View\bin\Debug\APIUIAPI.dll
+C:\Users\Tans73647\source\repos\Structural-Design-Tools\SC_View\bin\Debug\RevitMFCAPI.dll
+C:\Users\Tans73647\source\repos\Structural-Design-Tools\SC_View\bin\Debug\EssentialsUIAPI.dll
+C:\Users\Tans73647\source\repos\Structural-Design-Tools\SC_View\bin\Debug\EnergyAnalysisUtilitiesAPI.dll
+C:\Users\Tans73647\source\repos\Structural-Design-Tools\SC_View\bin\Debug\DetailUIAPI.dll
+C:\Users\Tans73647\source\repos\Structural-Design-Tools\SC_View\bin\Debug\UIFrameworkServices.dll
+C:\Users\Tans73647\source\repos\Structural-Design-Tools\SC_View\bin\Debug\ASAutoConnectionMgd.dll
+C:\Users\Tans73647\source\repos\Structural-Design-Tools\SC_View\bin\Debug\RvtFamilyMapping.dll
+C:\Users\Tans73647\source\repos\Structural-Design-Tools\SC_View\bin\Debug\AsRealDWGLoaderMgd.dll
+C:\Users\Tans73647\source\repos\Structural-Design-Tools\SC_View\bin\Debug\ASRepository.dll
+C:\Users\Tans73647\source\repos\Structural-Design-Tools\SC_View\bin\Debug\Interop.ASGTCMappingLib.dll
+C:\Users\Tans73647\source\repos\Structural-Design-Tools\SC_View\bin\Debug\JointDesignUtils.dll
+C:\Users\Tans73647\source\repos\Structural-Design-Tools\SC_View\bin\Debug\ASDataObjects.dll
+C:\Users\Tans73647\source\repos\Structural-Design-Tools\SC_View\bin\Debug\RvtModeler4AS.dll
+C:\Users\Tans73647\source\repos\Structural-Design-Tools\SC_View\bin\Debug\RvtASGeomConversions.dll
+C:\Users\Tans73647\source\repos\Structural-Design-Tools\SC_View\bin\Debug\ASSettings.dll
+C:\Users\Tans73647\source\repos\Structural-Design-Tools\SC_View\bin\Debug\ASSettingsMgd.dll
+C:\Users\Tans73647\source\repos\Structural-Design-Tools\SC_View\bin\Debug\RvtASDynamicProfiles.dll
+C:\Users\Tans73647\source\repos\Structural-Design-Tools\SC_View\bin\Debug\DotNetRootsMgd.dll
+C:\Users\Tans73647\source\repos\Structural-Design-Tools\SC_View\bin\Debug\ManagedMC3.dll
+C:\Users\Tans73647\source\repos\Structural-Design-Tools\SC_View\bin\Debug\Autodesk.UI.Themes.dll
+C:\Users\Tans73647\source\repos\Structural-Design-Tools\SC_View\bin\Debug\Xceed.Wpf.AvalonDock.dll
+C:\Users\Tans73647\source\repos\Structural-Design-Tools\SC_View\bin\Debug\Autodesk.UI.Windows.dll
+C:\Users\Tans73647\source\repos\Structural-Design-Tools\SC_View\bin\Debug\ASNetRuntime.dll
+C:\Users\Tans73647\source\repos\Structural-Design-Tools\SC_View\bin\Debug\EntityFramework.dll
+C:\Users\Tans73647\source\repos\Structural-Design-Tools\SC_View\bin\Debug\Interop.AstSTEELAUTOMATIONLib5.dll
+C:\Users\Tans73647\source\repos\Structural-Design-Tools\SC_View\bin\Debug\AstDocReport.dll
+C:\Users\Tans73647\source\repos\Structural-Design-Tools\SC_View\bin\Debug\Interop.DSCRootsCOMLib.dll
+C:\Users\Tans73647\source\repos\Structural-Design-Tools\SC_View\bin\Debug\Interop.RTFENGINECOMLib15.dll
+C:\Users\Tans73647\source\repos\Structural-Design-Tools\SC_View\bin\Debug\stdole.dll
+C:\Users\Tans73647\source\repos\Structural-Design-Tools\SC_View\bin\Debug\eToolKit_Classes.pdb
+C:\Users\Tans73647\source\repos\Structural-Design-Tools\SC_View\bin\Debug\eToolkit_View.pdb
+C:\Users\Tans73647\source\repos\Structural-Design-Tools\SC_View\bin\Debug\Models_SC_Proj.pdb
+C:\Users\Tans73647\source\repos\Structural-Design-Tools\SC_View\bin\Debug\RevitConnectionProperties.pdb
+C:\Users\Tans73647\source\repos\Structural-Design-Tools\SC_View\bin\Debug\Revit_eToolKit_Map.pdb
+C:\Users\Tans73647\source\repos\Structural-Design-Tools\SC_View\bin\Debug\SC_ObjectViewer.pdb
+C:\Users\Tans73647\source\repos\Structural-Design-Tools\SC_View\bin\Debug\SC_ObjectViewer.dll.config
+C:\Users\Tans73647\source\repos\Structural-Design-Tools\SC_View\bin\Debug\Microsoft.Expression.Interactions.xml
+C:\Users\Tans73647\source\repos\Structural-Design-Tools\SC_View\bin\Debug\Prism.pdb
+C:\Users\Tans73647\source\repos\Structural-Design-Tools\SC_View\bin\Debug\Prism.xml
+C:\Users\Tans73647\source\repos\Structural-Design-Tools\SC_View\bin\Debug\Prism.Unity.Wpf.pdb
+C:\Users\Tans73647\source\repos\Structural-Design-Tools\SC_View\bin\Debug\Prism.Unity.Wpf.xml
+C:\Users\Tans73647\source\repos\Structural-Design-Tools\SC_View\bin\Debug\Prism.Wpf.pdb
+C:\Users\Tans73647\source\repos\Structural-Design-Tools\SC_View\bin\Debug\Prism.Wpf.xml
+C:\Users\Tans73647\source\repos\Structural-Design-Tools\SC_View\bin\Debug\RevitAPI.xml
+C:\Users\Tans73647\source\repos\Structural-Design-Tools\SC_View\bin\Debug\RevitAPIUI.xml
+C:\Users\Tans73647\source\repos\Structural-Design-Tools\SC_View\bin\Debug\RevitAddInUtility.xml
+C:\Users\Tans73647\source\repos\Structural-Design-Tools\SC_View\bin\Debug\cs-CZ\RvtDwgAddon.resources.dll
+C:\Users\Tans73647\source\repos\Structural-Design-Tools\SC_View\bin\Debug\de-DE\RvtDwgAddon.resources.dll
+C:\Users\Tans73647\source\repos\Structural-Design-Tools\SC_View\bin\Debug\en-US\RvtDwgAddon.resources.dll
+C:\Users\Tans73647\source\repos\Structural-Design-Tools\SC_View\bin\Debug\es-ES\RvtDwgAddon.resources.dll
+C:\Users\Tans73647\source\repos\Structural-Design-Tools\SC_View\bin\Debug\fr-FR\RvtDwgAddon.resources.dll
+C:\Users\Tans73647\source\repos\Structural-Design-Tools\SC_View\bin\Debug\it-IT\RvtDwgAddon.resources.dll
+C:\Users\Tans73647\source\repos\Structural-Design-Tools\SC_View\bin\Debug\ja-JP\RvtDwgAddon.resources.dll
+C:\Users\Tans73647\source\repos\Structural-Design-Tools\SC_View\bin\Debug\ko-KR\RvtDwgAddon.resources.dll
+C:\Users\Tans73647\source\repos\Structural-Design-Tools\SC_View\bin\Debug\pl-PL\RvtDwgAddon.resources.dll
+C:\Users\Tans73647\source\repos\Structural-Design-Tools\SC_View\bin\Debug\pt-BR\RvtDwgAddon.resources.dll
+C:\Users\Tans73647\source\repos\Structural-Design-Tools\SC_View\bin\Debug\ru-RU\RvtDwgAddon.resources.dll
+C:\Users\Tans73647\source\repos\Structural-Design-Tools\SC_View\bin\Debug\zh-CN\RvtDwgAddon.resources.dll
+C:\Users\Tans73647\source\repos\Structural-Design-Tools\SC_View\bin\Debug\zh-TW\RvtDwgAddon.resources.dll
+C:\Users\Tans73647\source\repos\Structural-Design-Tools\SC_View\bin\Debug\cs-CZ\AdWindows.resources.dll
+C:\Users\Tans73647\source\repos\Structural-Design-Tools\SC_View\bin\Debug\de-DE\AdWindows.resources.dll
+C:\Users\Tans73647\source\repos\Structural-Design-Tools\SC_View\bin\Debug\en-GB\AdWindows.resources.dll
+C:\Users\Tans73647\source\repos\Structural-Design-Tools\SC_View\bin\Debug\en-US\AdWindows.resources.dll
+C:\Users\Tans73647\source\repos\Structural-Design-Tools\SC_View\bin\Debug\es-ES\AdWindows.resources.dll
+C:\Users\Tans73647\source\repos\Structural-Design-Tools\SC_View\bin\Debug\fr-FR\AdWindows.resources.dll
+C:\Users\Tans73647\source\repos\Structural-Design-Tools\SC_View\bin\Debug\it-IT\AdWindows.resources.dll
+C:\Users\Tans73647\source\repos\Structural-Design-Tools\SC_View\bin\Debug\ja-JP\AdWindows.resources.dll
+C:\Users\Tans73647\source\repos\Structural-Design-Tools\SC_View\bin\Debug\ko-KR\AdWindows.resources.dll
+C:\Users\Tans73647\source\repos\Structural-Design-Tools\SC_View\bin\Debug\pl-PL\AdWindows.resources.dll
+C:\Users\Tans73647\source\repos\Structural-Design-Tools\SC_View\bin\Debug\pt-BR\AdWindows.resources.dll
+C:\Users\Tans73647\source\repos\Structural-Design-Tools\SC_View\bin\Debug\ru-RU\AdWindows.resources.dll
+C:\Users\Tans73647\source\repos\Structural-Design-Tools\SC_View\bin\Debug\zh-CN\AdWindows.resources.dll
+C:\Users\Tans73647\source\repos\Structural-Design-Tools\SC_View\bin\Debug\zh-TW\AdWindows.resources.dll
+C:\Users\Tans73647\source\repos\Structural-Design-Tools\SC_View\bin\Debug\AstDocReport.XmlSerializers.dll
+C:\Users\Tans73647\source\repos\Structural-Design-Tools\SC_View\obj\Debug\SC_View.csprojAssemblyReference.cache
+C:\Users\Tans73647\source\repos\Structural-Design-Tools\SC_View\obj\Debug\MainWindow.g.cs
+C:\Users\Tans73647\source\repos\Structural-Design-Tools\SC_View\obj\Debug\App.g.cs
+C:\Users\Tans73647\source\repos\Structural-Design-Tools\SC_View\obj\Debug\SC_View_MarkupCompile.cache
+C:\Users\Tans73647\source\repos\Structural-Design-Tools\SC_View\obj\Debug\SC_View_MarkupCompile.lref
+C:\Users\Tans73647\source\repos\Structural-Design-Tools\SC_View\obj\Debug\MainWindow.baml
+C:\Users\Tans73647\source\repos\Structural-Design-Tools\SC_View\obj\Debug\SC_View.g.resources
+C:\Users\Tans73647\source\repos\Structural-Design-Tools\SC_View\obj\Debug\SC_View.Properties.Resources.resources
+C:\Users\Tans73647\source\repos\Structural-Design-Tools\SC_View\obj\Debug\SC_View.csproj.GenerateResource.cache
+C:\Users\Tans73647\source\repos\Structural-Design-Tools\SC_View\obj\Debug\SC_View.csproj.CoreCompileInputs.cache
+C:\Users\Tans73647\source\repos\Structural-Design-Tools\SC_View\obj\Debug\SC_View.csproj.CopyComplete
+C:\Users\Tans73647\source\repos\Structural-Design-Tools\SC_View\obj\Debug\SC_View.exe
+C:\Users\Tans73647\source\repos\Structural-Design-Tools\SC_View\obj\Debug\SC_View.pdb
+C:\Users\Tans73647\source\repos\ConnectionDesign\SC_View\bin\Debug\SC_View.exe.config
+C:\Users\Tans73647\source\repos\ConnectionDesign\SC_View\bin\Debug\SC_View.exe
+C:\Users\Tans73647\source\repos\ConnectionDesign\SC_View\bin\Debug\SC_View.pdb
+C:\Users\Tans73647\source\repos\ConnectionDesign\SC_View\bin\Debug\ASObjectsMgd.dll
+C:\Users\Tans73647\source\repos\ConnectionDesign\SC_View\bin\Debug\CommonServiceLocator.dll
+C:\Users\Tans73647\source\repos\ConnectionDesign\SC_View\bin\Debug\eToolKit_Classes.dll
+C:\Users\Tans73647\source\repos\ConnectionDesign\SC_View\bin\Debug\eToolkit_View.dll
+C:\Users\Tans73647\source\repos\ConnectionDesign\SC_View\bin\Debug\Microsoft.Expression.Interactions.dll
+C:\Users\Tans73647\source\repos\ConnectionDesign\SC_View\bin\Debug\Models_SC_Proj.dll
+C:\Users\Tans73647\source\repos\ConnectionDesign\SC_View\bin\Debug\Prism.dll
+C:\Users\Tans73647\source\repos\ConnectionDesign\SC_View\bin\Debug\Prism.Unity.Wpf.dll
+C:\Users\Tans73647\source\repos\ConnectionDesign\SC_View\bin\Debug\Prism.Wpf.dll
+C:\Users\Tans73647\source\repos\ConnectionDesign\SC_View\bin\Debug\RevitAPI.dll
+C:\Users\Tans73647\source\repos\ConnectionDesign\SC_View\bin\Debug\RevitAPIUI.dll
+C:\Users\Tans73647\source\repos\ConnectionDesign\SC_View\bin\Debug\RevitConnectionProperties.dll
+C:\Users\Tans73647\source\repos\ConnectionDesign\SC_View\bin\Debug\Revit_eToolKit_Map.dll
+C:\Users\Tans73647\source\repos\ConnectionDesign\SC_View\bin\Debug\RvtDwgAddon.dll
+C:\Users\Tans73647\source\repos\ConnectionDesign\SC_View\bin\Debug\SC_ObjectViewer.dll
+C:\Users\Tans73647\source\repos\ConnectionDesign\SC_View\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\Tans73647\source\repos\ConnectionDesign\SC_View\bin\Debug\Unity.Abstractions.dll
+C:\Users\Tans73647\source\repos\ConnectionDesign\SC_View\bin\Debug\Unity.Container.dll
+C:\Users\Tans73647\source\repos\ConnectionDesign\SC_View\bin\Debug\ASCADLinkMgd.dll
+C:\Users\Tans73647\source\repos\ConnectionDesign\SC_View\bin\Debug\ASGeometryMgd.dll
+C:\Users\Tans73647\source\repos\ConnectionDesign\SC_View\bin\Debug\ASModelerMgd.dll
+C:\Users\Tans73647\source\repos\ConnectionDesign\SC_View\bin\Debug\ASProfilesMgd.dll
+C:\Users\Tans73647\source\repos\ConnectionDesign\SC_View\bin\Debug\DotNetRoots.dll
+C:\Users\Tans73647\source\repos\ConnectionDesign\SC_View\bin\Debug\AdpSDKCSharpWrapper.dll
+C:\Users\Tans73647\source\repos\ConnectionDesign\SC_View\bin\Debug\RevitAPIFoundation.dll
+C:\Users\Tans73647\source\repos\ConnectionDesign\SC_View\bin\Debug\RevitDBAPI.dll
+C:\Users\Tans73647\source\repos\ConnectionDesign\SC_View\bin\Debug\PersistenceDBAPI.dll
+C:\Users\Tans73647\source\repos\ConnectionDesign\SC_View\bin\Debug\UtilityAPI.dll
+C:\Users\Tans73647\source\repos\ConnectionDesign\SC_View\bin\Debug\APIDBAPI.dll
+C:\Users\Tans73647\source\repos\ConnectionDesign\SC_View\bin\Debug\GraphicsAPI.dll
+C:\Users\Tans73647\source\repos\ConnectionDesign\SC_View\bin\Debug\ElementGroupDBAPI.dll
+C:\Users\Tans73647\source\repos\ConnectionDesign\SC_View\bin\Debug\EssentialsDBAPI.dll
+C:\Users\Tans73647\source\repos\ConnectionDesign\SC_View\bin\Debug\GeomUtilAPI.dll
+C:\Users\Tans73647\source\repos\ConnectionDesign\SC_View\bin\Debug\FamilyDBAPI.dll
+C:\Users\Tans73647\source\repos\ConnectionDesign\SC_View\bin\Debug\DetailDBAPI.dll
+C:\Users\Tans73647\source\repos\ConnectionDesign\SC_View\bin\Debug\CurtainGridFamilyDBAPI.dll
+C:\Users\Tans73647\source\repos\ConnectionDesign\SC_View\bin\Debug\ArrayElemsDBAPI.dll
+C:\Users\Tans73647\source\repos\ConnectionDesign\SC_View\bin\Debug\EnergyAnalysisDBAPI.dll
+C:\Users\Tans73647\source\repos\ConnectionDesign\SC_View\bin\Debug\BuildingSystemsDBAPI.dll
+C:\Users\Tans73647\source\repos\ConnectionDesign\SC_View\bin\Debug\HostObjDBAPI.dll
+C:\Users\Tans73647\source\repos\ConnectionDesign\SC_View\bin\Debug\RoomAreaPlanDBAPI.dll
+C:\Users\Tans73647\source\repos\ConnectionDesign\SC_View\bin\Debug\SiteDBAPI.dll
+C:\Users\Tans73647\source\repos\ConnectionDesign\SC_View\bin\Debug\SculptingDBAPI.dll
+C:\Users\Tans73647\source\repos\ConnectionDesign\SC_View\bin\Debug\StructuralDBAPI.dll
+C:\Users\Tans73647\source\repos\ConnectionDesign\SC_View\bin\Debug\InterfaceAPI.dll
+C:\Users\Tans73647\source\repos\ConnectionDesign\SC_View\bin\Debug\InterfaceUtilAPI.dll
+C:\Users\Tans73647\source\repos\ConnectionDesign\SC_View\bin\Debug\RebarDBAPI.dll
+C:\Users\Tans73647\source\repos\ConnectionDesign\SC_View\bin\Debug\StructuralAnalysisDBAPI.dll
+C:\Users\Tans73647\source\repos\ConnectionDesign\SC_View\bin\Debug\MassingDBAPI.dll
+C:\Users\Tans73647\source\repos\ConnectionDesign\SC_View\bin\Debug\AssemblyDBAPI.dll
+C:\Users\Tans73647\source\repos\ConnectionDesign\SC_View\bin\Debug\DPartDBAPI.dll
+C:\Users\Tans73647\source\repos\ConnectionDesign\SC_View\bin\Debug\NumberingDBAPI.dll
+C:\Users\Tans73647\source\repos\ConnectionDesign\SC_View\bin\Debug\PointCloudAccessAPI.dll
+C:\Users\Tans73647\source\repos\ConnectionDesign\SC_View\bin\Debug\StairRampDBAPI.dll
+C:\Users\Tans73647\source\repos\ConnectionDesign\SC_View\bin\Debug\AnalysisAppsDBAPI.dll
+C:\Users\Tans73647\source\repos\ConnectionDesign\SC_View\bin\Debug\MaterialDBAPI.dll
+C:\Users\Tans73647\source\repos\ConnectionDesign\SC_View\bin\Debug\DBManagedServices.dll
+C:\Users\Tans73647\source\repos\ConnectionDesign\SC_View\bin\Debug\AdWindows.dll
+C:\Users\Tans73647\source\repos\ConnectionDesign\SC_View\bin\Debug\RevitAddInUtility.dll
+C:\Users\Tans73647\source\repos\ConnectionDesign\SC_View\bin\Debug\APIInterop.dll
+C:\Users\Tans73647\source\repos\ConnectionDesign\SC_View\bin\Debug\UIFramework.dll
+C:\Users\Tans73647\source\repos\ConnectionDesign\SC_View\bin\Debug\AddInManager.dll
+C:\Users\Tans73647\source\repos\ConnectionDesign\SC_View\bin\Debug\RevitUIAPI.dll
+C:\Users\Tans73647\source\repos\ConnectionDesign\SC_View\bin\Debug\BuildingSystemsUIAPI.dll
+C:\Users\Tans73647\source\repos\ConnectionDesign\SC_View\bin\Debug\DesktopMFCAPI.dll
+C:\Users\Tans73647\source\repos\ConnectionDesign\SC_View\bin\Debug\APIUIAPI.dll
+C:\Users\Tans73647\source\repos\ConnectionDesign\SC_View\bin\Debug\RevitMFCAPI.dll
+C:\Users\Tans73647\source\repos\ConnectionDesign\SC_View\bin\Debug\EssentialsUIAPI.dll
+C:\Users\Tans73647\source\repos\ConnectionDesign\SC_View\bin\Debug\EnergyAnalysisUtilitiesAPI.dll
+C:\Users\Tans73647\source\repos\ConnectionDesign\SC_View\bin\Debug\DetailUIAPI.dll
+C:\Users\Tans73647\source\repos\ConnectionDesign\SC_View\bin\Debug\UIFrameworkServices.dll
+C:\Users\Tans73647\source\repos\ConnectionDesign\SC_View\bin\Debug\ASAutoConnectionMgd.dll
+C:\Users\Tans73647\source\repos\ConnectionDesign\SC_View\bin\Debug\RvtFamilyMapping.dll
+C:\Users\Tans73647\source\repos\ConnectionDesign\SC_View\bin\Debug\AsRealDWGLoaderMgd.dll
+C:\Users\Tans73647\source\repos\ConnectionDesign\SC_View\bin\Debug\ASRepository.dll
+C:\Users\Tans73647\source\repos\ConnectionDesign\SC_View\bin\Debug\Interop.ASGTCMappingLib.dll
+C:\Users\Tans73647\source\repos\ConnectionDesign\SC_View\bin\Debug\JointDesignUtils.dll
+C:\Users\Tans73647\source\repos\ConnectionDesign\SC_View\bin\Debug\ASDataObjects.dll
+C:\Users\Tans73647\source\repos\ConnectionDesign\SC_View\bin\Debug\RvtModeler4AS.dll
+C:\Users\Tans73647\source\repos\ConnectionDesign\SC_View\bin\Debug\RvtASGeomConversions.dll
+C:\Users\Tans73647\source\repos\ConnectionDesign\SC_View\bin\Debug\ASSettings.dll
+C:\Users\Tans73647\source\repos\ConnectionDesign\SC_View\bin\Debug\ASSettingsMgd.dll
+C:\Users\Tans73647\source\repos\ConnectionDesign\SC_View\bin\Debug\RvtASDynamicProfiles.dll
+C:\Users\Tans73647\source\repos\ConnectionDesign\SC_View\bin\Debug\DotNetRootsMgd.dll
+C:\Users\Tans73647\source\repos\ConnectionDesign\SC_View\bin\Debug\ManagedMC3.dll
+C:\Users\Tans73647\source\repos\ConnectionDesign\SC_View\bin\Debug\Autodesk.UI.Themes.dll
+C:\Users\Tans73647\source\repos\ConnectionDesign\SC_View\bin\Debug\Xceed.Wpf.AvalonDock.dll
+C:\Users\Tans73647\source\repos\ConnectionDesign\SC_View\bin\Debug\Autodesk.UI.Windows.dll
+C:\Users\Tans73647\source\repos\ConnectionDesign\SC_View\bin\Debug\ASNetRuntime.dll
+C:\Users\Tans73647\source\repos\ConnectionDesign\SC_View\bin\Debug\EntityFramework.dll
+C:\Users\Tans73647\source\repos\ConnectionDesign\SC_View\bin\Debug\Interop.AstSTEELAUTOMATIONLib5.dll
+C:\Users\Tans73647\source\repos\ConnectionDesign\SC_View\bin\Debug\AstDocReport.dll
+C:\Users\Tans73647\source\repos\ConnectionDesign\SC_View\bin\Debug\Interop.DSCRootsCOMLib.dll
+C:\Users\Tans73647\source\repos\ConnectionDesign\SC_View\bin\Debug\Interop.RTFENGINECOMLib15.dll
+C:\Users\Tans73647\source\repos\ConnectionDesign\SC_View\bin\Debug\stdole.dll
+C:\Users\Tans73647\source\repos\ConnectionDesign\SC_View\bin\Debug\eToolKit_Classes.pdb
+C:\Users\Tans73647\source\repos\ConnectionDesign\SC_View\bin\Debug\eToolkit_View.pdb
+C:\Users\Tans73647\source\repos\ConnectionDesign\SC_View\bin\Debug\Models_SC_Proj.pdb
+C:\Users\Tans73647\source\repos\ConnectionDesign\SC_View\bin\Debug\RevitConnectionProperties.pdb
+C:\Users\Tans73647\source\repos\ConnectionDesign\SC_View\bin\Debug\Revit_eToolKit_Map.pdb
+C:\Users\Tans73647\source\repos\ConnectionDesign\SC_View\bin\Debug\SC_ObjectViewer.pdb
+C:\Users\Tans73647\source\repos\ConnectionDesign\SC_View\bin\Debug\SC_ObjectViewer.dll.config
+C:\Users\Tans73647\source\repos\ConnectionDesign\SC_View\bin\Debug\Microsoft.Expression.Interactions.xml
+C:\Users\Tans73647\source\repos\ConnectionDesign\SC_View\bin\Debug\Prism.pdb
+C:\Users\Tans73647\source\repos\ConnectionDesign\SC_View\bin\Debug\Prism.xml
+C:\Users\Tans73647\source\repos\ConnectionDesign\SC_View\bin\Debug\Prism.Unity.Wpf.pdb
+C:\Users\Tans73647\source\repos\ConnectionDesign\SC_View\bin\Debug\Prism.Unity.Wpf.xml
+C:\Users\Tans73647\source\repos\ConnectionDesign\SC_View\bin\Debug\Prism.Wpf.pdb
+C:\Users\Tans73647\source\repos\ConnectionDesign\SC_View\bin\Debug\Prism.Wpf.xml
+C:\Users\Tans73647\source\repos\ConnectionDesign\SC_View\bin\Debug\RevitAPI.xml
+C:\Users\Tans73647\source\repos\ConnectionDesign\SC_View\bin\Debug\RevitAPIUI.xml
+C:\Users\Tans73647\source\repos\ConnectionDesign\SC_View\bin\Debug\RevitAddInUtility.xml
+C:\Users\Tans73647\source\repos\ConnectionDesign\SC_View\bin\Debug\cs-CZ\RvtDwgAddon.resources.dll
+C:\Users\Tans73647\source\repos\ConnectionDesign\SC_View\bin\Debug\de-DE\RvtDwgAddon.resources.dll
+C:\Users\Tans73647\source\repos\ConnectionDesign\SC_View\bin\Debug\en-US\RvtDwgAddon.resources.dll
+C:\Users\Tans73647\source\repos\ConnectionDesign\SC_View\bin\Debug\es-ES\RvtDwgAddon.resources.dll
+C:\Users\Tans73647\source\repos\ConnectionDesign\SC_View\bin\Debug\fr-FR\RvtDwgAddon.resources.dll
+C:\Users\Tans73647\source\repos\ConnectionDesign\SC_View\bin\Debug\it-IT\RvtDwgAddon.resources.dll
+C:\Users\Tans73647\source\repos\ConnectionDesign\SC_View\bin\Debug\ja-JP\RvtDwgAddon.resources.dll
+C:\Users\Tans73647\source\repos\ConnectionDesign\SC_View\bin\Debug\ko-KR\RvtDwgAddon.resources.dll
+C:\Users\Tans73647\source\repos\ConnectionDesign\SC_View\bin\Debug\pl-PL\RvtDwgAddon.resources.dll
+C:\Users\Tans73647\source\repos\ConnectionDesign\SC_View\bin\Debug\pt-BR\RvtDwgAddon.resources.dll
+C:\Users\Tans73647\source\repos\ConnectionDesign\SC_View\bin\Debug\ru-RU\RvtDwgAddon.resources.dll
+C:\Users\Tans73647\source\repos\ConnectionDesign\SC_View\bin\Debug\zh-CN\RvtDwgAddon.resources.dll
+C:\Users\Tans73647\source\repos\ConnectionDesign\SC_View\bin\Debug\zh-TW\RvtDwgAddon.resources.dll
+C:\Users\Tans73647\source\repos\ConnectionDesign\SC_View\bin\Debug\cs-CZ\AdWindows.resources.dll
+C:\Users\Tans73647\source\repos\ConnectionDesign\SC_View\bin\Debug\de-DE\AdWindows.resources.dll
+C:\Users\Tans73647\source\repos\ConnectionDesign\SC_View\bin\Debug\en-GB\AdWindows.resources.dll
+C:\Users\Tans73647\source\repos\ConnectionDesign\SC_View\bin\Debug\en-US\AdWindows.resources.dll
+C:\Users\Tans73647\source\repos\ConnectionDesign\SC_View\bin\Debug\es-ES\AdWindows.resources.dll
+C:\Users\Tans73647\source\repos\ConnectionDesign\SC_View\bin\Debug\fr-FR\AdWindows.resources.dll
+C:\Users\Tans73647\source\repos\ConnectionDesign\SC_View\bin\Debug\it-IT\AdWindows.resources.dll
+C:\Users\Tans73647\source\repos\ConnectionDesign\SC_View\bin\Debug\ja-JP\AdWindows.resources.dll
+C:\Users\Tans73647\source\repos\ConnectionDesign\SC_View\bin\Debug\ko-KR\AdWindows.resources.dll
+C:\Users\Tans73647\source\repos\ConnectionDesign\SC_View\bin\Debug\pl-PL\AdWindows.resources.dll
+C:\Users\Tans73647\source\repos\ConnectionDesign\SC_View\bin\Debug\pt-BR\AdWindows.resources.dll
+C:\Users\Tans73647\source\repos\ConnectionDesign\SC_View\bin\Debug\ru-RU\AdWindows.resources.dll
+C:\Users\Tans73647\source\repos\ConnectionDesign\SC_View\bin\Debug\zh-CN\AdWindows.resources.dll
+C:\Users\Tans73647\source\repos\ConnectionDesign\SC_View\bin\Debug\zh-TW\AdWindows.resources.dll
+C:\Users\Tans73647\source\repos\ConnectionDesign\SC_View\bin\Debug\AstDocReport.XmlSerializers.dll
+C:\Users\Tans73647\source\repos\ConnectionDesign\SC_View\obj\Debug\SC_View.csprojAssemblyReference.cache
+C:\Users\Tans73647\source\repos\ConnectionDesign\SC_View\obj\Debug\MainWindow.g.cs
+C:\Users\Tans73647\source\repos\ConnectionDesign\SC_View\obj\Debug\App.g.cs
+C:\Users\Tans73647\source\repos\ConnectionDesign\SC_View\obj\Debug\SC_View_MarkupCompile.cache
+C:\Users\Tans73647\source\repos\ConnectionDesign\SC_View\obj\Debug\SC_View_MarkupCompile.lref
+C:\Users\Tans73647\source\repos\ConnectionDesign\SC_View\obj\Debug\MainWindow.baml
+C:\Users\Tans73647\source\repos\ConnectionDesign\SC_View\obj\Debug\SC_View.g.resources
+C:\Users\Tans73647\source\repos\ConnectionDesign\SC_View\obj\Debug\SC_View.Properties.Resources.resources
+C:\Users\Tans73647\source\repos\ConnectionDesign\SC_View\obj\Debug\SC_View.csproj.GenerateResource.cache
+C:\Users\Tans73647\source\repos\ConnectionDesign\SC_View\obj\Debug\SC_View.csproj.CoreCompileInputs.cache
+C:\Users\Tans73647\source\repos\ConnectionDesign\SC_View\obj\Debug\SC_View.csproj.CopyComplete
+C:\Users\Tans73647\source\repos\ConnectionDesign\SC_View\obj\Debug\SC_View.exe
+C:\Users\Tans73647\source\repos\ConnectionDesign\SC_View\obj\Debug\SC_View.pdb
+C:\Users\Tans73647\Documents\My VS Projects\SteelConnectionDesign\SC_View\bin\Debug\SC_View.exe.config
+C:\Users\Tans73647\Documents\My VS Projects\SteelConnectionDesign\SC_View\bin\Debug\SC_View.exe
+C:\Users\Tans73647\Documents\My VS Projects\SteelConnectionDesign\SC_View\bin\Debug\SC_View.pdb
+C:\Users\Tans73647\Documents\My VS Projects\SteelConnectionDesign\SC_View\bin\Debug\ASObjectsMgd.dll
+C:\Users\Tans73647\Documents\My VS Projects\SteelConnectionDesign\SC_View\bin\Debug\CommonServiceLocator.dll
+C:\Users\Tans73647\Documents\My VS Projects\SteelConnectionDesign\SC_View\bin\Debug\eToolKit_Classes.dll
+C:\Users\Tans73647\Documents\My VS Projects\SteelConnectionDesign\SC_View\bin\Debug\eToolkit_View.dll
+C:\Users\Tans73647\Documents\My VS Projects\SteelConnectionDesign\SC_View\bin\Debug\Microsoft.Expression.Interactions.dll
+C:\Users\Tans73647\Documents\My VS Projects\SteelConnectionDesign\SC_View\bin\Debug\Models_SC_Proj.dll
+C:\Users\Tans73647\Documents\My VS Projects\SteelConnectionDesign\SC_View\bin\Debug\Prism.dll
+C:\Users\Tans73647\Documents\My VS Projects\SteelConnectionDesign\SC_View\bin\Debug\Prism.Unity.Wpf.dll
+C:\Users\Tans73647\Documents\My VS Projects\SteelConnectionDesign\SC_View\bin\Debug\Prism.Wpf.dll
+C:\Users\Tans73647\Documents\My VS Projects\SteelConnectionDesign\SC_View\bin\Debug\RevitAPI.dll
+C:\Users\Tans73647\Documents\My VS Projects\SteelConnectionDesign\SC_View\bin\Debug\RevitAPIUI.dll
+C:\Users\Tans73647\Documents\My VS Projects\SteelConnectionDesign\SC_View\bin\Debug\RevitConnectionProperties.dll
+C:\Users\Tans73647\Documents\My VS Projects\SteelConnectionDesign\SC_View\bin\Debug\Revit_eToolKit_Map.dll
+C:\Users\Tans73647\Documents\My VS Projects\SteelConnectionDesign\SC_View\bin\Debug\RvtDwgAddon.dll
+C:\Users\Tans73647\Documents\My VS Projects\SteelConnectionDesign\SC_View\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\Tans73647\Documents\My VS Projects\SteelConnectionDesign\SC_View\bin\Debug\Unity.Abstractions.dll
+C:\Users\Tans73647\Documents\My VS Projects\SteelConnectionDesign\SC_View\bin\Debug\Unity.Container.dll
+C:\Users\Tans73647\Documents\My VS Projects\SteelConnectionDesign\SC_View\bin\Debug\ASCADLinkMgd.dll
+C:\Users\Tans73647\Documents\My VS Projects\SteelConnectionDesign\SC_View\bin\Debug\ASGeometryMgd.dll
+C:\Users\Tans73647\Documents\My VS Projects\SteelConnectionDesign\SC_View\bin\Debug\ASModelerMgd.dll
+C:\Users\Tans73647\Documents\My VS Projects\SteelConnectionDesign\SC_View\bin\Debug\ASProfilesMgd.dll
+C:\Users\Tans73647\Documents\My VS Projects\SteelConnectionDesign\SC_View\bin\Debug\DotNetRoots.dll
+C:\Users\Tans73647\Documents\My VS Projects\SteelConnectionDesign\SC_View\bin\Debug\AdpSDKCSharpWrapper.dll
+C:\Users\Tans73647\Documents\My VS Projects\SteelConnectionDesign\SC_View\bin\Debug\RevitAPIFoundation.dll
+C:\Users\Tans73647\Documents\My VS Projects\SteelConnectionDesign\SC_View\bin\Debug\RevitDBAPI.dll
+C:\Users\Tans73647\Documents\My VS Projects\SteelConnectionDesign\SC_View\bin\Debug\PersistenceDBAPI.dll
+C:\Users\Tans73647\Documents\My VS Projects\SteelConnectionDesign\SC_View\bin\Debug\UtilityAPI.dll
+C:\Users\Tans73647\Documents\My VS Projects\SteelConnectionDesign\SC_View\bin\Debug\APIDBAPI.dll
+C:\Users\Tans73647\Documents\My VS Projects\SteelConnectionDesign\SC_View\bin\Debug\GraphicsAPI.dll
+C:\Users\Tans73647\Documents\My VS Projects\SteelConnectionDesign\SC_View\bin\Debug\ElementGroupDBAPI.dll
+C:\Users\Tans73647\Documents\My VS Projects\SteelConnectionDesign\SC_View\bin\Debug\EssentialsDBAPI.dll
+C:\Users\Tans73647\Documents\My VS Projects\SteelConnectionDesign\SC_View\bin\Debug\GeomUtilAPI.dll
+C:\Users\Tans73647\Documents\My VS Projects\SteelConnectionDesign\SC_View\bin\Debug\FamilyDBAPI.dll
+C:\Users\Tans73647\Documents\My VS Projects\SteelConnectionDesign\SC_View\bin\Debug\DetailDBAPI.dll
+C:\Users\Tans73647\Documents\My VS Projects\SteelConnectionDesign\SC_View\bin\Debug\CurtainGridFamilyDBAPI.dll
+C:\Users\Tans73647\Documents\My VS Projects\SteelConnectionDesign\SC_View\bin\Debug\ArrayElemsDBAPI.dll
+C:\Users\Tans73647\Documents\My VS Projects\SteelConnectionDesign\SC_View\bin\Debug\EnergyAnalysisDBAPI.dll
+C:\Users\Tans73647\Documents\My VS Projects\SteelConnectionDesign\SC_View\bin\Debug\BuildingSystemsDBAPI.dll
+C:\Users\Tans73647\Documents\My VS Projects\SteelConnectionDesign\SC_View\bin\Debug\HostObjDBAPI.dll
+C:\Users\Tans73647\Documents\My VS Projects\SteelConnectionDesign\SC_View\bin\Debug\RoomAreaPlanDBAPI.dll
+C:\Users\Tans73647\Documents\My VS Projects\SteelConnectionDesign\SC_View\bin\Debug\SiteDBAPI.dll
+C:\Users\Tans73647\Documents\My VS Projects\SteelConnectionDesign\SC_View\bin\Debug\SculptingDBAPI.dll
+C:\Users\Tans73647\Documents\My VS Projects\SteelConnectionDesign\SC_View\bin\Debug\StructuralDBAPI.dll
+C:\Users\Tans73647\Documents\My VS Projects\SteelConnectionDesign\SC_View\bin\Debug\InterfaceAPI.dll
+C:\Users\Tans73647\Documents\My VS Projects\SteelConnectionDesign\SC_View\bin\Debug\InterfaceUtilAPI.dll
+C:\Users\Tans73647\Documents\My VS Projects\SteelConnectionDesign\SC_View\bin\Debug\RebarDBAPI.dll
+C:\Users\Tans73647\Documents\My VS Projects\SteelConnectionDesign\SC_View\bin\Debug\StructuralAnalysisDBAPI.dll
+C:\Users\Tans73647\Documents\My VS Projects\SteelConnectionDesign\SC_View\bin\Debug\MassingDBAPI.dll
+C:\Users\Tans73647\Documents\My VS Projects\SteelConnectionDesign\SC_View\bin\Debug\AssemblyDBAPI.dll
+C:\Users\Tans73647\Documents\My VS Projects\SteelConnectionDesign\SC_View\bin\Debug\DPartDBAPI.dll
+C:\Users\Tans73647\Documents\My VS Projects\SteelConnectionDesign\SC_View\bin\Debug\NumberingDBAPI.dll
+C:\Users\Tans73647\Documents\My VS Projects\SteelConnectionDesign\SC_View\bin\Debug\PointCloudAccessAPI.dll
+C:\Users\Tans73647\Documents\My VS Projects\SteelConnectionDesign\SC_View\bin\Debug\StairRampDBAPI.dll
+C:\Users\Tans73647\Documents\My VS Projects\SteelConnectionDesign\SC_View\bin\Debug\AnalysisAppsDBAPI.dll
+C:\Users\Tans73647\Documents\My VS Projects\SteelConnectionDesign\SC_View\bin\Debug\MaterialDBAPI.dll
+C:\Users\Tans73647\Documents\My VS Projects\SteelConnectionDesign\SC_View\bin\Debug\DBManagedServices.dll
+C:\Users\Tans73647\Documents\My VS Projects\SteelConnectionDesign\SC_View\bin\Debug\AdWindows.dll
+C:\Users\Tans73647\Documents\My VS Projects\SteelConnectionDesign\SC_View\bin\Debug\RevitAddInUtility.dll
+C:\Users\Tans73647\Documents\My VS Projects\SteelConnectionDesign\SC_View\bin\Debug\APIInterop.dll
+C:\Users\Tans73647\Documents\My VS Projects\SteelConnectionDesign\SC_View\bin\Debug\UIFramework.dll
+C:\Users\Tans73647\Documents\My VS Projects\SteelConnectionDesign\SC_View\bin\Debug\AddInManager.dll
+C:\Users\Tans73647\Documents\My VS Projects\SteelConnectionDesign\SC_View\bin\Debug\RevitUIAPI.dll
+C:\Users\Tans73647\Documents\My VS Projects\SteelConnectionDesign\SC_View\bin\Debug\BuildingSystemsUIAPI.dll
+C:\Users\Tans73647\Documents\My VS Projects\SteelConnectionDesign\SC_View\bin\Debug\DesktopMFCAPI.dll
+C:\Users\Tans73647\Documents\My VS Projects\SteelConnectionDesign\SC_View\bin\Debug\APIUIAPI.dll
+C:\Users\Tans73647\Documents\My VS Projects\SteelConnectionDesign\SC_View\bin\Debug\RevitMFCAPI.dll
+C:\Users\Tans73647\Documents\My VS Projects\SteelConnectionDesign\SC_View\bin\Debug\EssentialsUIAPI.dll
+C:\Users\Tans73647\Documents\My VS Projects\SteelConnectionDesign\SC_View\bin\Debug\EnergyAnalysisUtilitiesAPI.dll
+C:\Users\Tans73647\Documents\My VS Projects\SteelConnectionDesign\SC_View\bin\Debug\DetailUIAPI.dll
+C:\Users\Tans73647\Documents\My VS Projects\SteelConnectionDesign\SC_View\bin\Debug\UIFrameworkServices.dll
+C:\Users\Tans73647\Documents\My VS Projects\SteelConnectionDesign\SC_View\bin\Debug\ASAutoConnectionMgd.dll
+C:\Users\Tans73647\Documents\My VS Projects\SteelConnectionDesign\SC_View\bin\Debug\RvtFamilyMapping.dll
+C:\Users\Tans73647\Documents\My VS Projects\SteelConnectionDesign\SC_View\bin\Debug\AsRealDWGLoaderMgd.dll
+C:\Users\Tans73647\Documents\My VS Projects\SteelConnectionDesign\SC_View\bin\Debug\ASRepository.dll
+C:\Users\Tans73647\Documents\My VS Projects\SteelConnectionDesign\SC_View\bin\Debug\Interop.ASGTCMappingLib.dll
+C:\Users\Tans73647\Documents\My VS Projects\SteelConnectionDesign\SC_View\bin\Debug\JointDesignUtils.dll
+C:\Users\Tans73647\Documents\My VS Projects\SteelConnectionDesign\SC_View\bin\Debug\ASDataObjects.dll
+C:\Users\Tans73647\Documents\My VS Projects\SteelConnectionDesign\SC_View\bin\Debug\RvtModeler4AS.dll
+C:\Users\Tans73647\Documents\My VS Projects\SteelConnectionDesign\SC_View\bin\Debug\RvtASGeomConversions.dll
+C:\Users\Tans73647\Documents\My VS Projects\SteelConnectionDesign\SC_View\bin\Debug\ASSettings.dll
+C:\Users\Tans73647\Documents\My VS Projects\SteelConnectionDesign\SC_View\bin\Debug\ASSettingsMgd.dll
+C:\Users\Tans73647\Documents\My VS Projects\SteelConnectionDesign\SC_View\bin\Debug\RvtASDynamicProfiles.dll
+C:\Users\Tans73647\Documents\My VS Projects\SteelConnectionDesign\SC_View\bin\Debug\DotNetRootsMgd.dll
+C:\Users\Tans73647\Documents\My VS Projects\SteelConnectionDesign\SC_View\bin\Debug\ManagedMC3.dll
+C:\Users\Tans73647\Documents\My VS Projects\SteelConnectionDesign\SC_View\bin\Debug\Autodesk.UI.Themes.dll
+C:\Users\Tans73647\Documents\My VS Projects\SteelConnectionDesign\SC_View\bin\Debug\Xceed.Wpf.AvalonDock.dll
+C:\Users\Tans73647\Documents\My VS Projects\SteelConnectionDesign\SC_View\bin\Debug\Autodesk.UI.Windows.dll
+C:\Users\Tans73647\Documents\My VS Projects\SteelConnectionDesign\SC_View\bin\Debug\ASNetRuntime.dll
+C:\Users\Tans73647\Documents\My VS Projects\SteelConnectionDesign\SC_View\bin\Debug\EntityFramework.dll
+C:\Users\Tans73647\Documents\My VS Projects\SteelConnectionDesign\SC_View\bin\Debug\Interop.AstSTEELAUTOMATIONLib5.dll
+C:\Users\Tans73647\Documents\My VS Projects\SteelConnectionDesign\SC_View\bin\Debug\AstDocReport.dll
+C:\Users\Tans73647\Documents\My VS Projects\SteelConnectionDesign\SC_View\bin\Debug\Interop.DSCRootsCOMLib.dll
+C:\Users\Tans73647\Documents\My VS Projects\SteelConnectionDesign\SC_View\bin\Debug\Interop.RTFENGINECOMLib15.dll
+C:\Users\Tans73647\Documents\My VS Projects\SteelConnectionDesign\SC_View\bin\Debug\stdole.dll
+C:\Users\Tans73647\Documents\My VS Projects\SteelConnectionDesign\SC_View\bin\Debug\eToolKit_Classes.pdb
+C:\Users\Tans73647\Documents\My VS Projects\SteelConnectionDesign\SC_View\bin\Debug\eToolkit_View.pdb
+C:\Users\Tans73647\Documents\My VS Projects\SteelConnectionDesign\SC_View\bin\Debug\Models_SC_Proj.pdb
+C:\Users\Tans73647\Documents\My VS Projects\SteelConnectionDesign\SC_View\bin\Debug\RevitConnectionProperties.pdb
+C:\Users\Tans73647\Documents\My VS Projects\SteelConnectionDesign\SC_View\bin\Debug\Revit_eToolKit_Map.pdb
+C:\Users\Tans73647\Documents\My VS Projects\SteelConnectionDesign\SC_View\bin\Debug\Microsoft.Expression.Interactions.xml
+C:\Users\Tans73647\Documents\My VS Projects\SteelConnectionDesign\SC_View\bin\Debug\Prism.pdb
+C:\Users\Tans73647\Documents\My VS Projects\SteelConnectionDesign\SC_View\bin\Debug\Prism.xml
+C:\Users\Tans73647\Documents\My VS Projects\SteelConnectionDesign\SC_View\bin\Debug\Prism.Unity.Wpf.pdb
+C:\Users\Tans73647\Documents\My VS Projects\SteelConnectionDesign\SC_View\bin\Debug\Prism.Unity.Wpf.xml
+C:\Users\Tans73647\Documents\My VS Projects\SteelConnectionDesign\SC_View\bin\Debug\Prism.Wpf.pdb
+C:\Users\Tans73647\Documents\My VS Projects\SteelConnectionDesign\SC_View\bin\Debug\Prism.Wpf.xml
+C:\Users\Tans73647\Documents\My VS Projects\SteelConnectionDesign\SC_View\bin\Debug\RevitAPI.xml
+C:\Users\Tans73647\Documents\My VS Projects\SteelConnectionDesign\SC_View\bin\Debug\RevitAPIUI.xml
+C:\Users\Tans73647\Documents\My VS Projects\SteelConnectionDesign\SC_View\bin\Debug\RevitAddInUtility.xml
+C:\Users\Tans73647\Documents\My VS Projects\SteelConnectionDesign\SC_View\bin\Debug\cs-CZ\RvtDwgAddon.resources.dll
+C:\Users\Tans73647\Documents\My VS Projects\SteelConnectionDesign\SC_View\bin\Debug\de-DE\RvtDwgAddon.resources.dll
+C:\Users\Tans73647\Documents\My VS Projects\SteelConnectionDesign\SC_View\bin\Debug\en-US\RvtDwgAddon.resources.dll
+C:\Users\Tans73647\Documents\My VS Projects\SteelConnectionDesign\SC_View\bin\Debug\es-ES\RvtDwgAddon.resources.dll
+C:\Users\Tans73647\Documents\My VS Projects\SteelConnectionDesign\SC_View\bin\Debug\fr-FR\RvtDwgAddon.resources.dll
+C:\Users\Tans73647\Documents\My VS Projects\SteelConnectionDesign\SC_View\bin\Debug\it-IT\RvtDwgAddon.resources.dll
+C:\Users\Tans73647\Documents\My VS Projects\SteelConnectionDesign\SC_View\bin\Debug\ja-JP\RvtDwgAddon.resources.dll
+C:\Users\Tans73647\Documents\My VS Projects\SteelConnectionDesign\SC_View\bin\Debug\ko-KR\RvtDwgAddon.resources.dll
+C:\Users\Tans73647\Documents\My VS Projects\SteelConnectionDesign\SC_View\bin\Debug\pl-PL\RvtDwgAddon.resources.dll
+C:\Users\Tans73647\Documents\My VS Projects\SteelConnectionDesign\SC_View\bin\Debug\pt-BR\RvtDwgAddon.resources.dll
+C:\Users\Tans73647\Documents\My VS Projects\SteelConnectionDesign\SC_View\bin\Debug\ru-RU\RvtDwgAddon.resources.dll
+C:\Users\Tans73647\Documents\My VS Projects\SteelConnectionDesign\SC_View\bin\Debug\zh-CN\RvtDwgAddon.resources.dll
+C:\Users\Tans73647\Documents\My VS Projects\SteelConnectionDesign\SC_View\bin\Debug\zh-TW\RvtDwgAddon.resources.dll
+C:\Users\Tans73647\Documents\My VS Projects\SteelConnectionDesign\SC_View\bin\Debug\cs-CZ\AdWindows.resources.dll
+C:\Users\Tans73647\Documents\My VS Projects\SteelConnectionDesign\SC_View\bin\Debug\de-DE\AdWindows.resources.dll
+C:\Users\Tans73647\Documents\My VS Projects\SteelConnectionDesign\SC_View\bin\Debug\en-GB\AdWindows.resources.dll
+C:\Users\Tans73647\Documents\My VS Projects\SteelConnectionDesign\SC_View\bin\Debug\en-US\AdWindows.resources.dll
+C:\Users\Tans73647\Documents\My VS Projects\SteelConnectionDesign\SC_View\bin\Debug\es-ES\AdWindows.resources.dll
+C:\Users\Tans73647\Documents\My VS Projects\SteelConnectionDesign\SC_View\bin\Debug\fr-FR\AdWindows.resources.dll
+C:\Users\Tans73647\Documents\My VS Projects\SteelConnectionDesign\SC_View\bin\Debug\it-IT\AdWindows.resources.dll
+C:\Users\Tans73647\Documents\My VS Projects\SteelConnectionDesign\SC_View\bin\Debug\ja-JP\AdWindows.resources.dll
+C:\Users\Tans73647\Documents\My VS Projects\SteelConnectionDesign\SC_View\bin\Debug\ko-KR\AdWindows.resources.dll
+C:\Users\Tans73647\Documents\My VS Projects\SteelConnectionDesign\SC_View\bin\Debug\pl-PL\AdWindows.resources.dll
+C:\Users\Tans73647\Documents\My VS Projects\SteelConnectionDesign\SC_View\bin\Debug\pt-BR\AdWindows.resources.dll
+C:\Users\Tans73647\Documents\My VS Projects\SteelConnectionDesign\SC_View\bin\Debug\ru-RU\AdWindows.resources.dll
+C:\Users\Tans73647\Documents\My VS Projects\SteelConnectionDesign\SC_View\bin\Debug\zh-CN\AdWindows.resources.dll
+C:\Users\Tans73647\Documents\My VS Projects\SteelConnectionDesign\SC_View\bin\Debug\zh-TW\AdWindows.resources.dll
+C:\Users\Tans73647\Documents\My VS Projects\SteelConnectionDesign\SC_View\bin\Debug\AstDocReport.XmlSerializers.dll
+C:\Users\Tans73647\Documents\My VS Projects\SteelConnectionDesign\SC_View\obj\Debug\SC_View.csprojAssemblyReference.cache
+C:\Users\Tans73647\Documents\My VS Projects\SteelConnectionDesign\SC_View\obj\Debug\MainWindow.g.cs
+C:\Users\Tans73647\Documents\My VS Projects\SteelConnectionDesign\SC_View\obj\Debug\App.g.cs
+C:\Users\Tans73647\Documents\My VS Projects\SteelConnectionDesign\SC_View\obj\Debug\SC_View_MarkupCompile.cache
+C:\Users\Tans73647\Documents\My VS Projects\SteelConnectionDesign\SC_View\obj\Debug\SC_View_MarkupCompile.lref
+C:\Users\Tans73647\Documents\My VS Projects\SteelConnectionDesign\SC_View\obj\Debug\MainWindow.baml
+C:\Users\Tans73647\Documents\My VS Projects\SteelConnectionDesign\SC_View\obj\Debug\SC_View.g.resources
+C:\Users\Tans73647\Documents\My VS Projects\SteelConnectionDesign\SC_View\obj\Debug\SC_View.Properties.Resources.resources
+C:\Users\Tans73647\Documents\My VS Projects\SteelConnectionDesign\SC_View\obj\Debug\SC_View.csproj.GenerateResource.cache
+C:\Users\Tans73647\Documents\My VS Projects\SteelConnectionDesign\SC_View\obj\Debug\SC_View.csproj.CoreCompileInputs.cache
+C:\Users\Tans73647\Documents\My VS Projects\SteelConnectionDesign\SC_View\obj\Debug\SC_View.csproj.CopyComplete
+C:\Users\Tans73647\Documents\My VS Projects\SteelConnectionDesign\SC_View\obj\Debug\SC_View.exe
+C:\Users\Tans73647\Documents\My VS Projects\SteelConnectionDesign\SC_View\obj\Debug\SC_View.pdb
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\SC_View\bin\Debug\SC_View.exe.config
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\SC_View\bin\Debug\SC_View.exe
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\SC_View\bin\Debug\SC_View.pdb
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\SC_View\bin\Debug\ASObjectsMgd.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\SC_View\bin\Debug\eToolKit_Classes.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\SC_View\bin\Debug\eToolkit_View.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\SC_View\bin\Debug\Microsoft.Expression.Interactions.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\SC_View\bin\Debug\Models_SC_Proj.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\SC_View\bin\Debug\RevitAPI.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\SC_View\bin\Debug\RevitAPIUI.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\SC_View\bin\Debug\RevitConnectionProperties.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\SC_View\bin\Debug\Revit_eToolKit_Map.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\SC_View\bin\Debug\RvtDwgAddon.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\SC_View\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\SC_View\bin\Debug\Wpf.Styles.exe
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\SC_View\bin\Debug\Prism.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\SC_View\bin\Debug\Prism.Wpf.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\SC_View\bin\Debug\ASCADLinkMgd.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\SC_View\bin\Debug\ASGeometryMgd.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\SC_View\bin\Debug\ASModelerMgd.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\SC_View\bin\Debug\ASProfilesMgd.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\SC_View\bin\Debug\DotNetRoots.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\SC_View\bin\Debug\AdpSDKCSharpWrapper.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\SC_View\bin\Debug\RevitAPIFoundation.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\SC_View\bin\Debug\RevitDBAPI.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\SC_View\bin\Debug\PersistenceDBAPI.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\SC_View\bin\Debug\UtilityAPI.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\SC_View\bin\Debug\APIDBAPI.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\SC_View\bin\Debug\GraphicsAPI.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\SC_View\bin\Debug\ElementGroupDBAPI.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\SC_View\bin\Debug\EssentialsDBAPI.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\SC_View\bin\Debug\GeomUtilAPI.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\SC_View\bin\Debug\FamilyDBAPI.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\SC_View\bin\Debug\DetailDBAPI.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\SC_View\bin\Debug\CurtainGridFamilyDBAPI.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\SC_View\bin\Debug\ArrayElemsDBAPI.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\SC_View\bin\Debug\EnergyAnalysisDBAPI.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\SC_View\bin\Debug\BuildingSystemsDBAPI.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\SC_View\bin\Debug\HostObjDBAPI.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\SC_View\bin\Debug\RoomAreaPlanDBAPI.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\SC_View\bin\Debug\SiteDBAPI.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\SC_View\bin\Debug\SculptingDBAPI.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\SC_View\bin\Debug\StructuralDBAPI.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\SC_View\bin\Debug\InterfaceAPI.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\SC_View\bin\Debug\InterfaceUtilAPI.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\SC_View\bin\Debug\RebarDBAPI.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\SC_View\bin\Debug\StructuralAnalysisDBAPI.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\SC_View\bin\Debug\MassingDBAPI.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\SC_View\bin\Debug\AssemblyDBAPI.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\SC_View\bin\Debug\DPartDBAPI.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\SC_View\bin\Debug\NumberingDBAPI.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\SC_View\bin\Debug\PointCloudAccessAPI.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\SC_View\bin\Debug\StairRampDBAPI.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\SC_View\bin\Debug\AnalysisAppsDBAPI.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\SC_View\bin\Debug\MaterialDBAPI.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\SC_View\bin\Debug\DBManagedServices.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\SC_View\bin\Debug\AdWindows.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\SC_View\bin\Debug\RevitAddInUtility.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\SC_View\bin\Debug\APIInterop.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\SC_View\bin\Debug\UIFramework.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\SC_View\bin\Debug\AddInManager.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\SC_View\bin\Debug\RevitUIAPI.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\SC_View\bin\Debug\BuildingSystemsUIAPI.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\SC_View\bin\Debug\DesktopMFCAPI.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\SC_View\bin\Debug\APIUIAPI.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\SC_View\bin\Debug\RevitMFCAPI.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\SC_View\bin\Debug\EssentialsUIAPI.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\SC_View\bin\Debug\EnergyAnalysisUtilitiesAPI.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\SC_View\bin\Debug\DetailUIAPI.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\SC_View\bin\Debug\UIFrameworkServices.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\SC_View\bin\Debug\ASAutoConnectionMgd.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\SC_View\bin\Debug\RvtFamilyMapping.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\SC_View\bin\Debug\AsRealDWGLoaderMgd.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\SC_View\bin\Debug\ASRepository.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\SC_View\bin\Debug\Interop.ASGTCMappingLib.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\SC_View\bin\Debug\JointDesignUtils.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\SC_View\bin\Debug\ASDataObjects.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\SC_View\bin\Debug\RvtModeler4AS.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\SC_View\bin\Debug\RvtASGeomConversions.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\SC_View\bin\Debug\ASSettings.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\SC_View\bin\Debug\ASSettingsMgd.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\SC_View\bin\Debug\RvtASDynamicProfiles.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\SC_View\bin\Debug\CommonServiceLocator.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\SC_View\bin\Debug\DotNetRootsMgd.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\SC_View\bin\Debug\ManagedMC3.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\SC_View\bin\Debug\Autodesk.UI.Themes.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\SC_View\bin\Debug\Xceed.Wpf.AvalonDock.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\SC_View\bin\Debug\Autodesk.UI.Windows.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\SC_View\bin\Debug\ASNetRuntime.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\SC_View\bin\Debug\EntityFramework.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\SC_View\bin\Debug\Interop.AstSTEELAUTOMATIONLib5.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\SC_View\bin\Debug\AstDocReport.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\SC_View\bin\Debug\Interop.DSCRootsCOMLib.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\SC_View\bin\Debug\Interop.RTFENGINECOMLib15.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\SC_View\bin\Debug\stdole.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\SC_View\bin\Debug\eToolKit_Classes.pdb
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\SC_View\bin\Debug\eToolkit_View.pdb
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\SC_View\bin\Debug\eToolkit_View.dll.config
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\SC_View\bin\Debug\Models_SC_Proj.pdb
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\SC_View\bin\Debug\RevitConnectionProperties.pdb
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\SC_View\bin\Debug\Revit_eToolKit_Map.pdb
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\SC_View\bin\Debug\Wpf.Styles.pdb
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\SC_View\bin\Debug\Wpf.Styles.exe.config
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\SC_View\bin\Debug\Microsoft.Expression.Interactions.xml
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\SC_View\bin\Debug\RevitAPI.xml
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\SC_View\bin\Debug\RevitAPIUI.xml
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\SC_View\bin\Debug\System.Windows.Interactivity.xml
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\SC_View\bin\Debug\Prism.pdb
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\SC_View\bin\Debug\Prism.xml
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\SC_View\bin\Debug\Prism.Wpf.pdb
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\SC_View\bin\Debug\Prism.Wpf.xml
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\SC_View\bin\Debug\RevitAddInUtility.xml
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\SC_View\bin\Debug\cs-CZ\RvtDwgAddon.resources.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\SC_View\bin\Debug\de-DE\RvtDwgAddon.resources.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\SC_View\bin\Debug\en-US\RvtDwgAddon.resources.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\SC_View\bin\Debug\es-ES\RvtDwgAddon.resources.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\SC_View\bin\Debug\fr-FR\RvtDwgAddon.resources.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\SC_View\bin\Debug\it-IT\RvtDwgAddon.resources.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\SC_View\bin\Debug\ja-JP\RvtDwgAddon.resources.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\SC_View\bin\Debug\ko-KR\RvtDwgAddon.resources.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\SC_View\bin\Debug\pl-PL\RvtDwgAddon.resources.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\SC_View\bin\Debug\pt-BR\RvtDwgAddon.resources.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\SC_View\bin\Debug\ru-RU\RvtDwgAddon.resources.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\SC_View\bin\Debug\zh-CN\RvtDwgAddon.resources.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\SC_View\bin\Debug\zh-TW\RvtDwgAddon.resources.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\SC_View\bin\Debug\cs-CZ\AdWindows.resources.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\SC_View\bin\Debug\de-DE\AdWindows.resources.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\SC_View\bin\Debug\en-GB\AdWindows.resources.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\SC_View\bin\Debug\en-US\AdWindows.resources.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\SC_View\bin\Debug\es-ES\AdWindows.resources.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\SC_View\bin\Debug\fr-FR\AdWindows.resources.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\SC_View\bin\Debug\it-IT\AdWindows.resources.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\SC_View\bin\Debug\ja-JP\AdWindows.resources.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\SC_View\bin\Debug\ko-KR\AdWindows.resources.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\SC_View\bin\Debug\pl-PL\AdWindows.resources.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\SC_View\bin\Debug\pt-BR\AdWindows.resources.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\SC_View\bin\Debug\ru-RU\AdWindows.resources.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\SC_View\bin\Debug\zh-CN\AdWindows.resources.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\SC_View\bin\Debug\zh-TW\AdWindows.resources.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\SC_View\bin\Debug\AstDocReport.XmlSerializers.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\SC_View\obj\Debug\SC_View.csprojAssemblyReference.cache
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\SC_View\obj\Debug\MainWindow.g.cs
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\SC_View\obj\Debug\App.g.cs
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\SC_View\obj\Debug\SC_View_MarkupCompile.cache
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\SC_View\obj\Debug\SC_View_MarkupCompile.lref
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\SC_View\obj\Debug\MainWindow.baml
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\SC_View\obj\Debug\SC_View.g.resources
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\SC_View\obj\Debug\SC_View.Properties.Resources.resources
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\SC_View\obj\Debug\SC_View.csproj.GenerateResource.cache
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\SC_View\obj\Debug\SC_View.csproj.CoreCompileInputs.cache
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\SC_View\obj\Debug\SC_View.csproj.CopyComplete
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\SC_View\obj\Debug\SC_View.exe
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\SC_View\obj\Debug\SC_View.pdb
+C:\kjt\ConnectionDesign\SC_View\obj\Debug\SC_View.csproj.AssemblyReference.cache
+C:\kjt\ConnectionDesign\SC_View\obj\Debug\MainWindow.g.cs
+C:\kjt\ConnectionDesign\SC_View\obj\Debug\App.g.cs
+C:\kjt\ConnectionDesign\SC_View\obj\Debug\SC_View_MarkupCompile.cache
+C:\kjt\ConnectionDesign\SC_View\obj\Debug\SC_View_MarkupCompile.lref

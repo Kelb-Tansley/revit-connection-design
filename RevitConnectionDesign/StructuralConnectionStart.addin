@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Application">
+    <Name>Application Connection Design</Name>
+    <FullClassName>RevitConnectionDesign.App</FullClassName>
+    <Assembly>C:\kjt\ConnectionDesign\RevitConnectionDesign\bin\Debug\RevitConnectionDesign.dll</Assembly>
+    <AddInId>4aa1c59b-2b3c-433f-86a5-b527aa7fb442</AddInId>
+    <VendorId>ADNP</VendorId>
+    <VendorDescription>Autodesk, Inc. www.autodesk.com</VendorDescription>
+  </AddIn>
+</RevitAddIns>

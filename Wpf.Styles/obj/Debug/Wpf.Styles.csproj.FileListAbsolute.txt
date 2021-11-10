@@ -1,0 +1,27 @@
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\Wpf.Styles\bin\Debug\Wpf.Styles.exe.config
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\Wpf.Styles\bin\Debug\Wpf.Styles.exe
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\Wpf.Styles\bin\Debug\Wpf.Styles.pdb
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\Wpf.Styles\obj\Debug\Wpf.Styles.csprojAssemblyReference.cache
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\Wpf.Styles\obj\Debug\App.g.cs
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\Wpf.Styles\obj\Debug\Wpf.Styles_MarkupCompile.cache
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\Wpf.Styles\obj\Debug\Wpf.Styles_MarkupCompile.lref
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\Wpf.Styles\obj\Debug\StylesDictionary.baml
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\Wpf.Styles\obj\Debug\Wpf.Styles.g.resources
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\Wpf.Styles\obj\Debug\Wpf.Styles.Properties.Resources.resources
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\Wpf.Styles\obj\Debug\Wpf.Styles.csproj.GenerateResource.cache
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\Wpf.Styles\obj\Debug\Wpf.Styles.csproj.CoreCompileInputs.cache
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\Wpf.Styles\obj\Debug\Wpf.Styles.exe
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\Wpf.Styles\obj\Debug\Wpf.Styles.pdb
+C:\kjt\ConnectionDesign\Wpf.Styles\bin\Debug\Wpf.Styles.exe.config
+C:\kjt\ConnectionDesign\Wpf.Styles\bin\Debug\Wpf.Styles.exe
+C:\kjt\ConnectionDesign\Wpf.Styles\bin\Debug\Wpf.Styles.pdb
+C:\kjt\ConnectionDesign\Wpf.Styles\obj\Debug\App.g.cs
+C:\kjt\ConnectionDesign\Wpf.Styles\obj\Debug\Wpf.Styles_MarkupCompile.cache
+C:\kjt\ConnectionDesign\Wpf.Styles\obj\Debug\Wpf.Styles_MarkupCompile.lref
+C:\kjt\ConnectionDesign\Wpf.Styles\obj\Debug\StylesDictionary.baml
+C:\kjt\ConnectionDesign\Wpf.Styles\obj\Debug\Wpf.Styles.g.resources
+C:\kjt\ConnectionDesign\Wpf.Styles\obj\Debug\Wpf.Styles.Properties.Resources.resources
+C:\kjt\ConnectionDesign\Wpf.Styles\obj\Debug\Wpf.Styles.csproj.GenerateResource.cache
+C:\kjt\ConnectionDesign\Wpf.Styles\obj\Debug\Wpf.Styles.csproj.CoreCompileInputs.cache
+C:\kjt\ConnectionDesign\Wpf.Styles\obj\Debug\Wpf.Styles.exe
+C:\kjt\ConnectionDesign\Wpf.Styles\obj\Debug\Wpf.Styles.pdb

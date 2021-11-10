@@ -1,0 +1,153 @@
+C:\Users\Tans73647\Documents\My VS Projects\SC_Proj\RevitConnectionProperties\bin\Debug\RevitConnectionProperties.dll
+C:\Users\Tans73647\Documents\My VS Projects\SC_Proj\RevitConnectionProperties\bin\Debug\RevitConnectionProperties.pdb
+C:\Users\Tans73647\Documents\My VS Projects\SC_Proj\RevitConnectionProperties\obj\Debug\RevitConnectionProperties.csproj.CoreCompileInputs.cache
+C:\Users\Tans73647\Documents\My VS Projects\SC_Proj\RevitConnectionProperties\obj\Debug\RevitConnectionProperties.dll
+C:\Users\Tans73647\Documents\My VS Projects\SC_Proj\RevitConnectionProperties\obj\Debug\RevitConnectionProperties.pdb
+C:\Users\Tans73647\source\repos\Structural-Design-Tools\RevitConnectionProperties\bin\Debug\RevitConnectionProperties.dll
+C:\Users\Tans73647\source\repos\Structural-Design-Tools\RevitConnectionProperties\bin\Debug\RevitConnectionProperties.pdb
+C:\Users\Tans73647\source\repos\Structural-Design-Tools\RevitConnectionProperties\obj\Debug\RevitConnectionProperties.csproj.CoreCompileInputs.cache
+C:\Users\Tans73647\source\repos\Structural-Design-Tools\RevitConnectionProperties\obj\Debug\RevitConnectionProperties.dll
+C:\Users\Tans73647\source\repos\Structural-Design-Tools\RevitConnectionProperties\obj\Debug\RevitConnectionProperties.pdb
+C:\Users\Tans73647\source\repos\ConnectionDesign\RevitConnectionProperties\bin\Debug\RevitConnectionProperties.dll
+C:\Users\Tans73647\source\repos\ConnectionDesign\RevitConnectionProperties\bin\Debug\RevitConnectionProperties.pdb
+C:\Users\Tans73647\source\repos\ConnectionDesign\RevitConnectionProperties\obj\Debug\RevitConnectionProperties.csproj.CoreCompileInputs.cache
+C:\Users\Tans73647\source\repos\ConnectionDesign\RevitConnectionProperties\obj\Debug\RevitConnectionProperties.dll
+C:\Users\Tans73647\source\repos\ConnectionDesign\RevitConnectionProperties\obj\Debug\RevitConnectionProperties.pdb
+C:\Users\Tans73647\source\repos\ConnectionDesign\RevitConnectionProperties\bin\Debug\RevitConnectionProperties.dll.CodeAnalysisLog.xml
+C:\Users\Tans73647\source\repos\ConnectionDesign\RevitConnectionProperties\bin\Debug\RevitConnectionProperties.dll.lastcodeanalysissucceeded
+C:\Users\Tans73647\Documents\My VS Projects\SteelConnectionDesign\RevitConnectionProperties\bin\Debug\RevitConnectionProperties.dll
+C:\Users\Tans73647\Documents\My VS Projects\SteelConnectionDesign\RevitConnectionProperties\bin\Debug\RevitConnectionProperties.pdb
+C:\Users\Tans73647\Documents\My VS Projects\SteelConnectionDesign\RevitConnectionProperties\obj\Debug\RevitConnectionProperties.csproj.CoreCompileInputs.cache
+C:\Users\Tans73647\Documents\My VS Projects\SteelConnectionDesign\RevitConnectionProperties\obj\Debug\RevitConnectionProperties.dll
+C:\Users\Tans73647\Documents\My VS Projects\SteelConnectionDesign\RevitConnectionProperties\obj\Debug\RevitConnectionProperties.pdb
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\RevitConnectionProperties\bin\Debug\RevitConnectionProperties.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\RevitConnectionProperties\bin\Debug\RevitConnectionProperties.pdb
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\RevitConnectionProperties\bin\Debug\ASObjectsMgd.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\RevitConnectionProperties\bin\Debug\Models_SC_Proj.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\RevitConnectionProperties\bin\Debug\RevitAPI.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\RevitConnectionProperties\bin\Debug\RevitAPIUI.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\RevitConnectionProperties\bin\Debug\RvtDwgAddon.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\RevitConnectionProperties\bin\Debug\Prism.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\RevitConnectionProperties\bin\Debug\Prism.Wpf.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\RevitConnectionProperties\bin\Debug\ASCADLinkMgd.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\RevitConnectionProperties\bin\Debug\ASGeometryMgd.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\RevitConnectionProperties\bin\Debug\ASModelerMgd.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\RevitConnectionProperties\bin\Debug\ASProfilesMgd.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\RevitConnectionProperties\bin\Debug\DotNetRoots.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\RevitConnectionProperties\bin\Debug\AdpSDKCSharpWrapper.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\RevitConnectionProperties\bin\Debug\RevitAPIFoundation.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\RevitConnectionProperties\bin\Debug\RevitDBAPI.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\RevitConnectionProperties\bin\Debug\PersistenceDBAPI.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\RevitConnectionProperties\bin\Debug\UtilityAPI.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\RevitConnectionProperties\bin\Debug\APIDBAPI.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\RevitConnectionProperties\bin\Debug\GraphicsAPI.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\RevitConnectionProperties\bin\Debug\ElementGroupDBAPI.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\RevitConnectionProperties\bin\Debug\EssentialsDBAPI.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\RevitConnectionProperties\bin\Debug\GeomUtilAPI.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\RevitConnectionProperties\bin\Debug\FamilyDBAPI.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\RevitConnectionProperties\bin\Debug\DetailDBAPI.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\RevitConnectionProperties\bin\Debug\CurtainGridFamilyDBAPI.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\RevitConnectionProperties\bin\Debug\ArrayElemsDBAPI.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\RevitConnectionProperties\bin\Debug\EnergyAnalysisDBAPI.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\RevitConnectionProperties\bin\Debug\BuildingSystemsDBAPI.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\RevitConnectionProperties\bin\Debug\HostObjDBAPI.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\RevitConnectionProperties\bin\Debug\RoomAreaPlanDBAPI.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\RevitConnectionProperties\bin\Debug\SiteDBAPI.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\RevitConnectionProperties\bin\Debug\SculptingDBAPI.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\RevitConnectionProperties\bin\Debug\StructuralDBAPI.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\RevitConnectionProperties\bin\Debug\InterfaceAPI.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\RevitConnectionProperties\bin\Debug\InterfaceUtilAPI.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\RevitConnectionProperties\bin\Debug\RebarDBAPI.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\RevitConnectionProperties\bin\Debug\StructuralAnalysisDBAPI.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\RevitConnectionProperties\bin\Debug\MassingDBAPI.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\RevitConnectionProperties\bin\Debug\AssemblyDBAPI.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\RevitConnectionProperties\bin\Debug\DPartDBAPI.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\RevitConnectionProperties\bin\Debug\NumberingDBAPI.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\RevitConnectionProperties\bin\Debug\PointCloudAccessAPI.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\RevitConnectionProperties\bin\Debug\StairRampDBAPI.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\RevitConnectionProperties\bin\Debug\AnalysisAppsDBAPI.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\RevitConnectionProperties\bin\Debug\MaterialDBAPI.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\RevitConnectionProperties\bin\Debug\DBManagedServices.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\RevitConnectionProperties\bin\Debug\AdWindows.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\RevitConnectionProperties\bin\Debug\RevitAddInUtility.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\RevitConnectionProperties\bin\Debug\APIInterop.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\RevitConnectionProperties\bin\Debug\UIFramework.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\RevitConnectionProperties\bin\Debug\AddInManager.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\RevitConnectionProperties\bin\Debug\RevitUIAPI.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\RevitConnectionProperties\bin\Debug\BuildingSystemsUIAPI.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\RevitConnectionProperties\bin\Debug\DesktopMFCAPI.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\RevitConnectionProperties\bin\Debug\APIUIAPI.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\RevitConnectionProperties\bin\Debug\RevitMFCAPI.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\RevitConnectionProperties\bin\Debug\EssentialsUIAPI.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\RevitConnectionProperties\bin\Debug\EnergyAnalysisUtilitiesAPI.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\RevitConnectionProperties\bin\Debug\DetailUIAPI.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\RevitConnectionProperties\bin\Debug\UIFrameworkServices.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\RevitConnectionProperties\bin\Debug\ASAutoConnectionMgd.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\RevitConnectionProperties\bin\Debug\RvtFamilyMapping.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\RevitConnectionProperties\bin\Debug\AsRealDWGLoaderMgd.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\RevitConnectionProperties\bin\Debug\ASRepository.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\RevitConnectionProperties\bin\Debug\Interop.ASGTCMappingLib.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\RevitConnectionProperties\bin\Debug\JointDesignUtils.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\RevitConnectionProperties\bin\Debug\ASDataObjects.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\RevitConnectionProperties\bin\Debug\RvtModeler4AS.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\RevitConnectionProperties\bin\Debug\RvtASGeomConversions.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\RevitConnectionProperties\bin\Debug\ASSettings.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\RevitConnectionProperties\bin\Debug\ASSettingsMgd.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\RevitConnectionProperties\bin\Debug\RvtASDynamicProfiles.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\RevitConnectionProperties\bin\Debug\CommonServiceLocator.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\RevitConnectionProperties\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\RevitConnectionProperties\bin\Debug\DotNetRootsMgd.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\RevitConnectionProperties\bin\Debug\ManagedMC3.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\RevitConnectionProperties\bin\Debug\Autodesk.UI.Themes.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\RevitConnectionProperties\bin\Debug\Xceed.Wpf.AvalonDock.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\RevitConnectionProperties\bin\Debug\Autodesk.UI.Windows.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\RevitConnectionProperties\bin\Debug\ASNetRuntime.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\RevitConnectionProperties\bin\Debug\EntityFramework.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\RevitConnectionProperties\bin\Debug\Interop.AstSTEELAUTOMATIONLib5.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\RevitConnectionProperties\bin\Debug\AstDocReport.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\RevitConnectionProperties\bin\Debug\Interop.DSCRootsCOMLib.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\RevitConnectionProperties\bin\Debug\Interop.RTFENGINECOMLib15.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\RevitConnectionProperties\bin\Debug\stdole.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\RevitConnectionProperties\bin\Debug\Models_SC_Proj.pdb
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\RevitConnectionProperties\bin\Debug\RevitAPI.xml
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\RevitConnectionProperties\bin\Debug\RevitAPIUI.xml
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\RevitConnectionProperties\bin\Debug\Prism.pdb
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\RevitConnectionProperties\bin\Debug\Prism.xml
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\RevitConnectionProperties\bin\Debug\Prism.Wpf.pdb
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\RevitConnectionProperties\bin\Debug\Prism.Wpf.xml
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\RevitConnectionProperties\bin\Debug\RevitAddInUtility.xml
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\RevitConnectionProperties\bin\Debug\cs-CZ\RvtDwgAddon.resources.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\RevitConnectionProperties\bin\Debug\de-DE\RvtDwgAddon.resources.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\RevitConnectionProperties\bin\Debug\en-US\RvtDwgAddon.resources.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\RevitConnectionProperties\bin\Debug\es-ES\RvtDwgAddon.resources.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\RevitConnectionProperties\bin\Debug\fr-FR\RvtDwgAddon.resources.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\RevitConnectionProperties\bin\Debug\it-IT\RvtDwgAddon.resources.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\RevitConnectionProperties\bin\Debug\ja-JP\RvtDwgAddon.resources.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\RevitConnectionProperties\bin\Debug\ko-KR\RvtDwgAddon.resources.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\RevitConnectionProperties\bin\Debug\pl-PL\RvtDwgAddon.resources.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\RevitConnectionProperties\bin\Debug\pt-BR\RvtDwgAddon.resources.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\RevitConnectionProperties\bin\Debug\ru-RU\RvtDwgAddon.resources.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\RevitConnectionProperties\bin\Debug\zh-CN\RvtDwgAddon.resources.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\RevitConnectionProperties\bin\Debug\zh-TW\RvtDwgAddon.resources.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\RevitConnectionProperties\bin\Debug\cs-CZ\AdWindows.resources.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\RevitConnectionProperties\bin\Debug\de-DE\AdWindows.resources.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\RevitConnectionProperties\bin\Debug\en-GB\AdWindows.resources.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\RevitConnectionProperties\bin\Debug\en-US\AdWindows.resources.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\RevitConnectionProperties\bin\Debug\es-ES\AdWindows.resources.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\RevitConnectionProperties\bin\Debug\fr-FR\AdWindows.resources.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\RevitConnectionProperties\bin\Debug\it-IT\AdWindows.resources.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\RevitConnectionProperties\bin\Debug\ja-JP\AdWindows.resources.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\RevitConnectionProperties\bin\Debug\ko-KR\AdWindows.resources.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\RevitConnectionProperties\bin\Debug\pl-PL\AdWindows.resources.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\RevitConnectionProperties\bin\Debug\pt-BR\AdWindows.resources.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\RevitConnectionProperties\bin\Debug\ru-RU\AdWindows.resources.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\RevitConnectionProperties\bin\Debug\zh-CN\AdWindows.resources.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\RevitConnectionProperties\bin\Debug\zh-TW\AdWindows.resources.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\RevitConnectionProperties\bin\Debug\AstDocReport.XmlSerializers.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\RevitConnectionProperties\obj\Debug\RevitConnectionProperties.csprojAssemblyReference.cache
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\RevitConnectionProperties\obj\Debug\RevitConnectionProperties.csproj.CoreCompileInputs.cache
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\RevitConnectionProperties\obj\Debug\RevitConnectionProperties.csproj.CopyComplete
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\RevitConnectionProperties\obj\Debug\RevitConnectionProperties.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\RevitConnectionProperties\obj\Debug\RevitConnectionProperties.pdb
+C:\kjt\ConnectionDesign\RevitConnectionProperties\obj\Debug\RevitConnectionProperties.csproj.CoreCompileInputs.cache
+C:\kjt\ConnectionDesign\RevitConnectionProperties\obj\Debug\RevitConnectionProperties.csproj.AssemblyReference.cache

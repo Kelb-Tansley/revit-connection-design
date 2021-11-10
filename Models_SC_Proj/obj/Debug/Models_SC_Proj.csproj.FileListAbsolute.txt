@@ -1,0 +1,47 @@
+C:\Users\Tans73647\Documents\My VS Projects\SC_Proj\Models_SC_Proj\bin\Debug\Models_SC_Proj.dll
+C:\Users\Tans73647\Documents\My VS Projects\SC_Proj\Models_SC_Proj\bin\Debug\Models_SC_Proj.pdb
+C:\Users\Tans73647\Documents\My VS Projects\SC_Proj\Models_SC_Proj\obj\Debug\Models_SC_Proj.csproj.CoreCompileInputs.cache
+C:\Users\Tans73647\Documents\My VS Projects\SC_Proj\Models_SC_Proj\obj\Debug\Models_SC_Proj.dll
+C:\Users\Tans73647\Documents\My VS Projects\SC_Proj\Models_SC_Proj\obj\Debug\Models_SC_Proj.pdb
+C:\Users\Tans73647\Documents\My VS Projects\SC_Proj\Models_SC_Proj\obj\Debug\Models_SC_Proj.csprojAssemblyReference.cache
+C:\Users\Tans73647\source\repos\Structural-Design-Tools\Models_SC_Proj\bin\Debug\Models_SC_Proj.dll
+C:\Users\Tans73647\source\repos\Structural-Design-Tools\Models_SC_Proj\bin\Debug\Models_SC_Proj.pdb
+C:\Users\Tans73647\source\repos\Structural-Design-Tools\Models_SC_Proj\obj\Debug\Models_SC_Proj.csproj.CoreCompileInputs.cache
+C:\Users\Tans73647\source\repos\Structural-Design-Tools\Models_SC_Proj\obj\Debug\Models_SC_Proj.dll
+C:\Users\Tans73647\source\repos\Structural-Design-Tools\Models_SC_Proj\obj\Debug\Models_SC_Proj.pdb
+C:\Users\Tans73647\source\repos\ConnectionDesign\Models_SC_Proj\bin\Debug\Models_SC_Proj.dll
+C:\Users\Tans73647\source\repos\ConnectionDesign\Models_SC_Proj\bin\Debug\Models_SC_Proj.pdb
+C:\Users\Tans73647\source\repos\ConnectionDesign\Models_SC_Proj\obj\Debug\Models_SC_Proj.csproj.CoreCompileInputs.cache
+C:\Users\Tans73647\source\repos\ConnectionDesign\Models_SC_Proj\obj\Debug\Models_SC_Proj.dll
+C:\Users\Tans73647\source\repos\ConnectionDesign\Models_SC_Proj\obj\Debug\Models_SC_Proj.pdb
+C:\Users\Tans73647\source\repos\ConnectionDesign\Models_SC_Proj\bin\Debug\Models_SC_Proj.dll.CodeAnalysisLog.xml
+C:\Users\Tans73647\source\repos\ConnectionDesign\Models_SC_Proj\bin\Debug\Models_SC_Proj.dll.lastcodeanalysissucceeded
+C:\Users\Tans73647\Documents\My VS Projects\SteelConnectionDesign\Models_SC_Proj\bin\Debug\Models_SC_Proj.dll
+C:\Users\Tans73647\Documents\My VS Projects\SteelConnectionDesign\Models_SC_Proj\bin\Debug\Models_SC_Proj.pdb
+C:\Users\Tans73647\Documents\My VS Projects\SteelConnectionDesign\Models_SC_Proj\obj\Debug\Models_SC_Proj.csproj.CoreCompileInputs.cache
+C:\Users\Tans73647\Documents\My VS Projects\SteelConnectionDesign\Models_SC_Proj\obj\Debug\Models_SC_Proj.dll
+C:\Users\Tans73647\Documents\My VS Projects\SteelConnectionDesign\Models_SC_Proj\obj\Debug\Models_SC_Proj.pdb
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\Models_SC_Proj\bin\Debug\Models_SC_Proj.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\Models_SC_Proj\bin\Debug\Models_SC_Proj.pdb
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\Models_SC_Proj\bin\Debug\CommonServiceLocator.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\Models_SC_Proj\bin\Debug\Prism.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\Models_SC_Proj\bin\Debug\Prism.Wpf.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\Models_SC_Proj\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\Models_SC_Proj\bin\Debug\Prism.pdb
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\Models_SC_Proj\bin\Debug\Prism.xml
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\Models_SC_Proj\bin\Debug\Prism.Wpf.pdb
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\Models_SC_Proj\bin\Debug\Prism.Wpf.xml
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\Models_SC_Proj\obj\Debug\Models_SC_Proj.csprojAssemblyReference.cache
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\Models_SC_Proj\obj\Debug\Models_SC_Proj.csproj.CoreCompileInputs.cache
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\Models_SC_Proj\obj\Debug\Models_SC_Proj.csproj.CopyComplete
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\Models_SC_Proj\obj\Debug\Models_SC_Proj.dll
+C:\Users\Tans73647\Documents\My VS Projects\ConnectionDesign\Models_SC_Proj\obj\Debug\Models_SC_Proj.pdb
+C:\kjt\ConnectionDesign\Models_SC_Proj\obj\Debug\Models_SC_Proj.csproj.CoreCompileInputs.cache
+C:\kjt\ConnectionDesign\Models_SC_Proj\bin\Debug\Models_SC_Proj.dll
+C:\kjt\ConnectionDesign\Models_SC_Proj\bin\Debug\Models_SC_Proj.pdb
+C:\kjt\ConnectionDesign\Models_SC_Proj\bin\Debug\Prism.dll
+C:\kjt\ConnectionDesign\Models_SC_Proj\bin\Debug\System.Windows.Interactivity.dll
+C:\kjt\ConnectionDesign\Models_SC_Proj\bin\Debug\Prism.pdb
+C:\kjt\ConnectionDesign\Models_SC_Proj\bin\Debug\Prism.xml
+C:\kjt\ConnectionDesign\Models_SC_Proj\obj\Debug\Models_SC_Proj.dll
+C:\kjt\ConnectionDesign\Models_SC_Proj\obj\Debug\Models_SC_Proj.pdb

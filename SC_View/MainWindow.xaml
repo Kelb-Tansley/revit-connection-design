@@ -1,0 +1,1458 @@
+﻿<Window x:Class="SC_View.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:wf="clr-namespace:System.Windows.Forms;assembly=System.Windows.Forms"
+        xmlns:i="clr-namespace:System.Windows.Interactivity;assembly=System.Windows.Interactivity"
+        xmlns:local="clr-namespace:SC_View"
+        xmlns:SWC="clr-namespace:System.Windows.Controls;assembly=System.Windows.Controls.Layout.Toolkit" 
+        mc:Ignorable="d" xmlns:sys="clr-namespace:System;assembly=mscorlib"
+        Title="Connection Design" Height="950" Width="650" MinWidth="650" WindowStartupLocation="CenterScreen">
+    <Window.Resources>
+        <BooleanToVisibilityConverter x:Key="BooleanToVisibilityConverter" />
+        <!--<ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="pack://application:,,,/Wpf.Styles;component/StylesDictionary.xaml"></ResourceDictionary>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>-->
+        <Style x:Key="Accordion_1"  TargetType="SWC:Accordion">
+            <Setter Property="Background" Value="Transparent"></Setter>
+            
+        </Style>
+        <!--Colors-->
+        <Color x:Key="C1" >#FF5588A0</Color>
+        <Color x:Key="C2" >#587487</Color>
+        <Color x:Key="C3" >LightGray</Color>
+
+        <!--Story Board variables-->
+        <sys:Double x:Key="SectionHeight">300</sys:Double>
+        <sys:Double x:Key="H1DiffHeight">212</sys:Double>
+        <sys:Double x:Key="H1Diff2Height">140</sys:Double>
+        <sys:Double x:Key="H1Height">25</sys:Double>
+        <sys:Double x:Key="H2Height">20</sys:Double>
+        <sys:Double x:Key="AccelerationRatio">0.9</sys:Double>
+        <sys:Double x:Key="DecelerationRatio">0.1</sys:Double>
+
+        <LinearGradientBrush x:Key="LGB1" EndPoint="0.5,1" StartPoint="0.5,0" >
+            <GradientStop Color="{StaticResource C1}" Offset="0.01"/>
+            <GradientStop Color="{StaticResource C2}" Offset="1"/>
+        </LinearGradientBrush>
+
+        <LinearGradientBrush x:Key="LGB2" >
+            <GradientStop Color="{StaticResource C3}" Offset="1"/>
+        </LinearGradientBrush>
+
+        <SolidColorBrush x:Key="HeaderC1" Color="#FF5588A0" />
+        <SolidColorBrush x:Key="HeaderC2" Color="#FF5588A0" />
+
+        <!--Controls-->
+        <Style TargetType="{x:Type Control}" x:Key="DefaultFont">
+            <Setter Property="FontFamily" Value="SansSerifPro" />
+            <Setter Property="VerticalContentAlignment" Value="Center" />
+        </Style>
+        <Style TargetType="{x:Type Control}" x:Key="H1" BasedOn="{StaticResource DefaultFont}">
+            <Setter Property="Foreground" Value="WhiteSmoke" />
+            <Setter Property="FontSize" Value="13" />
+            <Setter Property="HorizontalContentAlignment" Value="Center" />
+        </Style>
+        <Style TargetType="{x:Type Control}" x:Key="H2" BasedOn="{StaticResource DefaultFont}">
+            <Setter Property="Foreground" Value="Black" />
+            <Setter Property="FontSize" Value="12" />
+        </Style>
+
+        <!--Labels-->
+        <Style x:Key="H1Label" TargetType="{x:Type Label}" BasedOn="{StaticResource H1}" >
+            <Setter Property="Background" Value="{StaticResource LGB1}" />
+            <Setter Property="Height" Value="25"/>
+        </Style>
+        
+        <Style TargetType="{x:Type TextBox}" BasedOn="{StaticResource H2}" />
+        
+        <Style TargetType="{x:Type ListView}" BasedOn="{StaticResource H2}" />
+
+
+        <Style x:Key="DataGridHeader_1" TargetType="DataGridColumnHeader" BasedOn="{StaticResource H2}">
+            <Setter Property="Background" Value="{StaticResource LGB2}"/>
+            <Setter Property="Height" Value="{StaticResource H2Height}"/>
+            <Setter Property="HorizontalAlignment" Value="Stretch"/>
+            <Setter Property="HorizontalContentAlignment" Value="Stretch"/>
+            <Setter Property="Margin" Value="-1"/>
+            <Setter Property="BorderThickness" Value="1"/>
+            
+        </Style>
+
+        <Style x:Key="sfvg" TargetType="TextBlock" BasedOn="{StaticResource H2}">
+
+        </Style>
+
+        <Style x:Key="AccordionItem_1"  TargetType="SWC:AccordionItem">
+            <Setter Property="Background" Value="#FF80CEF3"></Setter>
+            <Setter Property="Foreground" Value="Black"></Setter>
+            <Setter Property="BorderBrush" Value="Transparent"></Setter>
+            <Setter Property="HorizontalContentAlignment" Value="Stretch"></Setter>
+            <Setter Property="UseLayoutRounding" Value="False"></Setter>
+            <Setter Property="IsManipulationEnabled" Value="True"></Setter>
+            
+            
+        </Style>
+
+
+        <Style x:Key="DataGridCell_1"  TargetType="DataGridCell" BasedOn="{StaticResource H2}">
+            <Setter Property="BorderBrush" Value="Transparent"></Setter>
+            <Setter Property="UseLayoutRounding" Value="False"></Setter>
+            <Setter Property="IsManipulationEnabled" Value="True"></Setter>
+            <Setter Property="VerticalAlignment" Value="Top"></Setter>
+            <Setter Property="HorizontalAlignment" Value="Stretch"></Setter>
+
+            
+            <Setter Property="BorderThickness" Value="0"></Setter>
+
+            <Setter Property="BorderBrush" Value="WhiteSmoke"></Setter>
+
+            <Setter Property="VerticalContentAlignment" Value="Stretch"></Setter>
+            <Setter Property="HorizontalContentAlignment" Value="Stretch"></Setter>
+            <Style.Triggers>
+                <Trigger Property="IsSelected" Value="True">
+                    <Setter Property="Foreground" Value="#FF232B30"/>
+                    <Setter Property="BorderBrush" Value="#FFEAEAEA"/>
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+
+        <Style x:Key="DataGrid_1"  TargetType="DataGrid" BasedOn="{StaticResource H2}">
+            <Setter Property="ColumnHeaderStyle" Value="{DynamicResource DataGridHeader_1}"/>
+            <Setter Property="CellStyle" Value="{DynamicResource DataGridCell_1}"/>
+            
+            <Setter Property="BorderBrush" Value="Transparent"></Setter>
+            <Setter Property="HorizontalContentAlignment" Value="Stretch"></Setter>
+            <Setter Property="UseLayoutRounding" Value="False"></Setter>
+            <Setter Property="IsManipulationEnabled" Value="True"></Setter>
+            <Setter Property="FontStretch" Value="Condensed"></Setter>
+            <Setter Property="VerticalAlignment" Value="Top"></Setter>
+            <Setter Property="HorizontalAlignment" Value="Stretch"></Setter>
+
+            <Setter Property="HorizontalGridLinesBrush" Value="{StaticResource LGB2}"></Setter>
+            <Setter Property="VerticalGridLinesBrush" Value="{StaticResource LGB2}"></Setter>
+            
+            <Setter Property="BorderThickness" Value="0"></Setter>
+
+            <Setter Property="BorderBrush" Value="WhiteSmoke"></Setter>
+
+            <Setter Property="AutoGenerateColumns" Value="False"></Setter>
+            <Setter Property="CanUserAddRows" Value="False"></Setter>
+            <Setter Property="CanUserReorderColumns" Value="False"></Setter>
+            <Setter Property="CanUserSortColumns" Value="False"></Setter>
+            <Setter Property="CanUserResizeColumns" Value="True"></Setter>
+            <Setter Property="IsReadOnly" Value="True"></Setter>
+        </Style>
+      
+        <Style TargetType="SWC:AccordionItem" x:Key="DefaultAccordionItemStyle">
+       
+        </Style>
+    </Window.Resources>
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="300"></RowDefinition>
+            <RowDefinition Height="1*"></RowDefinition>
+            <RowDefinition Height="1*"></RowDefinition>
+        </Grid.RowDefinitions>
+
+
+        <!--<Label Grid.Row="0" Grid.Column="0" Content="Your String Value:" Margin="5" />
+        <TextBox Grid.Row="0" Grid.Column="1" Text="{Binding StringListText}" Margin="5" Height="30" TextWrapping="Wrap" />
+
+        <Label Grid.Row="1" Grid.Column="0" Content="Primary Connection Element:" Margin="5" Height="30"/>
+        <TextBox Grid.Row="1" Grid.Column="1" Text="{Binding PrimaryElement}"  Margin="5" Height="30" TextWrapping="Wrap" />
+
+        <Label Grid.Row="2" Grid.Column="0" Content="Secondary Connection Element:" Margin="5"  Height="30"/>
+        <TextBox Grid.Row="2" Grid.Column="1" Text="{Binding SecondaryElement}" Margin="5" Height="30" TextWrapping="Wrap"/>
+
+        <Label Grid.Row="3" Grid.Column="0" Content="Connection Type:" Margin="5" VerticalAlignment="Top" Height="30"/>
+        <TextBox Grid.Row="3" Grid.Column="1" Text="{Binding ConnectionType}" Margin="5" Height="30" TextWrapping="Wrap"/>-->
+
+
+        <GroupBox Grid.Row="2" Grid.Column="0" Header=" Current Connection Properties:" 
+                  MinWidth="540" Margin="3,4,3,3">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="5"/>
+                    <RowDefinition Height="1*"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="1*"/>
+                </Grid.ColumnDefinitions>
+
+                <DataGrid x:Name="ParametersDataGrid" Grid.Column="0" Grid.Row="1" ItemsSource="{Binding Parameters, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Margin="4,0,2,4"
+                  AutoGenerateColumns="False" CanUserAddRows="False" CanUserReorderColumns="False" CanUserSortColumns="False"
+                          MinWidth="270" MaxWidth="400" IsSynchronizedWithCurrentItem="True" >
+                    <DataGrid.Columns>
+                        <DataGridTextColumn Header=" Parameter Description" Width="Auto" IsReadOnly="True"
+                                    Binding ="{Binding Path=Description, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" 
+                                    MinWidth="170"/>
+                        <DataGridTextColumn Header=" Value" Width="Auto" IsReadOnly="False" MinWidth="100"
+                                            Binding="{Binding Value, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"/>
+                    </DataGrid.Columns>
+                    <i:Interaction.Triggers>
+                        <i:EventTrigger EventName="CellEditEnding">
+                            <i:InvokeCommandAction Command="{Binding CmdParameterChanged}" CommandParameter="{Binding ElementName=ParametersDataGrid, Path=SelectedItem}"/>
+                        </i:EventTrigger>
+                    </i:Interaction.Triggers>
+                    <DataGrid.ContextMenu>
+                        <ContextMenu>
+                            <MenuItem Header="Copy Table" Command="{Binding CmdCopyClick}" CommandParameter="{Binding ElementName=ConnectionsDataGrid, Path=SelectedItem}"/>
+                        </ContextMenu>
+                    </DataGrid.ContextMenu>
+                </DataGrid>
+
+                <!--<WindowsFormsHost Grid.Row="1" Grid.Column="1" Margin="2,0,2,4" Background="DarkGray" Foreground="DarkGray">
+                    <wf:PictureBox x:Name="ObjectView_Panel_2D"/>
+                </WindowsFormsHost>-->
+                <!--<Image Source="{Binding Connection_2D}" x:Name="ObjectView_Panel_2D" Grid.Row="1" Grid.Column="1" Margin="3,5,3,5">
+                    --><!--<Image.Source>
+                        <BitmapImage UriSource="{Binding Connection_2D}"/>
+                    </Image.Source>--><!--
+                </Image>-->
+
+            </Grid>
+        </GroupBox>
+
+        <Grid Grid.Row="1">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+            <GroupBox Margin="3" Padding="2,7,2,2" Header="{Binding ConnectionName}">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="150"/>
+                        <ColumnDefinition Width="1*"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="150"/>
+                        <RowDefinition Height="150"/>
+                        <RowDefinition Height="1*"/>
+                    </Grid.RowDefinitions>
+                    
+                    <StackPanel Grid.RowSpan="2" Margin="1,1,1,1">
+                        <StackPanel Name="Panel1" Height="{StaticResource H1Diff2Height}">
+                            <Label Content="General" Style="{DynamicResource H1Label}"/>
+
+                            <Button Content="End Plate" Command="{Binding EndPlate_Button_Click}" 
+                        Background="{x:Null}" BorderBrush="{x:Null}"/>
+                            <Rectangle Fill="#FFAAAAAA" Height="1" Stroke="#FFAAAAAA"/>
+                            <Button Command="{Binding Haunch_Button_Click}" Content="Haunch" 
+                        Background="{x:Null}" BorderBrush="{x:Null}"/>
+                            <Rectangle Fill="#FFAAAAAA" Height="1" Stroke="#FFAAAAAA"/>
+
+                            <StackPanel.Triggers>
+                                <EventTrigger RoutedEvent="UIElement.MouseLeftButtonUp">
+                                    <BeginStoryboard>
+                                        <Storyboard>
+                                            <DoubleAnimation Storyboard.TargetName="Panel1" Storyboard.TargetProperty="Height" To="{StaticResource H1Diff2Height}" Duration="0:0:0.30" AccelerationRatio="{StaticResource AccelerationRatio}" DecelerationRatio="{StaticResource DecelerationRatio}" />
+                                            <DoubleAnimation Storyboard.TargetName="Panel2" Storyboard.TargetProperty="Height" To="{StaticResource H1Height}" Duration="0:0:0.30" AccelerationRatio="{StaticResource AccelerationRatio}" DecelerationRatio="{StaticResource DecelerationRatio}"/>
+                                            <DoubleAnimation Storyboard.TargetName="Panel3" Storyboard.TargetProperty="Height" To="{StaticResource H1Height}" Duration="0:0:0.30" AccelerationRatio="{StaticResource AccelerationRatio}" DecelerationRatio="{StaticResource DecelerationRatio}"/>
+                                        </Storyboard>
+                                    </BeginStoryboard>
+                                </EventTrigger>
+                                <EventTrigger RoutedEvent="UIElement.MouseLeftButtonDown">
+                                    <BeginStoryboard>
+                                        <Storyboard>
+                                            <DoubleAnimation Storyboard.TargetName="Panel1" Storyboard.TargetProperty="Height" To="{StaticResource H1Height}" Duration="0:0:0.50" AccelerationRatio="{StaticResource AccelerationRatio}" DecelerationRatio="{StaticResource DecelerationRatio}"/>
+                                        </Storyboard>
+                                    </BeginStoryboard>
+                                </EventTrigger>
+                            </StackPanel.Triggers>
+                        </StackPanel>
+                        <StackPanel Name="Panel2" Height="{StaticResource H1Height}">
+                            <Label Content="Bolts and Welds" Style="{DynamicResource H1Label}"/>
+
+                            <Button Content="Bolts Details" Command="{Binding BoltDetails_Button_Click}" 
+                        Background="{x:Null}" BorderBrush="{x:Null}"/>
+                            <Rectangle Fill="#FFAAAAAA" Height="1" Stroke="#FFAAAAAA"/>
+                            <Button Command="{Binding BoltGroup_Button_Click}" Content="Bolt Groups" 
+                        Background="{x:Null}" BorderBrush="{x:Null}"/>
+                            <Rectangle Fill="#FFAAAAAA" Height="1" Stroke="#FFAAAAAA"/>
+                            <Button Command="{Binding Stiffeners_Button_Click}" Content="Stiffeners" 
+                        Background="{x:Null}" BorderBrush="{x:Null}"/>
+                            <Rectangle Fill="#FFAAAAAA" Height="1" Stroke="#FFAAAAAA"/>
+
+                            <StackPanel.Triggers>
+                                <EventTrigger RoutedEvent="UIElement.MouseLeftButtonUp">
+                                    <BeginStoryboard>
+                                        <Storyboard>
+                                            <DoubleAnimation Storyboard.TargetName="Panel1" Storyboard.TargetProperty="Height" To="{StaticResource H1Height}" Duration="0:0:0.30" AccelerationRatio="{StaticResource AccelerationRatio}" DecelerationRatio="{StaticResource DecelerationRatio}" />
+                                            <DoubleAnimation Storyboard.TargetName="Panel2" Storyboard.TargetProperty="Height" To="{StaticResource H1Diff2Height}" Duration="0:0:0.30" AccelerationRatio="{StaticResource AccelerationRatio}" DecelerationRatio="{StaticResource DecelerationRatio}"/>
+                                            <DoubleAnimation Storyboard.TargetName="Panel3" Storyboard.TargetProperty="Height" To="{StaticResource H1Height}" Duration="0:0:0.30" AccelerationRatio="{StaticResource AccelerationRatio}" DecelerationRatio="{StaticResource DecelerationRatio}"/>
+                                        </Storyboard>
+                                    </BeginStoryboard>
+                                </EventTrigger>
+                                <EventTrigger RoutedEvent="UIElement.MouseLeftButtonDown">
+                                    <BeginStoryboard>
+                                        <Storyboard>
+                                            <DoubleAnimation Storyboard.TargetName="Panel1" Storyboard.TargetProperty="Height" To="{StaticResource H1Height}" Duration="0:0:0.50" AccelerationRatio="{StaticResource AccelerationRatio}" DecelerationRatio="{StaticResource DecelerationRatio}"/>
+                                        </Storyboard>
+                                    </BeginStoryboard>
+                                </EventTrigger>
+                            </StackPanel.Triggers>
+                        </StackPanel>
+                        <StackPanel Name="Panel3" Height="{StaticResource H1Height}">
+                            <Label Content="Connecting Sections" Style="{DynamicResource H1Label}"/>
+
+                            <ComboBox Text="Beam" HorizontalContentAlignment="Center" Background="{x:Null}"/>
+                            <Rectangle Fill="#FFAAAAAA" Height="1" Stroke="#FFAAAAAA"/>
+                            <ComboBox Text="Column" HorizontalContentAlignment="Center" Background="{x:Null}"/>
+                            <Rectangle Fill="#FFC3C3C3" Height="1" Stroke="#FFAAAAAA"/>
+                            <Label Content="Sub Menu Item" HorizontalContentAlignment="Center" Background="{x:Null}"/>
+                            <Rectangle Fill="#FFC3C3C3" Height="1" Stroke="#FFAAAAAA"/>
+
+                            <StackPanel.Triggers>
+                                <EventTrigger RoutedEvent="UIElement.MouseLeftButtonUp">
+                                    <BeginStoryboard>
+                                        <Storyboard>
+                                            <DoubleAnimation Storyboard.TargetName="Panel1" Storyboard.TargetProperty="Height" To="{StaticResource H1Height}" Duration="0:0:0.30" AccelerationRatio="{StaticResource AccelerationRatio}" DecelerationRatio="{StaticResource DecelerationRatio}" />
+                                            <DoubleAnimation Storyboard.TargetName="Panel2" Storyboard.TargetProperty="Height" To="{StaticResource H1Height}" Duration="0:0:0.30" AccelerationRatio="{StaticResource AccelerationRatio}" DecelerationRatio="{StaticResource DecelerationRatio}"/>
+                                            <DoubleAnimation Storyboard.TargetName="Panel3" Storyboard.TargetProperty="Height" To="{StaticResource H1Diff2Height}" Duration="0:0:0.30" AccelerationRatio="{StaticResource AccelerationRatio}" DecelerationRatio="{StaticResource DecelerationRatio}"/>
+                                        </Storyboard>
+                                    </BeginStoryboard>
+                                </EventTrigger>
+                                <EventTrigger RoutedEvent="UIElement.MouseLeftButtonDown">
+                                    <BeginStoryboard>
+                                        <Storyboard>
+                                            <DoubleAnimation Storyboard.TargetName="Panel1" Storyboard.TargetProperty="Height" To="{StaticResource H1Height}" Duration="0:0:0.50" AccelerationRatio="{StaticResource AccelerationRatio}" DecelerationRatio="{StaticResource DecelerationRatio}"/>
+                                        </Storyboard>
+                                    </BeginStoryboard>
+                                </EventTrigger>
+                            </StackPanel.Triggers>
+                        </StackPanel>
+                    </StackPanel>
+
+                    <!--Haunch UC-->
+                    <Border x:Name="Moment_Haunch_UC" Visibility="{Binding Path=Haunch_UC_Visibility, Converter={StaticResource BooleanToVisibilityConverter}}" Grid.Column="2" Grid.RowSpan="2">
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="200"/>
+                                <ColumnDefinition Width="200"/>
+                                <ColumnDefinition Width="1*"/>
+                            </Grid.ColumnDefinitions>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="1*"/>
+                                <RowDefinition Height="1*"/>
+                                <RowDefinition Height="1*"/>
+                                <RowDefinition Height="1*"/>
+                                <RowDefinition Height="1*"/>
+                                <RowDefinition Height="1*"/>
+                                <RowDefinition Height="1*"/>
+                                <RowDefinition Height="1*"/>
+                                <RowDefinition Height="1*"/>
+                                <RowDefinition Height="1*"/>
+                                <RowDefinition Height="1*"/>
+                            </Grid.RowDefinitions>
+
+                            <Label Content="Haunch"></Label>
+                            <Label Grid.Row="1" Grid.Column="0" Content="Length from inner end plate face"></Label>
+                            <Label Grid.Row="2" Grid.Column="0" Content="Height from rafter bottom"></Label>
+                            <Label Grid.Row="3" Grid.Column="0" Content="Corner Chamfers"></Label>
+                            <Label Grid.Row="4" Grid.Column="0" Content="Haunch section"></Label>
+
+                            <ComboBox Grid.Row="0" Grid.Column="1" Text="800" VerticalAlignment="Center" SelectedIndex="0">
+                                <ComboBoxItem Content="None"></ComboBoxItem>
+                                <ComboBoxItem Content="Below Rafter"></ComboBoxItem>
+                            </ComboBox>
+                            <TextBox Padding="3,2,2,2" Grid.Row="1" Grid.Column="1" Text="800" VerticalAlignment="Center"></TextBox>
+                            <TextBox Padding="3,2,2,2" Grid.Row="2" Grid.Column="1" Text="250" VerticalAlignment="Center"></TextBox>
+                            <TextBox Padding="3,2,2,2" Grid.Row="3" Grid.Column="1" Text="13" VerticalAlignment="Center"></TextBox>
+                            <ComboBox Grid.Row="4" Grid.Column="1" Text="800" VerticalAlignment="Center"></ComboBox>
+
+                        </Grid>
+                    </Border>
+                    <!--EndPlate UC-->
+                    <Border x:Name="Moment_EndPlate_UC" Grid.Column="2" Grid.RowSpan="2"
+                            Visibility="{Binding Path=EndPlate_UC_Visibility, Converter={StaticResource BooleanToVisibilityConverter}}">
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="200"/>
+                                <ColumnDefinition Width="200"/>
+                                <ColumnDefinition Width="1*"/>
+                            </Grid.ColumnDefinitions>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="1*"/>
+                                <RowDefinition Height="1*"/>
+                                <RowDefinition Height="1*"/>
+                                <RowDefinition Height="1*"/>
+                                <RowDefinition Height="1*"/>
+                                <RowDefinition Height="1*"/>
+                                <RowDefinition Height="1*"/>
+                                <RowDefinition Height="1*"/>
+                                <RowDefinition Height="1*"/>
+                                <RowDefinition Height="1*"/>
+                                <RowDefinition Height="1*"/>
+                            </Grid.RowDefinitions>
+
+                            <Label Content="End Plate Type"></Label>
+                            <Label Grid.Row="1" Grid.Column="0" Content="Thickness"></Label>
+                            <Label Grid.Row="2" Grid.Column="0" Content="Length"></Label>
+                            <Label Grid.Row="3" Grid.Column="0" Content="Width"></Label>
+                            <Label Grid.Row="4" Grid.Column="0" Content="Column Extension"></Label>
+
+                            <ComboBox Grid.Row="0" Grid.Column="1" Text="800" VerticalAlignment="Center" SelectedIndex="0">
+                                <ComboBoxItem Content="Flush"></ComboBoxItem>
+                                <ComboBoxItem Content="Extended"></ComboBoxItem>
+                                <ComboBoxItem Content="Extended Stiffened"></ComboBoxItem>
+                            </ComboBox>
+                            <!--<ComboBox Grid.Row="1" Grid.Column="1" Text="800" VerticalAlignment="Center" SelectedIndex="0">
+                                <ComboBoxItem Content="8"/>
+                                <ComboBoxItem Content="10"/>
+                                <ComboBoxItem Content="12"/>
+                                <ComboBoxItem Content="16"/>
+                                <ComboBoxItem Content="20"/>
+                            </ComboBox>-->
+                            <TextBox Padding="3,2,2,2" Grid.Row="1" Grid.Column="1" 
+                                     Text="{Binding Path=EndPlateThickness, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
+                         VerticalAlignment="Center" ></TextBox>
+                            <TextBox Padding="3,2,2,2" Grid.Row="2" Grid.Column="1" 
+                                     Text="{Binding Path=EndPlateThickness, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
+                         VerticalAlignment="Center" ></TextBox>
+                            <TextBox Padding="3,2,2,2" Grid.Row="3" Grid.Column="1" 
+                                     Text="{Binding Path=EndPlateLenth, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
+                         VerticalAlignment="Center" ></TextBox>
+                            <TextBox Padding="3,2,2,2" Grid.Row="4" Grid.Column="1" 
+                                     Text="{Binding Path=EndPlateWidth, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
+                         VerticalAlignment="Center" ></TextBox>
+                        </Grid>
+                    </Border>
+                    <!--Bolts & Welds UC-->
+                    <Border x:Name="Bolts_UC" Visibility="{Binding Path=BoltDetails_UC_Visibility, Converter={StaticResource BooleanToVisibilityConverter}}" Grid.Column="2" Grid.RowSpan="2">
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="200"/>
+                                <ColumnDefinition Width="200"/>
+                                <ColumnDefinition Width="1*"/>
+                            </Grid.ColumnDefinitions>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="1*"/>
+                                <RowDefinition Height="1*"/>
+                                <RowDefinition Height="1*"/>
+                                <RowDefinition Height="1*"/>
+                                <RowDefinition Height="1*"/>
+                                <RowDefinition Height="1*"/>
+                                <RowDefinition Height="1*"/>
+                                <RowDefinition Height="1*"/>
+                                <RowDefinition Height="1*"/>
+                                <RowDefinition Height="1*"/>
+                                <RowDefinition Height="1*"/>
+                            </Grid.RowDefinitions>
+
+                            <Label Content="Bolt Type"></Label>
+                            <Label Grid.Row="1" Grid.Column="0" Content="Bolt Grade"></Label>
+                            <Label Grid.Row="2" Grid.Column="0" Content="Bolt Diameter"></Label>
+                            <Label Grid.Row="3" Grid.Column="0" Content="Bolt Gauge horizontal distance"></Label>
+                            <Label Grid.Row="4" Grid.Column="0" Content="Bolt Gauge number per side"></Label>
+                            <Label Grid.Row="5" Grid.Column="0" Content="Intermediate distance"></Label>
+                            <Label Grid.Row="6" Grid.Column="0" Content="Standard Welds"></Label>
+
+                            <ComboBox Grid.Row="0" Grid.Column="1" Text="800" VerticalAlignment="Center" SelectedIndex="0">
+                                <ComboBoxItem Content="A307"></ComboBoxItem>
+                                <ComboBoxItem Content="A325"></ComboBoxItem>
+                                <ComboBoxItem Content="A325 CSK"></ComboBoxItem>
+                            </ComboBox>
+                            <ComboBox Grid.Row="1" Grid.Column="1" Text="800" VerticalAlignment="Center" SelectedIndex="0">
+                                <ComboBoxItem Content="Grade 8.8"></ComboBoxItem>
+                                <ComboBoxItem Content="Grade 10.9"></ComboBoxItem>
+                            </ComboBox>
+                            <ComboBox SelectedValue="{Binding BoltDiameter, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" 
+                              SelectedItem ="{Binding BoltDiameter, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
+                              ItemsSource="{Binding BoltDiameter, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
+                              Text="{Binding BoltDiameter, UpdateSourceTrigger=PropertyChanged}" Grid.Row="2" Grid.Column="1" VerticalAlignment="Center">
+                                <!--<ComboBoxItem Content="M16"/>
+                        <ComboBoxItem Content="M20"/>
+                        <ComboBoxItem Content="M24"/>-->
+                            </ComboBox>
+                            <TextBox Padding="3,2,2,2" Grid.Row="3" Grid.Column="1" Text="90" 
+                         VerticalAlignment="Center" IsReadOnly="True"></TextBox>
+                            <TextBox Padding="3,2,2,2" Grid.Row="4" Grid.Column="1" Text="1"
+                         VerticalAlignment="Center" IsReadOnly="True"></TextBox>
+                            <TextBox Padding="3,2,2,2" Grid.Row="5" Grid.Column="1" Text="30"
+                         VerticalAlignment="Center" IsReadOnly="True"></TextBox>
+                            <TextBox Padding="3,2,2,2" Grid.Row="6" Grid.Column="1" Text="6"
+                         VerticalAlignment="Center" IsReadOnly="True"></TextBox>
+                        </Grid>
+                    </Border>
+                    <Border x:Name="BoltsGroups_UC" Visibility="{Binding Path=BoltGroup_UC_Visibility, Converter={StaticResource BooleanToVisibilityConverter}}" Grid.Column="2" Grid.RowSpan="2">
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="130"/>
+                                <ColumnDefinition Width="90"/>
+                                <ColumnDefinition Width="90"/>
+                                <ColumnDefinition Width="90"/>
+                                <ColumnDefinition Width="1*"/>
+                            </Grid.ColumnDefinitions>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="1*"/>
+                                <RowDefinition Height="1*"/>
+                                <RowDefinition Height="1*"/>
+                                <RowDefinition Height="1*"/>
+                                <RowDefinition Height="1*"/>
+                                <RowDefinition Height="1*"/>
+                                <RowDefinition Height="1*"/>
+                                <RowDefinition Height="1*"/>
+                                <RowDefinition Height="1*"/>
+                                <RowDefinition Height="1*"/>
+                                <RowDefinition Height="1*"/>
+                            </Grid.RowDefinitions>
+
+                            <Label Grid.Row="1" Grid.Column="0" Content="Group 1"></Label>
+                            <Label Grid.Row="2" Grid.Column="0" Content="Group 2"></Label>
+                            <Label Grid.Row="3" Grid.Column="0" Content="Group 3"></Label>
+                            <Label Grid.Row="4" Grid.Column="0" Content="Group 4"></Label>
+
+                            <Label Grid.Row="0" Grid.Column="1" Content="Group Lines"></Label>
+                            <TextBox Padding="3,2,2,2" Grid.Row="1" Grid.Column="1" Text="2" 
+                         VerticalAlignment="Center" IsReadOnly="True"></TextBox>
+                            <TextBox Padding="3,2,2,2" Grid.Row="2" Grid.Column="1" Text="1"
+                         VerticalAlignment="Center" IsReadOnly="True"></TextBox>
+                            <TextBox Padding="3,2,2,2" Grid.Row="3" Grid.Column="1" Text="0"
+                         VerticalAlignment="Center" IsReadOnly="True"></TextBox>
+                            <TextBox Padding="3,2,2,2" Grid.Row="4" Grid.Column="1" Text="0"
+                         VerticalAlignment="Center" IsReadOnly="True"></TextBox>
+
+                            <Label Grid.Row="0" Grid.Column="2" Content="Start Distance"></Label>
+                            <TextBox Padding="3,2,2,2" Grid.Row="1" Grid.Column="2" Text="60" 
+                         VerticalAlignment="Center" IsReadOnly="True"></TextBox>
+                            <TextBox Padding="3,2,2,2" Grid.Row="2" Grid.Column="2" Text="110"
+                         VerticalAlignment="Center" IsReadOnly="True"></TextBox>
+                            <TextBox Padding="3,2,2,2" Grid.Row="3" Grid.Column="2" Text="0"
+                         VerticalAlignment="Center" IsReadOnly="True"></TextBox>
+                            <TextBox Padding="3,2,2,2" Grid.Row="4" Grid.Column="2" Text="0"
+                         VerticalAlignment="Center" IsReadOnly="True"></TextBox>
+
+                            <Label Grid.Row="0" Grid.Column="3" Content="Interm. Dist."></Label>
+                            <TextBox Padding="3,2,2,2" Grid.Row="1" Grid.Column="3" Text="130" 
+                         VerticalAlignment="Center" IsReadOnly="True"></TextBox>
+                            <TextBox Padding="3,2,2,2" Grid.Row="2" Grid.Column="3" Text="60"
+                         VerticalAlignment="Center" IsReadOnly="True"></TextBox>
+                            <TextBox Padding="3,2,2,2" Grid.Row="3" Grid.Column="3" Text="0"
+                         VerticalAlignment="Center" IsReadOnly="True"></TextBox>
+                            <TextBox Padding="3,2,2,2" Grid.Row="4" Grid.Column="3" Text="0"
+                         VerticalAlignment="Center" IsReadOnly="True"></TextBox>
+                        </Grid>
+                    </Border>
+                    <Border x:Name="BoltsStiffeners_UC" Visibility="{Binding Path=Stiffeners_UC_Visibility, Converter={StaticResource BooleanToVisibilityConverter}}" Grid.Column="2" Grid.RowSpan="2">
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="160"/>
+                                <ColumnDefinition Width="80"/>
+                                <ColumnDefinition Width="80"/>
+                                <ColumnDefinition Width="80"/>
+                                <ColumnDefinition Width="1*"/>
+                            </Grid.ColumnDefinitions>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="1*"/>
+                                <RowDefinition Height="1*"/>
+                                <RowDefinition Height="1*"/>
+                                <RowDefinition Height="1*"/>
+                                <RowDefinition Height="1*"/>
+                                <RowDefinition Height="1*"/>
+                                <RowDefinition Height="1*"/>
+                                <RowDefinition Height="1*"/>
+                                <RowDefinition Height="1*"/>
+                                <RowDefinition Height="1*"/>
+                                <RowDefinition Height="1*"/>
+                            </Grid.RowDefinitions>
+
+                            <Label Grid.Row="1" Grid.Column="0" Content="Column Stiffener Top"></Label>
+                            <Label Grid.Row="2" Grid.Column="0" Content="Column Stiffener Bottom"></Label>
+                            <Label Grid.Row="3" Grid.Column="0" Content="Column Stiffener Web"></Label>
+
+                            <Label Grid.Row="0" Grid.Column="1" Content="Type"></Label>
+                            <ComboBox Grid.Row="1" Grid.Column="1" Text="none" VerticalAlignment="Center" SelectedIndex="0">
+                                <ComboBoxItem Content="None"></ComboBoxItem>
+                                <ComboBoxItem Content="Half"></ComboBoxItem>
+                                <ComboBoxItem Content="Full"></ComboBoxItem>
+                            </ComboBox>
+                            <ComboBox Grid.Row="2" Grid.Column="1" Text="none" VerticalAlignment="Center" SelectedIndex="0">
+                                <ComboBoxItem Content="None"></ComboBoxItem>
+                                <ComboBoxItem Content="Half"></ComboBoxItem>
+                                <ComboBoxItem Content="Full"></ComboBoxItem>
+                            </ComboBox>
+                            <ComboBox Grid.Row="3" Grid.Column="1" Text="Standard" VerticalAlignment="Center" SelectedIndex="0">
+                                <ComboBoxItem Content="Standard"></ComboBoxItem>
+                                <ComboBoxItem Content="Morris"></ComboBoxItem>
+                                <ComboBoxItem Content="Web Doubler"></ComboBoxItem>
+                                <ComboBoxItem Content="Sloped"></ComboBoxItem>
+                            </ComboBox>
+
+                            <Label Grid.Row="0" Grid.Column="2" Content="Thickness"></Label>
+                            <TextBox Padding="3,2,2,2" Grid.Row="1" Grid.Column="2" Text="10" 
+                         VerticalAlignment="Center" IsReadOnly="True"></TextBox>
+                            <TextBox Padding="3,2,2,2" Grid.Row="2" Grid.Column="2" Text="10"
+                         VerticalAlignment="Center" IsReadOnly="True"></TextBox>
+                            <TextBox Padding="3,2,2,2" Grid.Row="3" Grid.Column="2" Text="10"
+                         VerticalAlignment="Center" IsReadOnly="True"></TextBox>
+
+                            <Label Grid.Row="0" Grid.Column="3" Content="Length"></Label>
+                            <TextBox Padding="3,2,2,2" Grid.Row="1" Grid.Column="3" Text="50" 
+                         VerticalAlignment="Center" IsReadOnly="True"></TextBox>
+                            <TextBox Padding="3,2,2,2" Grid.Row="2" Grid.Column="3" Text="50"
+                         VerticalAlignment="Center" IsReadOnly="True"></TextBox>
+                            <TextBox Padding="3,2,2,2" Grid.Row="3" Grid.Column="3" Text="50"
+                         VerticalAlignment="Center" IsReadOnly="True"></TextBox>
+                        </Grid>
+                    </Border>
+
+                </Grid>
+            </GroupBox>
+            
+            <DockPanel Grid.Row="2" LastChildFill="True" >
+                <GroupBox Grid.Row="1" Grid.RowSpan="1" Grid.Column="0" Grid.ColumnSpan="1" Header=" eToolkit:" Margin="3,4,3,3">
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="10"/>
+                            <RowDefinition Height="26"/>
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="200"/>
+                        </Grid.ColumnDefinitions>
+                        <Button Grid.Row="1" Grid.Column="0" Content="Calculate"  Margin="5,2,4,0" IsEnabled="True" Height="22" VerticalAlignment="Top"/>
+                    </Grid>
+                </GroupBox>
+                <GroupBox Grid.Row="1" Grid.RowSpan="1" Grid.Column="0" Grid.ColumnSpan="1" Header=" Update Revit:" Margin="3,4,3,3">
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="10"/>
+                            <RowDefinition Height="26"/>
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="1*"/>
+                            <ColumnDefinition Width="1*"/>
+                        </Grid.ColumnDefinitions>
+                        <Button Command="{Binding CmdUpdate3D_Chk}" Grid.Row="1" Grid.Column="0" Content="Checked Items"  
+                                Margin="5,2,4,0" IsEnabled="True" Height="22" VerticalAlignment="Top"/>
+                        <Button Command="{Binding CmdUpdate3D}"  Grid.Row="1" Grid.Column="1" Content="All Items"  
+                                Margin="4,2,5,2" IsEnabled="True"/>
+                    </Grid>
+                </GroupBox>
+            </DockPanel>
+        </Grid>
+
+        <Grid Grid.Row="0" Grid.Column="0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1*"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="1*"></RowDefinition>
+            </Grid.RowDefinitions>
+           
+
+            <GroupBox Visibility="Hidden" MaxWidth="450" Grid.Row="0" Grid.RowSpan="1" Grid.Column="1" 
+                      Header=" ULS Load Combinations:" Margin="3,4,3,3">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="5"/>
+                        <RowDefinition Height="1*"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto"/>
+                    </Grid.ColumnDefinitions>
+
+                    <DataGrid Grid.Row="1" ItemsSource="{Binding LoadCombinations, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Margin="4,0,4,4"
+                  AutoGenerateColumns="False" CanUserAddRows="True" CanUserReorderColumns="False" CanUserResizeColumns="False" CanUserSortColumns="True" IsReadOnly="False">
+                        <DataGrid.Columns>
+                            <DataGridTextColumn Header=" Load Combination" Width="170" 
+                                    Binding ="{Binding Path=LoadCombinationName, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" 
+                                    MinWidth="200"/>
+                            <DataGridTextColumn Header=" Vu" Width="50" 
+                                    Binding ="{Binding Path=Vu, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" 
+                                    MinWidth="50"/>
+                            <DataGridTextColumn Header=" Fu" Width="50" 
+                                    Binding ="{Binding Path=Fu, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" 
+                                    MinWidth="50"/>
+                            <DataGridTextColumn Header=" Mu" Width="50" 
+                                    Binding ="{Binding Path=Mu, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" 
+                                    MinWidth="50"/>
+                        </DataGrid.Columns>
+
+                        <DataGrid.ContextMenu>
+                            <ContextMenu>
+                                <MenuItem Header="Copy Table" Command="{Binding CmdCopyClick}" CommandParameter="{Binding ElementName=ConnectionsDataGrid, Path=SelectedItem}"/>
+                            </ContextMenu>
+                        </DataGrid.ContextMenu>
+                    </DataGrid>
+
+                </Grid>
+            </GroupBox>
+
+
+            <GroupBox Visibility="Visible" Grid.Row="0" Grid.RowSpan="1" Grid.Column="0" Grid.ColumnSpan="2" 
+                  Header=" Revit Connections:" Margin="3,4,3,0">
+                <Grid Margin="4,4,4,4" Background="WhiteSmoke">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="1*"/>
+                    </Grid.ColumnDefinitions>
+                    <StackPanel Grid.RowSpan="2" Margin="1,1,1,1">
+                        <StackPanel Name="Header1" Height="{StaticResource H1DiffHeight}">
+                         
+                            <Label Content="Moment Connections"  Style="{DynamicResource H1Label}" />
+
+                            <DataGrid x:Name="ConnectionsDataGrid" Style="{DynamicResource DataGrid_1}"
+                                      ItemsSource="{Binding MomentConnections, UpdateSourceTrigger=PropertyChanged}">
+                                <DataGrid.Columns>
+                                    <DataGridTemplateColumn Header="" Width="18" MinWidth="18">
+                                        <DataGridTemplateColumn.CellTemplate>
+                                            <DataTemplate>
+                                                <CheckBox IsChecked="{Binding Path=Include_Connection, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}"/>
+                                            </DataTemplate>
+                                        </DataGridTemplateColumn.CellTemplate>
+                                    </DataGridTemplateColumn>
+                                    <DataGridTextColumn Header=" ID" Width="50" HeaderStyle="{DynamicResource  DataGridHeader_1}" 
+                                    Binding ="{Binding Path=ElementID, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" 
+                                    MinWidth="50"/>
+                                    <DataGridTextColumn Header=" Connection Type" Width="1*"
+                                    Binding ="{Binding Path=ConnectionType, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" 
+                                    MinWidth="170"/>
+                                    <DataGridTextColumn Header=" Supported" Width="90" 
+                                    Binding ="{Binding Path=PrimaryElement, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" 
+                                    MinWidth="90"/>
+                                    <DataGridTextColumn Header=" Supporting" Width="90" 
+                                    Binding ="{Binding Path=SecondaryElement, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" 
+                                    MinWidth="90"/>
+                                    <DataGridTextColumn Header=" Capacity" Width="1*" 
+                                    Binding ="{Binding Path=ConnectionCapacity, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" 
+                                    MinWidth="60"/>
+                                    <DataGridTextColumn Header=" Group" Width="1*" 
+                                    Binding ="{Binding Path=SiblingID, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" 
+                                    MinWidth="60"/>
+                                </DataGrid.Columns>
+                                <DataGrid.RowDetailsTemplate>
+                                    <DataTemplate>
+                                        <!--<DockPanel Background="GhostWhite">
+                                            <Image DockPanel.Dock="Left" Source="{Binding ImageUrl}" Height="64" Margin="10" />
+                                            <Grid Margin="0,10">
+                                                <Grid.ColumnDefinitions>
+                                                    <ColumnDefinition Width="*" />
+                                                </Grid.ColumnDefinitions>
+                                                <Grid.RowDefinitions>
+                                                    <RowDefinition Height="Auto" />
+                                                    <RowDefinition Height="Auto" />
+                                                    <RowDefinition Height="Auto" />
+                                                </Grid.RowDefinitions>
+
+                                                <DataGrid AutoGenerateColumns="False"
+                              ItemsSource="{Binding ChildConnection, UpdateSourceTrigger=PropertyChanged}" 
+                   CanUserAddRows="False" CanUserReorderColumns="False" CanUserSortColumns="True" 
+                          IsReadOnly="True" >
+                                                    <DataGrid.Columns>
+                                                        <DataGridTemplateColumn  Header="" Width="18" MinWidth="18">
+                                                            <DataGridTemplateColumn.CellTemplate>
+                                                                <DataTemplate>
+                                                                    <CheckBox IsChecked="{Binding Path=Include_Connection, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}"/>
+                                                                </DataTemplate>
+                                                            </DataGridTemplateColumn.CellTemplate>
+                                                        </DataGridTemplateColumn>
+                                                        <DataGridTextColumn Header=" ID" Width="50" 
+                                    Binding ="{Binding Path=ElementID, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" 
+                                    MinWidth="50"/>
+                                                        <DataGridTextColumn Header=" Connection Type" Width="1*" 
+                                    Binding ="{Binding Path=ConnectionType, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" 
+                                    MinWidth="170"/>
+                                                    </DataGrid.Columns>
+                                                </DataGrid>
+                                            </Grid>
+                                        </DockPanel>-->
+                                    </DataTemplate>
+                                </DataGrid.RowDetailsTemplate>
+                                <DataGrid.ContextMenu>
+                                    <ContextMenu>
+                                        <MenuItem Header="Copy Table" Command="{Binding CmdCopyClick}" CommandParameter="{Binding ElementName=ConnectionsDataGrid, Path=Items}"/>
+                                    </ContextMenu>
+                                </DataGrid.ContextMenu>
+                                <DataGrid.InputBindings>
+                                    <MouseBinding Gesture="LeftDoubleClick"  Command="{Binding CmdPropertiesClick}" 
+                      CommandParameter="{Binding ElementName=ConnectionsDataGrid, Path=SelectedItem}" />
+                                </DataGrid.InputBindings>
+                            </DataGrid>
+
+                            <StackPanel.Triggers>
+                                <EventTrigger RoutedEvent="UIElement.MouseLeftButtonUp">
+                                    <BeginStoryboard>
+                                        <Storyboard>
+                                            <DoubleAnimation Storyboard.TargetName="Header1" Storyboard.TargetProperty="Height" To="{StaticResource H1DiffHeight}" Duration="0:0:0.30" AccelerationRatio="{StaticResource AccelerationRatio}" DecelerationRatio="{StaticResource DecelerationRatio}" />
+                                            <DoubleAnimation Storyboard.TargetName="Header2" Storyboard.TargetProperty="Height" To="{StaticResource H1Height}" Duration="0:0:0.30" AccelerationRatio="{StaticResource AccelerationRatio}" DecelerationRatio="{StaticResource DecelerationRatio}"/>
+                                            <DoubleAnimation Storyboard.TargetName="Header3" Storyboard.TargetProperty="Height" To="{StaticResource H1Height}" Duration="0:0:0.30" AccelerationRatio="{StaticResource AccelerationRatio}" DecelerationRatio="{StaticResource DecelerationRatio}"/>
+                                        </Storyboard>
+                                    </BeginStoryboard>
+                                </EventTrigger>
+                                <EventTrigger RoutedEvent="UIElement.MouseLeftButtonDown" >
+                                    <BeginStoryboard>
+                                        <Storyboard>
+                                            <DoubleAnimation Storyboard.TargetName="Header1" Storyboard.TargetProperty="Height" To="{StaticResource H1Height}" Duration="0:0:0.50" AccelerationRatio="{StaticResource AccelerationRatio}" DecelerationRatio="{StaticResource DecelerationRatio}"/>
+                                        </Storyboard>
+                                    </BeginStoryboard>
+                                </EventTrigger>
+                            </StackPanel.Triggers>
+                        </StackPanel>
+                        <StackPanel Name="Header2" Height="{StaticResource H1Height}">
+                            <Label Content="Simple Connections" Style="{DynamicResource H1Label}">
+                               
+                            </Label>
+
+                            <DataGrid x:Name="SimpleConnectionsDataGrid" Style="{DynamicResource DataGrid_1}"
+                              ItemsSource="{Binding SimpleConnections, UpdateSourceTrigger=PropertyChanged}">
+                                <DataGrid.Columns>
+                                    <DataGridTemplateColumn  Header="" Width="18" MinWidth="18">
+                                        <DataGridTemplateColumn.CellTemplate>
+                                            <DataTemplate>
+                                                <CheckBox IsChecked="{Binding Path=Include_Connection, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}"/>
+                                            </DataTemplate>
+                                        </DataGridTemplateColumn.CellTemplate>
+                                    </DataGridTemplateColumn>
+                                    <DataGridTextColumn Header=" ID" Width="50" 
+                                    Binding ="{Binding Path=ElementID, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" 
+                                    MinWidth="50"/>
+                                    <DataGridTextColumn Header=" Connection Type" Width="1*" 
+                                    Binding ="{Binding Path=ConnectionType, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" 
+                                    MinWidth="170"/>
+                                    <DataGridTextColumn Header=" Supported" Width="90" 
+                                    Binding ="{Binding Path=PrimaryElement, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" 
+                                    MinWidth="90"/>
+                                    <DataGridTextColumn Header=" Supporting" Width="90" 
+                                    Binding ="{Binding Path=SecondaryElement, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" 
+                                    MinWidth="90"/>
+                                    <DataGridTextColumn Header=" Capacity" Width="60" 
+                                    Binding ="{Binding Path=ConnectionCapacity, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" 
+                                    MinWidth="60"/>
+                             
+                                </DataGrid.Columns>
+                                <DataGrid.RowDetailsTemplate>
+                                    <DataTemplate>
+                                        <!--<DockPanel Background="GhostWhite">
+                                            <Image DockPanel.Dock="Left" Source="{Binding ImageUrl}" Height="64" Margin="10" />
+                                            <Grid Margin="0,10">
+                                                <Grid.ColumnDefinitions>
+                                                    <ColumnDefinition Width="*" />
+                                                </Grid.ColumnDefinitions>
+                                                <Grid.RowDefinitions>
+                                                    <RowDefinition Height="Auto" />
+                                                    <RowDefinition Height="Auto" />
+                                                    <RowDefinition Height="Auto" />
+                                                </Grid.RowDefinitions>
+
+                                                <DataGrid AutoGenerateColumns="False"
+                              ItemsSource="{Binding ChildConnection, UpdateSourceTrigger=PropertyChanged}" 
+                   CanUserAddRows="False" CanUserReorderColumns="False" CanUserSortColumns="True" 
+                          IsReadOnly="True" >
+                                                    <DataGrid.Columns>
+                                                        <DataGridTemplateColumn  Header="" Width="18" MinWidth="18">
+                                                            <DataGridTemplateColumn.CellTemplate>
+                                                                <DataTemplate>
+                                                                    <CheckBox IsChecked="{Binding Path=Include_Connection, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}"/>
+                                                                </DataTemplate>
+                                                            </DataGridTemplateColumn.CellTemplate>
+                                                        </DataGridTemplateColumn>
+                                                        <DataGridTextColumn Header=" ID" Width="50" 
+                                    Binding ="{Binding Path=ElementID, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" 
+                                    MinWidth="50"/>
+                                                        <DataGridTextColumn Header=" Connection Type" Width="1*" 
+                                    Binding ="{Binding Path=ConnectionType, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" 
+                                    MinWidth="170"/>
+                                                    </DataGrid.Columns>
+                                                </DataGrid>
+
+                                            </Grid>
+                                        </DockPanel>-->
+                                    </DataTemplate>
+                                </DataGrid.RowDetailsTemplate>
+                                <DataGrid.ContextMenu>
+                                    <ContextMenu>
+                                        <MenuItem Header="Copy Table" Command="{Binding CmdCopyClick}" CommandParameter="{Binding ElementName=ConnectionsDataGrid, Path=Items}"/>
+                                    </ContextMenu>
+                                </DataGrid.ContextMenu>
+                                <DataGrid.InputBindings>
+                                    <MouseBinding Gesture="LeftDoubleClick"  Command="{Binding CmdPropertiesClick}" 
+                      CommandParameter="{Binding ElementName=ConnectionsDataGrid, Path=SelectedItem}" />
+                                </DataGrid.InputBindings>
+                            </DataGrid>
+
+                            <StackPanel.Triggers>
+                                <EventTrigger RoutedEvent="UIElement.MouseLeftButtonUp">
+                                    <BeginStoryboard>
+                                        <Storyboard>
+                                            <DoubleAnimation Storyboard.TargetName="Header1" Storyboard.TargetProperty="Height" To="{StaticResource H1Height}" Duration="0:0:0.30" AccelerationRatio="{StaticResource AccelerationRatio}" DecelerationRatio="{StaticResource DecelerationRatio}"/>
+                                            <DoubleAnimation Storyboard.TargetName="Header2" Storyboard.TargetProperty="Height" To="{StaticResource H1DiffHeight}" Duration="0:0:0.30" AccelerationRatio="{StaticResource AccelerationRatio}" DecelerationRatio="{StaticResource DecelerationRatio}"/>
+                                            <DoubleAnimation Storyboard.TargetName="Header3" Storyboard.TargetProperty="Height" To="{StaticResource H1Height}" Duration="0:0:0.30" AccelerationRatio="{StaticResource AccelerationRatio}" DecelerationRatio="{StaticResource DecelerationRatio}"/>
+                                        </Storyboard>
+                                    </BeginStoryboard>
+                                </EventTrigger>
+                                <EventTrigger RoutedEvent="UIElement.MouseLeftButtonDown">
+                                    <BeginStoryboard>
+                                        <Storyboard>
+                                            <DoubleAnimation Storyboard.TargetName="Header2" Storyboard.TargetProperty="Height" To="{StaticResource H1Height}" Duration="0:0:0.50" AccelerationRatio="{StaticResource AccelerationRatio}" DecelerationRatio="{StaticResource DecelerationRatio}"/>
+                                        </Storyboard>
+                                    </BeginStoryboard>
+                                </EventTrigger>
+                            </StackPanel.Triggers>
+                        </StackPanel>
+                        <StackPanel Name="Header3" Height="{StaticResource H1Height}">
+                            <Label Content="Base Plate Connections" Style="{DynamicResource H1Label}"></Label>
+
+                            <DataGrid x:Name="BasePlateConnectionsDataGrid" Style="{DynamicResource DataGrid_1}"
+                              ItemsSource="{Binding BasePlates, UpdateSourceTrigger=PropertyChanged}">
+                                <DataGrid.Columns>
+                                    <DataGridTemplateColumn  Header="" Width="18" MinWidth="18">
+                                        <DataGridTemplateColumn.CellTemplate>
+                                            <DataTemplate>
+                                                <CheckBox IsChecked="{Binding Path=Include_Connection, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}"/>
+                                            </DataTemplate>
+                                        </DataGridTemplateColumn.CellTemplate>
+                                    </DataGridTemplateColumn>
+                                    <DataGridTextColumn Header=" ID" Width="50" 
+                                    Binding ="{Binding Path=ElementID, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" 
+                                    MinWidth="50"/>
+                                    <DataGridTextColumn Header=" Connection Type" Width="1*" 
+                                    Binding ="{Binding Path=ConnectionType, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" 
+                                    MinWidth="170"/>
+                                    <DataGridTextColumn Header=" Supported" Width="90" 
+                                    Binding ="{Binding Path=PrimaryElement, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" 
+                                    MinWidth="90"/>
+                                    <DataGridTextColumn Header=" Supporting" Width="90" 
+                                    Binding ="{Binding Path=SecondaryElement, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" 
+                                    MinWidth="90"/>
+                                    <DataGridTextColumn Header=" Capacity" Width="60" 
+                                    Binding ="{Binding Path=ConnectionCapacity, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" 
+                                    MinWidth="60"/>
+                                </DataGrid.Columns>
+                                <DataGrid.RowDetailsTemplate>
+                                    <DataTemplate>
+                                        <!--<DockPanel Background="GhostWhite">
+                                            <Image DockPanel.Dock="Left" Source="{Binding ImageUrl}" Height="64" Margin="10" />
+                                            <Grid Margin="0,10">
+                                                <Grid.ColumnDefinitions>
+                                                    <ColumnDefinition Width="*" />
+                                                </Grid.ColumnDefinitions>
+                                                <Grid.RowDefinitions>
+                                                    <RowDefinition Height="Auto" />
+                                                    <RowDefinition Height="Auto" />
+                                                    <RowDefinition Height="Auto" />
+                                                </Grid.RowDefinitions>
+
+                                                <DataGrid AutoGenerateColumns="False"
+                              ItemsSource="{Binding ChildConnection, UpdateSourceTrigger=PropertyChanged}" 
+                   CanUserAddRows="False" CanUserReorderColumns="False" CanUserSortColumns="True" 
+                          IsReadOnly="True" >
+                                                    <DataGrid.Columns>
+                                                        <DataGridTemplateColumn  Header="" Width="18" MinWidth="18">
+                                                            <DataGridTemplateColumn.CellTemplate>
+                                                                <DataTemplate>
+                                                                    <CheckBox IsChecked="{Binding Path=Include_Connection, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}"/>
+                                                                </DataTemplate>
+                                                            </DataGridTemplateColumn.CellTemplate>
+                                                        </DataGridTemplateColumn>
+                                                        <DataGridTextColumn Header=" ID" Width="50" 
+                                    Binding ="{Binding Path=ElementID, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" 
+                                    MinWidth="50"/>
+                                                        <DataGridTextColumn Header=" Connection Type" Width="1*" 
+                                    Binding ="{Binding Path=ConnectionType, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" 
+                                    MinWidth="170"/>
+                                                    </DataGrid.Columns>
+                                                </DataGrid>
+
+                                            </Grid>
+                                        </DockPanel>-->
+                                    </DataTemplate>
+                                </DataGrid.RowDetailsTemplate>
+                                <DataGrid.ContextMenu>
+                                    <ContextMenu>
+                                        <MenuItem Header="Copy Table" Command="{Binding CmdCopyClick}" CommandParameter="{Binding ElementName=ConnectionsDataGrid, Path=Items}"/>
+                                    </ContextMenu>
+                                </DataGrid.ContextMenu>
+                                <DataGrid.InputBindings>
+                                    <MouseBinding Gesture="LeftDoubleClick"  Command="{Binding CmdPropertiesClick}" 
+                      CommandParameter="{Binding ElementName=ConnectionsDataGrid, Path=SelectedItem}" />
+                                </DataGrid.InputBindings>
+                            </DataGrid>
+                            
+                            <StackPanel.Triggers>
+                                <EventTrigger RoutedEvent="UIElement.MouseLeftButtonUp">
+                                    <BeginStoryboard>
+                                        <Storyboard>
+                                            <DoubleAnimation Storyboard.TargetName="Header1" Storyboard.TargetProperty="Height" To="{StaticResource H1Height}" Duration="0:0:0.30" AccelerationRatio="{StaticResource AccelerationRatio}" DecelerationRatio="{StaticResource DecelerationRatio}"/>
+                                            <DoubleAnimation Storyboard.TargetName="Header2" Storyboard.TargetProperty="Height" To="{StaticResource H1Height}" Duration="0:0:0.30" AccelerationRatio="{StaticResource AccelerationRatio}" DecelerationRatio="{StaticResource DecelerationRatio}"/>
+                                            <DoubleAnimation Storyboard.TargetName="Header3" Storyboard.TargetProperty="Height" To="{StaticResource H1DiffHeight}" Duration="0:0:0.30" AccelerationRatio="{StaticResource AccelerationRatio}" DecelerationRatio="{StaticResource DecelerationRatio}"/>
+                                        </Storyboard>
+                                    </BeginStoryboard>
+                                </EventTrigger>
+                                <EventTrigger RoutedEvent="UIElement.MouseLeftButtonDown">
+                                    <BeginStoryboard>
+                                        <Storyboard>
+                                            <DoubleAnimation Storyboard.TargetName="Header3" Storyboard.TargetProperty="Height" To="{StaticResource H1Height}" Duration="0:0:0.50" AccelerationRatio="{StaticResource AccelerationRatio}" DecelerationRatio="{StaticResource DecelerationRatio}"/>
+                                        </Storyboard>
+                                    </BeginStoryboard>
+                                </EventTrigger>
+                            </StackPanel.Triggers>
+                        </StackPanel>
+                    </StackPanel>
+                    <!--<Grid.Triggers>
+                        <EventTrigger RoutedEvent="UIElement.MouseLeftButtonUp">
+                            <BeginStoryboard>
+                                <Storyboard>
+                                    <DoubleAnimation Storyboard.TargetName="Header1" Storyboard.TargetProperty="Height" To="100" Duration="0:0:0.50" AccelerationRatio="0.9" DecelerationRatio="0.1" />
+                                    <DoubleAnimation Storyboard.TargetName="Header2" Storyboard.TargetProperty="Height" To="26" Duration="0:0:0.50" AccelerationRatio="0.9" DecelerationRatio="0.1" />
+                                    <DoubleAnimation Storyboard.TargetName="Header3" Storyboard.TargetProperty="Height" To="26" Duration="0:0:0.50" AccelerationRatio="0.9" DecelerationRatio="0.1" />
+                                </Storyboard>
+                            </BeginStoryboard>
+                        </EventTrigger>
+                    </Grid.Triggers>-->
+
+                    <!--<SWC:Accordion OverridesDefaultStyle="False" Background="Black" HorizontalAlignment="Stretch" VerticalAlignment="Top">
+                        <SWC:AccordionItem AllowDrop="True" Header="Moment Connections" Style="{DynamicResource AccordionItem_1}">
+                            <StackPanel>
+                                <DataGrid x:Name="ConnectionsDataGrid" Grid.Row="1" AutoGenerateColumns="False"
+                              ItemsSource="{Binding MomentConnections, UpdateSourceTrigger=PropertyChanged}" 
+                   CanUserAddRows="False" CanUserReorderColumns="False" CanUserSortColumns="True" 
+                          IsReadOnly="True"  HorizontalAlignment="Stretch"  VerticalAlignment="Stretch">
+                                    <DataGrid.Columns>
+                                        <DataGridTemplateColumn  Header="" Width="18" MinWidth="18">
+                                            <DataGridTemplateColumn.CellTemplate>
+                                                <DataTemplate>
+                                                    <CheckBox IsChecked="{Binding Path=Include_Connection, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}"/>
+                                                </DataTemplate>
+                                            </DataGridTemplateColumn.CellTemplate>
+                                        </DataGridTemplateColumn>
+                                        <DataGridTextColumn Header=" ID" Width="50" 
+                                    Binding ="{Binding Path=ElementID, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" 
+                                    MinWidth="50"/>
+                                        <DataGridTextColumn Header=" Connection Type" Width="1*" 
+                                    Binding ="{Binding Path=ConnectionType, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" 
+                                    MinWidth="170"/>
+                                        --><!--<DataGridTemplateColumn Header=" Overide by Instance" Width="Auto" MinWidth="45">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <CheckBox IsChecked="{Binding Path=OverridebyInstance, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"/>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>--><!--
+                                        <DataGridTextColumn Header=" Supported" Width="90" 
+                                    Binding ="{Binding Path=PrimaryElement, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" 
+                                    MinWidth="90"/>
+                                        <DataGridTextColumn Header=" Supporting" Width="90" 
+                                    Binding ="{Binding Path=SecondaryElement, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" 
+                                    MinWidth="90"/>
+                                        <DataGridTextColumn Header=" Capacity" Width="1*" 
+                                    Binding ="{Binding Path=ConnectionCapacity, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" 
+                                    MinWidth="60"/>
+                                        <DataGridTextColumn Header=" Group" Width="1*" 
+                                    Binding ="{Binding Path=SiblingID, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" 
+                                    MinWidth="60"/>
+
+                                        --><!--<DataGridTemplateColumn  Header=" Copy From ID" Width="95" MinWidth="95">
+                            <DataGridTemplateColumn.CellTemplate>
+                                <DataTemplate>
+                                    <ComboBox ItemsSource="{Binding Path=CopyFromID, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}"/>
+                                </DataTemplate>
+                            </DataGridTemplateColumn.CellTemplate>
+                        </DataGridTemplateColumn>-->
+                                        <!--<DataGridTextColumn Header=" Cost (R)" Width="80" 
+                                    Binding ="{Binding Path=ConnectionCost, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" 
+                                    MinWidth="80" CellStyle="{DynamicResource DataGridCell_1}"/>-->
+                                        <!--<DataGridTemplateColumn Header=" Parameters" Width="75" MinWidth="45">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <DataGrid ItemsSource="{Binding Path=Parameters, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" AutoGenerateColumns="False">
+                                <DataGrid.Columns>
+                                    <DataGridTextColumn Header=" Parameter Description" Width="75" 
+                                    Binding ="{Binding Path=Description, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" 
+                                    MinWidth="45"/>
+                                    <DataGridTextColumn Header=" Value" Width="75" 
+                                    Binding ="{Binding Path=Value, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" 
+                                    MinWidth="45"/>
+                                </DataGrid.Columns>
+                            </DataGrid>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>-->
+                                        <!--<DataGridTextColumn Header=" Peak ULS Load Combination" Width="1*" 
+                                    Binding ="{Binding Path=PeakLC, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" 
+                                    MinWidth="170" CellStyle="{DynamicResource DataGridCell_1}"/>
+                        <DataGridTextColumn Header=" Vr" Width="50" 
+                                    Binding ="{Binding Path=ULS_Vr, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" 
+                                    MinWidth="50" CellStyle="{DynamicResource DataGridCell_1}"/>
+                        <DataGridTextColumn Header=" Fr" Width="50" 
+                                    Binding ="{Binding Path=ULS_Fr, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" 
+                                    MinWidth="50" CellStyle="{DynamicResource DataGridCell_1}"/>
+                        <DataGridTextColumn Header=" Mr" Width="50" 
+                                    Binding ="{Binding Path=ULS_Mr, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" 
+                                    MinWidth="50" CellStyle="{DynamicResource DataGridCell_1}"/>
+                        <DataGridTextColumn Header=" Vu/Vr" Width="50" 
+                                    Binding ="{Binding Path=ULS_Vu_Vr, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" 
+                                    MinWidth="50" CellStyle="{DynamicResource DataGridCell_1}"/>
+                        <DataGridTextColumn Header=" Fu/Fr" Width="50" 
+                                    Binding ="{Binding Path=ULS_Fu_Fr, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" 
+                                    MinWidth="50" CellStyle="{DynamicResource DataGridCell_1}"/>
+                        <DataGridTextColumn Header=" Mu/Mr" Width="50" 
+                                    Binding ="{Binding Path=ULS_Mu_Mr, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" 
+                                    MinWidth="50" CellStyle="{DynamicResource DataGridCell_1}"/>--><!--
+                                    </DataGrid.Columns>
+                                    <DataGrid.RowDetailsTemplate>
+                                        <DataTemplate>
+                                            <DockPanel Background="GhostWhite">
+                                                <Image DockPanel.Dock="Left" Source="{Binding ImageUrl}" Height="64" Margin="10" />
+                                                <Grid Margin="0,10">
+                                                    <Grid.ColumnDefinitions>
+                                                        <ColumnDefinition Width="*" />
+                                                    </Grid.ColumnDefinitions>
+                                                    <Grid.RowDefinitions>
+                                                        <RowDefinition Height="Auto" />
+                                                        <RowDefinition Height="Auto" />
+                                                        <RowDefinition Height="Auto" />
+                                                    </Grid.RowDefinitions>
+
+                                                    <DataGrid AutoGenerateColumns="False"
+                              ItemsSource="{Binding ChildConnection, UpdateSourceTrigger=PropertyChanged}" 
+                   CanUserAddRows="False" CanUserReorderColumns="False" CanUserSortColumns="True" 
+                          IsReadOnly="True" >
+                                                        <DataGrid.Columns>
+                                                            <DataGridTemplateColumn  Header="" Width="18" MinWidth="18">
+                                                                <DataGridTemplateColumn.CellTemplate>
+                                                                    <DataTemplate>
+                                                                        <CheckBox IsChecked="{Binding Path=Include_Connection, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}"/>
+                                                                    </DataTemplate>
+                                                                </DataGridTemplateColumn.CellTemplate>
+                                                            </DataGridTemplateColumn>
+                                                            <DataGridTextColumn Header=" ID" Width="50" 
+                                    Binding ="{Binding Path=ElementID, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" 
+                                    MinWidth="50"/>
+                                                            <DataGridTextColumn Header=" Connection Type" Width="1*" 
+                                    Binding ="{Binding Path=ConnectionType, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" 
+                                    MinWidth="170"/>
+                                                        </DataGrid.Columns>
+                                                    </DataGrid>
+
+                                                </Grid>
+                                            </DockPanel>
+                                        </DataTemplate>
+                                    </DataGrid.RowDetailsTemplate>
+                                    <DataGrid.ContextMenu>
+                                        <ContextMenu>
+                                            <MenuItem Header="Copy Table" Command="{Binding CmdCopyClick}" CommandParameter="{Binding ElementName=ConnectionsDataGrid, Path=Items}"/>
+                                        </ContextMenu>
+                                    </DataGrid.ContextMenu>
+                                    <DataGrid.InputBindings>
+                                        <MouseBinding Gesture="LeftDoubleClick"  Command="{Binding CmdPropertiesClick}" 
+                      CommandParameter="{Binding ElementName=ConnectionsDataGrid, Path=SelectedItem}" />
+                                    </DataGrid.InputBindings>
+                                </DataGrid>
+                            </StackPanel>
+                        </SWC:AccordionItem>
+                        <SWC:AccordionItem Header="Simple Connections" Style="{DynamicResource AccordionItem_1}">
+                            <DataGrid x:Name="MomentConnectionsDataGrid" Grid.Row="1" AutoGenerateColumns="False"
+                              ItemsSource="{Binding SimpleConnections, UpdateSourceTrigger=PropertyChanged}" 
+                   CanUserAddRows="False" CanUserReorderColumns="False" CanUserSortColumns="True" 
+                          IsReadOnly="True" >
+                                <DataGrid.Columns>
+                                    <DataGridTemplateColumn  Header="" Width="18" MinWidth="18">
+                                        <DataGridTemplateColumn.CellTemplate>
+                                            <DataTemplate>
+                                                <CheckBox IsChecked="{Binding Path=Include_Connection, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}"/>
+                                            </DataTemplate>
+                                        </DataGridTemplateColumn.CellTemplate>
+                                    </DataGridTemplateColumn>
+                                    <DataGridTextColumn Header=" ID" Width="50" 
+                                    Binding ="{Binding Path=ElementID, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" 
+                                    MinWidth="50"/>
+                                    <DataGridTextColumn Header=" Connection Type" Width="1*" 
+                                    Binding ="{Binding Path=ConnectionType, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" 
+                                    MinWidth="170"/>
+                                    --><!--<DataGridTemplateColumn Header=" Overide by Instance" Width="Auto" MinWidth="45">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <CheckBox IsChecked="{Binding Path=OverridebyInstance, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"/>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>--><!--
+                                    <DataGridTextColumn Header=" Supported" Width="90" 
+                                    Binding ="{Binding Path=PrimaryElement, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" 
+                                    MinWidth="90"/>
+                                    <DataGridTextColumn Header=" Supporting" Width="90" 
+                                    Binding ="{Binding Path=SecondaryElement, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" 
+                                    MinWidth="90"/>
+                                    <DataGridTextColumn Header=" Capacity" Width="60" 
+                                    Binding ="{Binding Path=ConnectionCapacity, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" 
+                                    MinWidth="60"/>
+                                    --><!--<DataGridTemplateColumn  Header=" Copy From ID" Width="95" MinWidth="95">
+                            <DataGridTemplateColumn.CellTemplate>
+                                <DataTemplate>
+                                    <ComboBox ItemsSource="{Binding Path=CopyFromID, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}"/>
+                                </DataTemplate>
+                            </DataGridTemplateColumn.CellTemplate>
+                        </DataGridTemplateColumn>-->
+                                    <!--<DataGridTextColumn Header=" Cost (R)" Width="80" 
+                                    Binding ="{Binding Path=ConnectionCost, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" 
+                                    MinWidth="80" CellStyle="{DynamicResource DataGridCell_1}"/>-->
+                                    <!--<DataGridTemplateColumn Header=" Parameters" Width="75" MinWidth="45">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <DataGrid ItemsSource="{Binding Path=Parameters, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" AutoGenerateColumns="False">
+                                <DataGrid.Columns>
+                                    <DataGridTextColumn Header=" Parameter Description" Width="75" 
+                                    Binding ="{Binding Path=Description, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" 
+                                    MinWidth="45"/>
+                                    <DataGridTextColumn Header=" Value" Width="75" 
+                                    Binding ="{Binding Path=Value, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" 
+                                    MinWidth="45"/>
+                                </DataGrid.Columns>
+                            </DataGrid>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>-->
+                                    <!--<DataGridTextColumn Header=" Peak ULS Load Combination" Width="1*" 
+                                    Binding ="{Binding Path=PeakLC, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" 
+                                    MinWidth="170" CellStyle="{DynamicResource DataGridCell_1}"/>
+                        <DataGridTextColumn Header=" Vr" Width="50" 
+                                    Binding ="{Binding Path=ULS_Vr, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" 
+                                    MinWidth="50" CellStyle="{DynamicResource DataGridCell_1}"/>
+                        <DataGridTextColumn Header=" Fr" Width="50" 
+                                    Binding ="{Binding Path=ULS_Fr, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" 
+                                    MinWidth="50" CellStyle="{DynamicResource DataGridCell_1}"/>
+                        <DataGridTextColumn Header=" Mr" Width="50" 
+                                    Binding ="{Binding Path=ULS_Mr, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" 
+                                    MinWidth="50" CellStyle="{DynamicResource DataGridCell_1}"/>
+                        <DataGridTextColumn Header=" Vu/Vr" Width="50" 
+                                    Binding ="{Binding Path=ULS_Vu_Vr, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" 
+                                    MinWidth="50" CellStyle="{DynamicResource DataGridCell_1}"/>
+                        <DataGridTextColumn Header=" Fu/Fr" Width="50" 
+                                    Binding ="{Binding Path=ULS_Fu_Fr, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" 
+                                    MinWidth="50" CellStyle="{DynamicResource DataGridCell_1}"/>
+                        <DataGridTextColumn Header=" Mu/Mr" Width="50" 
+                                    Binding ="{Binding Path=ULS_Mu_Mr, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" 
+                                    MinWidth="50" CellStyle="{DynamicResource DataGridCell_1}"/>--><!--
+                                </DataGrid.Columns>
+                                <DataGrid.RowDetailsTemplate>
+                                    <DataTemplate>
+                                        <DockPanel Background="GhostWhite">
+                                            <Image DockPanel.Dock="Left" Source="{Binding ImageUrl}" Height="64" Margin="10" />
+                                            <Grid Margin="0,10">
+                                                <Grid.ColumnDefinitions>
+                                                    <ColumnDefinition Width="*" />
+                                                </Grid.ColumnDefinitions>
+                                                <Grid.RowDefinitions>
+                                                    <RowDefinition Height="Auto" />
+                                                    <RowDefinition Height="Auto" />
+                                                    <RowDefinition Height="Auto" />
+                                                </Grid.RowDefinitions>
+
+                                                <DataGrid AutoGenerateColumns="False"
+                              ItemsSource="{Binding ChildConnection, UpdateSourceTrigger=PropertyChanged}" 
+                   CanUserAddRows="False" CanUserReorderColumns="False" CanUserSortColumns="True" 
+                          IsReadOnly="True" >
+                                                    <DataGrid.Columns>
+                                                        <DataGridTemplateColumn  Header="" Width="18" MinWidth="18">
+                                                            <DataGridTemplateColumn.CellTemplate>
+                                                                <DataTemplate>
+                                                                    <CheckBox IsChecked="{Binding Path=Include_Connection, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}"/>
+                                                                </DataTemplate>
+                                                            </DataGridTemplateColumn.CellTemplate>
+                                                        </DataGridTemplateColumn>
+                                                        <DataGridTextColumn Header=" ID" Width="50" 
+                                    Binding ="{Binding Path=ElementID, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" 
+                                    MinWidth="50"/>
+                                                        <DataGridTextColumn Header=" Connection Type" Width="1*" 
+                                    Binding ="{Binding Path=ConnectionType, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" 
+                                    MinWidth="170"/>
+                                                    </DataGrid.Columns>
+                                                </DataGrid>
+
+                                            </Grid>
+                                        </DockPanel>
+                                    </DataTemplate>
+                                </DataGrid.RowDetailsTemplate>
+                                <DataGrid.ContextMenu>
+                                    <ContextMenu>
+                                        <MenuItem Header="Copy Table" Command="{Binding CmdCopyClick}" CommandParameter="{Binding ElementName=ConnectionsDataGrid, Path=Items}"/>
+                                    </ContextMenu>
+                                </DataGrid.ContextMenu>
+                                <DataGrid.InputBindings>
+                                    <MouseBinding Gesture="LeftDoubleClick"  Command="{Binding CmdPropertiesClick}" 
+                      CommandParameter="{Binding ElementName=ConnectionsDataGrid, Path=SelectedItem}" />
+                                </DataGrid.InputBindings>
+                            </DataGrid>
+                        </SWC:AccordionItem>
+                        <SWC:AccordionItem  Header="Base Plate Connections" Style="{DynamicResource AccordionItem_1}">
+                            <DataGrid x:Name="SimpleConnectionsDataGrid" Grid.Row="1" AutoGenerateColumns="False"
+                              ItemsSource="{Binding BasePlates, UpdateSourceTrigger=PropertyChanged}" 
+                   CanUserAddRows="False" CanUserReorderColumns="False" CanUserSortColumns="True" 
+                          IsReadOnly="True" >
+                                <DataGrid.Columns>
+                                    <DataGridTemplateColumn  Header="" Width="18" MinWidth="18">
+                                        <DataGridTemplateColumn.CellTemplate>
+                                            <DataTemplate>
+                                                <CheckBox IsChecked="{Binding Path=Include_Connection, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}"/>
+                                            </DataTemplate>
+                                        </DataGridTemplateColumn.CellTemplate>
+                                    </DataGridTemplateColumn>
+                                    <DataGridTextColumn Header=" ID" Width="50" 
+                                    Binding ="{Binding Path=ElementID, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" 
+                                    MinWidth="50"/>
+                                    <DataGridTextColumn Header=" Connection Type" Width="1*" 
+                                    Binding ="{Binding Path=ConnectionType, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" 
+                                    MinWidth="170"/>
+                                    --><!--<DataGridTemplateColumn Header=" Overide by Instance" Width="Auto" MinWidth="45">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <CheckBox IsChecked="{Binding Path=OverridebyInstance, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"/>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>--><!--
+                                    <DataGridTextColumn Header=" Supported" Width="90" 
+                                    Binding ="{Binding Path=PrimaryElement, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" 
+                                    MinWidth="90"/>
+                                    <DataGridTextColumn Header=" Supporting" Width="90" 
+                                    Binding ="{Binding Path=SecondaryElement, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" 
+                                    MinWidth="90"/>
+                                    <DataGridTextColumn Header=" Capacity" Width="60" 
+                                    Binding ="{Binding Path=ConnectionCapacity, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" 
+                                    MinWidth="60"/>
+                                    --><!--<DataGridTemplateColumn  Header=" Copy From ID" Width="95" MinWidth="95">
+                            <DataGridTemplateColumn.CellTemplate>
+                                <DataTemplate>
+                                    <ComboBox ItemsSource="{Binding Path=CopyFromID, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}"/>
+                                </DataTemplate>
+                            </DataGridTemplateColumn.CellTemplate>
+                        </DataGridTemplateColumn>-->
+                                    <!--<DataGridTextColumn Header=" Cost (R)" Width="80" 
+                                    Binding ="{Binding Path=ConnectionCost, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" 
+                                    MinWidth="80" CellStyle="{DynamicResource DataGridCell_1}"/>-->
+                                    <!--<DataGridTemplateColumn Header=" Parameters" Width="75" MinWidth="45">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <DataGrid ItemsSource="{Binding Path=Parameters, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" AutoGenerateColumns="False">
+                                <DataGrid.Columns>
+                                    <DataGridTextColumn Header=" Parameter Description" Width="75" 
+                                    Binding ="{Binding Path=Description, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" 
+                                    MinWidth="45"/>
+                                    <DataGridTextColumn Header=" Value" Width="75" 
+                                    Binding ="{Binding Path=Value, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" 
+                                    MinWidth="45"/>
+                                </DataGrid.Columns>
+                            </DataGrid>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>-->
+                                    <!--<DataGridTextColumn Header=" Peak ULS Load Combination" Width="1*" 
+                                    Binding ="{Binding Path=PeakLC, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" 
+                                    MinWidth="170" CellStyle="{DynamicResource DataGridCell_1}"/>
+                        <DataGridTextColumn Header=" Vr" Width="50" 
+                                    Binding ="{Binding Path=ULS_Vr, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" 
+                                    MinWidth="50" CellStyle="{DynamicResource DataGridCell_1}"/>
+                        <DataGridTextColumn Header=" Fr" Width="50" 
+                                    Binding ="{Binding Path=ULS_Fr, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" 
+                                    MinWidth="50" CellStyle="{DynamicResource DataGridCell_1}"/>
+                        <DataGridTextColumn Header=" Mr" Width="50" 
+                                    Binding ="{Binding Path=ULS_Mr, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" 
+                                    MinWidth="50" CellStyle="{DynamicResource DataGridCell_1}"/>
+                        <DataGridTextColumn Header=" Vu/Vr" Width="50" 
+                                    Binding ="{Binding Path=ULS_Vu_Vr, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" 
+                                    MinWidth="50" CellStyle="{DynamicResource DataGridCell_1}"/>
+                        <DataGridTextColumn Header=" Fu/Fr" Width="50" 
+                                    Binding ="{Binding Path=ULS_Fu_Fr, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" 
+                                    MinWidth="50" CellStyle="{DynamicResource DataGridCell_1}"/>
+                        <DataGridTextColumn Header=" Mu/Mr" Width="50" 
+                                    Binding ="{Binding Path=ULS_Mu_Mr, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" 
+                                    MinWidth="50" CellStyle="{DynamicResource DataGridCell_1}"/>--><!--
+                                </DataGrid.Columns>
+                                <DataGrid.RowDetailsTemplate>
+                                    <DataTemplate>
+                                        <DockPanel Background="GhostWhite">
+                                            <Image DockPanel.Dock="Left" Source="{Binding ImageUrl}" Height="64" Margin="10" />
+                                            <Grid Margin="0,10">
+                                                <Grid.ColumnDefinitions>
+                                                    <ColumnDefinition Width="*" />
+                                                </Grid.ColumnDefinitions>
+                                                <Grid.RowDefinitions>
+                                                    <RowDefinition Height="Auto" />
+                                                    <RowDefinition Height="Auto" />
+                                                    <RowDefinition Height="Auto" />
+                                                </Grid.RowDefinitions>
+
+                                                <DataGrid AutoGenerateColumns="False"
+                              ItemsSource="{Binding ChildConnection, UpdateSourceTrigger=PropertyChanged}" 
+                   CanUserAddRows="False" CanUserReorderColumns="False" CanUserSortColumns="True" 
+                          IsReadOnly="True" >
+                                                    <DataGrid.Columns>
+                                                        <DataGridTemplateColumn  Header="" Width="18" MinWidth="18">
+                                                            <DataGridTemplateColumn.CellTemplate>
+                                                                <DataTemplate>
+                                                                    <CheckBox IsChecked="{Binding Path=Include_Connection, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}"/>
+                                                                </DataTemplate>
+                                                            </DataGridTemplateColumn.CellTemplate>
+                                                        </DataGridTemplateColumn>
+                                                        <DataGridTextColumn Header=" ID" Width="50" 
+                                    Binding ="{Binding Path=ElementID, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" 
+                                    MinWidth="50"/>
+                                                        <DataGridTextColumn Header=" Connection Type" Width="1*" 
+                                    Binding ="{Binding Path=ConnectionType, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" 
+                                    MinWidth="170"/>
+                                                    </DataGrid.Columns>
+                                                </DataGrid>
+
+                                            </Grid>
+                                        </DockPanel>
+                                    </DataTemplate>
+                                </DataGrid.RowDetailsTemplate>
+                                <DataGrid.ContextMenu>
+                                    <ContextMenu>
+                                        <MenuItem Header="Copy Table" Command="{Binding CmdCopyClick}" CommandParameter="{Binding ElementName=ConnectionsDataGrid, Path=Items}"/>
+                                    </ContextMenu>
+                                </DataGrid.ContextMenu>
+                                <DataGrid.InputBindings>
+                                    <MouseBinding Gesture="LeftDoubleClick"  Command="{Binding CmdPropertiesClick}" 
+                      CommandParameter="{Binding ElementName=ConnectionsDataGrid, Path=SelectedItem}" />
+                                </DataGrid.InputBindings>
+                            </DataGrid>
+                        </SWC:AccordionItem>
+                    </SWC:Accordion>-->
+
+                    <!--<DataGrid Name="dgUsers" AutoGenerateColumns="False">
+                        <DataGrid.Columns>
+                            <DataGridTextColumn Header="Name" Binding="{Binding Name}" />
+                            <DataGridTextColumn Header="Birthday" Binding="{Binding Birthday}" />
+                        </DataGrid.Columns>
+                        <DataGrid.RowDetailsTemplate>
+                            <DataTemplate>
+                                <DockPanel Background="GhostWhite">
+                                    <Image DockPanel.Dock="Left" Source="{Binding ImageUrl}" Height="64" Margin="10" />
+                                    <Grid Margin="0,10">
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition Width="Auto" />
+                                            <ColumnDefinition Width="*" />
+                                        </Grid.ColumnDefinitions>
+                                        <Grid.RowDefinitions>
+                                            <RowDefinition Height="Auto" />
+                                            <RowDefinition Height="Auto" />
+                                            <RowDefinition Height="Auto" />
+                                        </Grid.RowDefinitions>
+
+                                        <TextBlock Text="ID: " FontWeight="Bold" />
+                                        <TextBlock Text="{Binding Id}" Grid.Column="1" />
+                                        <TextBlock Text="Name: " FontWeight="Bold" Grid.Row="1" />
+                                        <TextBlock Text="{Binding Name}" Grid.Column="1" Grid.Row="1" />
+                                        <TextBlock Text="Birthday: " FontWeight="Bold" Grid.Row="2" />
+                                        <TextBlock Text="{Binding Birthday, StringFormat=d}" Grid.Column="1" Grid.Row="2" />
+
+                                    </Grid>
+                                </DockPanel>
+                            </DataTemplate>
+                        </DataGrid.RowDetailsTemplate>
+                    </DataGrid>-->
+                </Grid>
+            </GroupBox>
+
+        </Grid>
+
+    </Grid>
+    
+</Window>

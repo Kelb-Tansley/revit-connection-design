@@ -1,0 +1,14 @@
+C:\Users\Tans73647\Documents\My VS Projects\SteelConnectionDesign\SteelConnectionDesign\bin\Debug\SteelConnectionDesign.exe.config
+C:\Users\Tans73647\Documents\My VS Projects\SteelConnectionDesign\SteelConnectionDesign\bin\Debug\SteelConnectionDesign.exe
+C:\Users\Tans73647\Documents\My VS Projects\SteelConnectionDesign\SteelConnectionDesign\bin\Debug\SteelConnectionDesign.pdb
+C:\Users\Tans73647\Documents\My VS Projects\SteelConnectionDesign\SteelConnectionDesign\obj\Debug\MainWindow.g.cs
+C:\Users\Tans73647\Documents\My VS Projects\SteelConnectionDesign\SteelConnectionDesign\obj\Debug\App.g.cs
+C:\Users\Tans73647\Documents\My VS Projects\SteelConnectionDesign\SteelConnectionDesign\obj\Debug\SteelConnectionDesign_MarkupCompile.cache
+C:\Users\Tans73647\Documents\My VS Projects\SteelConnectionDesign\SteelConnectionDesign\obj\Debug\SteelConnectionDesign_MarkupCompile.lref
+C:\Users\Tans73647\Documents\My VS Projects\SteelConnectionDesign\SteelConnectionDesign\obj\Debug\MainWindow.baml
+C:\Users\Tans73647\Documents\My VS Projects\SteelConnectionDesign\SteelConnectionDesign\obj\Debug\SteelConnectionDesign.g.resources
+C:\Users\Tans73647\Documents\My VS Projects\SteelConnectionDesign\SteelConnectionDesign\obj\Debug\SteelConnectionDesign.Properties.Resources.resources
+C:\Users\Tans73647\Documents\My VS Projects\SteelConnectionDesign\SteelConnectionDesign\obj\Debug\SteelConnectionDesign.csproj.GenerateResource.cache
+C:\Users\Tans73647\Documents\My VS Projects\SteelConnectionDesign\SteelConnectionDesign\obj\Debug\SteelConnectionDesign.csproj.CoreCompileInputs.cache
+C:\Users\Tans73647\Documents\My VS Projects\SteelConnectionDesign\SteelConnectionDesign\obj\Debug\SteelConnectionDesign.exe
+C:\Users\Tans73647\Documents\My VS Projects\SteelConnectionDesign\SteelConnectionDesign\obj\Debug\SteelConnectionDesign.pdb
